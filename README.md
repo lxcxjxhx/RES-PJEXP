@@ -5,10 +5,10 @@ RES-PJEXP 是钱佳宏的个人技术成果和证书档案库，主要用于存�
 ### 在线技术 profiles
 为了更好地展示技术贡献和开源项目，以下是我的在线平台链接及其内容总结。这些平台展示了我在安全、AI和相关领域的初步探索和贡献：
 
-- **PyPI 用户页面**：作为 security_hyacinth 用户，我在 PyPI 上注册了账户，用于未来发布 Python 包，专注于安全工具和AI辅助库。目前尚未发布具体包，但计划用于分享开源安全模块。[访问 PyPI 页面](https://pypi.org/user/security_hyacinth/)
+- **PyPI 仓库**：专注于安全工具和AI辅助库，近期发布并维护着 HOS-ME、BOS-HA、HOS-GREED、HOS-M2F、hos-vortex 等 5 个开源项目，涵盖办公自动化、手语识别、轻量化AI安全、文档转换及红队渗透等领域。[访问 PyPI 页面](https://pypi.org/user/security_hyacinth/)
 - **GitHub 仓库**：我的主要代码仓库，包含各种项目从网络安全工具到AI实验。目前有几个仓库，包括 pinned 项目：hos-app（一个由三人完成的训练营前端项目，展示 Web 开发技能）；HOS-ALL（一个由五人完成的 AI + 信息安全项目，参与 Intel AI 竞赛，使用 Python 实现）。这些项目突显了在 AI 和安全领域的团队协作和创新实践。[访问 GitHub](https://github.com/lxcxjxhx)
-- **Hugging Face 模型库**：分享了训练好的AI模型，特别是医疗和自然语言处理相关的模型。目前 profile 存在，但尚未上传具体模型或数据集，未来将用于发布 AI 实验成果。[访问 Hugging Face](https://huggingface.co/lxcxjxhx)
-- **CSDN 博客**：作为 security-hyacinth 的博客空间，用于分享技术文章，覆盖网络安全、AI、编程等主题。目前博客内容尚未公开或正在建设中，计划用于记录学习心得和项目总结。[访问博客](https://security-hyacinth.blog.csdn.net/)
+- **Hugging Face 模型库**：分享了训练好的AI模型，特别是经过微调的信息安全、医疗和计算机视觉相关的模型。[访问 Hugging Face](https://huggingface.co/lxcxjxhx)
+- **CSDN 博客**：作为 “security-hyacinth” 的技术博客，已撰写超过 700 篇文章，拥有 7 个专栏，内容覆盖 AI、信息安全、Web3.0、运维开发等主题。博客获得超 1.2 万次点赞，原力等级达到 5 级，并设有“大模型+AIGC”、“信息安全CTF全题型&题解”等精选专栏，持续分享前沿技术思考与实践。[访问博客](https://security-hyacinth.blog.csdn.net/)
 
 ## 📊 成果展示
 ### 证书认证
