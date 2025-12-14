@@ -9,7 +9,7 @@ RES-PJEXP 是钱佳宏的个人技术成果与证书档案库，专注于存储�
 - **PyPI 仓库**：专注于安全工具和AI辅助库，已发布并维护 HOS-ME、BOS-HA、HOS-GREED、HOS-M2F、hos-vortex 等 5 个开源项目，涵盖办公自动化、手语识别、轻量化AI安全、文档转换及红队渗透等领域。[访问 PyPI 页面](https://pypi.org/user/security_hyacinth/)
 - **GitHub 仓库**：核心代码托管平台，包含网络安全工具到AI实验的项目。精选仓库包括 pinned 项目：hos-app（三人团队训练营前端项目，展示 Web 开发技能）；HOS-ALL（五人团队 AI + 信息安全项目，参与 Intel AI 竞赛，使用 Python 实现）。这些项目突出团队协作与创新实践。[访问 GitHub](https://github.com/lxcxjxhx)
 - **Hugging Face 模型库**：分享微调后的 AI 模型，聚焦信息安全、医疗及计算机视觉领域。[访问 Hugging Face](https://huggingface.co/lxcxjxhx)
-- **CSDN 博客**：以 “security-hyacinth” 身份运营的技术博客，已发布超 700 篇文章，创建 7 个专栏，主题涵盖 AI、信息安全、Web3.0、运维开发等。获超 1.2 万点赞，原力等级 5 级，精选专栏包括“大模型+AIGC”、“信息安全CTF全题型&题解”，持续分享前沿技术洞见与实践。[访问博客](https://security-hyacinth.blog.csdn.net/)
+- **CSDN 博客**：运营的技术博客 安全风信子 ，已发布超 700 篇文章，创建 7 个专栏，主题涵盖 AI、信息安全、Web3.0、运维开发等。获超 1.2 万点赞，原力等级 5 级，精选专栏包括“大模型+AIGC”、“信息安全CTF全题型&题解”，持续分享前沿技术洞见与实践。[访问博客](https://security-hyacinth.blog.csdn.net/)
 
 ## 📊 成果展示
 
