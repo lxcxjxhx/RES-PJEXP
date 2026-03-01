@@ -1,4 +1,4 @@
-```markdown
+
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 [![GitHub Release](https://img.shields.io/github/v/release/lxcxjxhx/Resume-and-personal-achievements)](https://github.com/lxcxjxhx/Resume-and-personal-achievements/releases)
 [![Stars](https://img.shields.io/github/stars/lxcxjxhx/Resume-and-personal-achievements?style=social)](https://github.com/lxcxjxhx/Resume-and-personal-achievements)
