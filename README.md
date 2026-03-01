@@ -143,9 +143,4 @@ mindmap
 ## 🙏 Acknowledgments
 Heartfelt thanks to teammates, mentors, and institutions whose collaboration powered every project and achievement.
 
----
 
-**Perfectly optimized for GitHub** — clean tables, centered badges, balanced whitespace, mobile-friendly, and professional visual hierarchy.  
-Just replace your entire `README.md` with the content above. It will render beautifully on desktop and mobile.
-
-Want a dark-mode hero banner, project screenshots section, or live visitor counter? Let me know!
