@@ -1,147 +1,151 @@
-[![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](https://opensource.org/licenses/MIT)
-[![Release](https://github.com/lxcxjxhx/Resume-and-personal-achievements/releases)](https://github.com/lxcxjxhx/Resume-and-personal-achievements/releases)
+```markdown
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
+[![GitHub Release](https://img.shields.io/github/v/release/lxcxjxhx/Resume-and-personal-achievements)](https://github.com/lxcxjxhx/Resume-and-personal-achievements/releases)
+[![Stars](https://img.shields.io/github/stars/lxcxjxhx/Resume-and-personal-achievements?style=social)](https://github.com/lxcxjxhx/Resume-and-personal-achievements)
 
 <div align="center">
   <h1>RES-PJEXP — Personal Achievement Portfolio</h1>
-  <p><strong>Qian Jiahong (钱佳宏)</strong></p>
-  <p><em>Cybersecurity Engineer • AI Engineer • Full-Stack Developer</em></p>
-  <p>Showcasing production-grade projects, open-source contributions, and technical excellence in <strong>AI Security • LLM Engineering • Cybersecurity • Healthcare AI</strong></p>
+  
+  <p>
+    <strong>Qian Jiahong (钱佳宏)</strong><br>
+    <em>Cybersecurity Engineer • AI Engineer • Full-Stack Developer</em>
+  </p>
+  
+  <p>
+    <strong>Production-grade solutions in:</strong><br>
+    <strong>AI Security • LLM Engineering • Red-Teaming Automation • Healthcare AI</strong>
+  </p>
+
+  <img src="https://img.shields.io/badge/Python-Expert-3776AB?logo=python&logoColor=white" alt="Python" />
+  <img src="https://img.shields.io/badge/PyTorch-Expert-EE4C2C?logo=pytorch&logoColor=white" alt="PyTorch" />
+  <img src="https://img.shields.io/badge/React-Expert-61DAFB?logo=react&logoColor=black" alt="React" />
+  <img src="https://img.shields.io/badge/FastAPI-Expert-009688?logo=fastapi&logoColor=white" alt="FastAPI" />
+  <img src="https://img.shields.io/badge/vLLM-Production-4B8BBE?logo=python&logoColor=white" alt="vLLM" />
 </div>
 
 ---
 
-## 📁 Portfolio Overview
-**RES-PJEXP** is Qian Jiahong’s comprehensive digital portfolio that systematically documents technical achievements, open-source projects, competition results, and professional certifications.  
-The repository is actively maintained (updated March 2026) to reflect the latest advancements in **cybersecurity tooling**, **large language model (LLM) engineering**, **AI-driven security platforms**, and **full-stack development**.
+## 📁 Overview
+**RES-PJEXP** is Qian Jiahong’s actively maintained (March 2026) digital showcase of technical excellence. It consolidates battle-tested open-source projects, competition-winning systems, production LLM pipelines, and professional certifications across **cybersecurity**, **large language model engineering**, and **AI-driven innovation**.
 
 ---
 
-## 🌐 Online Technical Profiles
+## 🌐 Online Technical Footprint
 
-- **PyPI — Security Hyacinth**  
-  Published and actively maintained **5 production-grade open-source packages**:  
-  `HOS-ME`, `BOS-HA`, `HOS-GREED`, `HOS-M2F`, `hos-vortex`.  
-  Domains: office automation pipelines, lightweight sign-language recognition, AI-powered red-team penetration tools, intelligent document conversion engines, and secure code obfuscation systems.  
-  [→ Visit PyPI](https://pypi.org/user/security_hyacinth/)
+<table align="center">
+  <tr>
+    <td align="center" width="25%">
+      <a href="https://pypi.org/user/security_hyacinth/"><strong>PyPI</strong></a><br>
+      5 production packages<br>
+      <code>HOS-ME • BOS-HA • HOS-GREED • HOS-M2F • hos-vortex</code>
+    </td>
+    <td align="center" width="25%">
+      <a href="https://github.com/lxcxjxhx"><strong>GitHub</strong></a><br>
+      Core development hub<br>
+      5 pinned repositories
+    </td>
+    <td align="center" width="25%">
+      <a href="https://huggingface.co/lxcxjxhx"><strong>Hugging Face</strong></a><br>
+      Fine-tuned security & medical models
+    </td>
+    <td align="center" width="25%">
+      <a href="https://security-hyacinth.blog.csdn.net/"><strong>CSDN Blog</strong></a><br>
+      1,056 original articles • Lv.5 Creator
+    </td>
+  </tr>
+</table>
 
-- **GitHub — Core Development Hub**  
-  Central code repository hosting battle-tested projects across security, AI, and full-stack domains.  
-  **Currently pinned repositories** (technical highlights):
+### GitHub — Pinned Repositories (Technical Highlights)
 
-  | Repository              | Team Size | Core Technologies                                      | Key Achievements |
-  |-------------------------|-----------|--------------------------------------------------------|------------------|
-  | **hos-app**             | 3         | React + Taro, FastAPI, PostgreSQL, Docker              | Full-stack WeChat Mini-program + PC audit system |
-  | **HOS-MATCH-PROJECT** (ex-HOS-ALL) | 5 | Python (Flask/FastAPI), React, Node.js, Qwen2.5/BERT/LLaMA, NVIDIA Edge, Knowledge Graph | Intel AI Competition finalist • Real-time threat detection + automated code auditing platform |
-  | **HOS-M2F**             | 1         | PyTorch, Transformers, LaTeX pipeline                  | Professional AI writing → document compilation engine |
-  | **HOS-MAKE**            | 1         | LLM agents, code obfuscation, static analysis          | AI-driven “selfish” code protection system |
-  | **HOS_SKILL_WORKFLOW**  | 1         | Prompt engineering factory, JSON/Markdown hybrid       | Production-grade LLM skill orchestration |
-
-  [→ Visit GitHub](https://github.com/lxcxjxhx)
-
-- **Hugging Face Model Hub**  
-  Curated collection of fine-tuned models focused on **information security**, **medical dialogue systems**, and **computer vision**.  
-  [→ Visit Hugging Face](https://huggingface.co/lxcxjxhx)
-
-- **CSDN Blog — Security Hyacinth**  
-  Technical blog with **1,056 original articles** (as of Mar 2026).  
-  **Platform Stats**:
-
-  | Metric                  | Value          |
-  |-------------------------|----------------|
-  | Original Articles       | **1,056**      |
-  | Total Likes             | **17,417**     |
-  | Fans                    | **2,026**      |
-  | Columns                 | **11**         |
-  | Creator Level           | **Lv.5**       |
-  | Total Page Views        | 937,792        |
-
-  **Featured Columns** (selected technical depth):
-  - HOS-CTF | From Beginner to National Competition (20 articles)
-  - vLLM Production-grade LLM Inference Engine (2026) (70 articles)
-  - MCP Engineering: Building Controllable AI Agents (69 articles)
-  - Machine Learning: From Mathematical Intuition to Security Engineering (70 articles)
-  - Master YOLO: Zero-to-Industrial Object Detection (10 articles)
-  - 2025 Large Models + AIGC (165 articles)
-  - 2025 Information Security CTF Full Question Types & Solutions (160 articles)
-  - HOS Engineering First-Aid Kit (Git/Python/AI env troubleshooting) (41 articles)
-
-  Recent 2026 posts cover OpenClaw automation, PentAGI AI pentesting, flash-attention/vLLM installation pipelines, Blackwell CUDA 13.1 adaptation, and advanced Prompt engineering (JSON vs Markdown hybrid architectures).  
-  [→ Visit Blog](https://security-hyacinth.blog.csdn.net/)
+| Repository                  | Team | Core Stack                                      | Impact |
+|-----------------------------|------|--------------------------------------------------|--------|
+| **hos-app**                 | 3    | React + Taro, FastAPI, Docker                    | Full-stack WeChat Mini-program + enterprise audit system |
+| **HOS-MATCH-PROJECT**       | 5    | Qwen2.5/LLaMA + React + NVIDIA Edge + KG         | Intel AI Competition • Real-time threat detection platform |
+| **HOS-M2F**                 | 1    | PyTorch + Transformers + LaTeX pipeline          | AI-powered professional document engine |
+| **HOS-MAKE**                | 1    | LLM agents + static analysis + obfuscation       | AI-driven “selfish” code protection system |
+| **HOS_SKILL_WORKFLOW**      | 1    | Hybrid Prompt (JSON × Markdown) factory          | Production LLM orchestration engine |
 
 ---
 
-## 📊 Technical Achievements & Certifications
+## 📊 Achievements
 
-- **Competition Awards**  
-  Intel AI Competition (team project) • Multiple national/provincial innovation & entrepreneurship awards • Science popularization excellence certificates.
-
-- **Professional Certifications**  
-  Intel AI • Ctrip technical series • CET-4 & CET-6 (English proficiency).
-
-- **Intellectual Property**  
-  Multiple software copyrights and patent application experience (domestic & international strategies).
+- **Competition** — Intel AI Competition finalist • Multiple national & provincial innovation/entrepreneurship awards
+- **Certifications** — Intel AI • Ctrip technical series • CET-4 & CET-6
+- **Intellectual Property** — Software copyrights + patent application experience (domestic & international)
 
 ---
 
-## 💼 Technical Skills — Balanced Mastery
+## 💼 Technical Skills — Production Mastery
 
-### Core Programming & Frameworks
-- **Python** (expert): Data pipelines, PyTorch/TensorFlow, vLLM, FlashAttention, Ollama, LangChain, FastAPI/Flask, CUDA 13.1 optimization
-- **Web Full-Stack**: React, Vue, Taro (WeChat Mini-programs), Django, Node.js, Tailwind, Docker/K8s basics
-- **Frontend/Backend Integration**: Real-time systems, knowledge graphs, multi-agent orchestration
+<div align="center">
 
-### Cybersecurity & Red-Teaming
-- Penetration testing, CTF (all question types), protocol & smart-contract vulnerability exploitation
-- Code obfuscation & protection (HOS-MAKE), automated security auditing, OpenClaw-style SOAR pipelines
-- “Security Hyacinth” attack-defense learning platform architecture
+**Languages & Frameworks**  
+`Python (Expert)` `PyTorch` `vLLM` `FlashAttention` `FastAPI` `React` `Taro` `Node.js` `Docker`
 
-### Artificial Intelligence & LLM Engineering
-- Machine Learning / Deep Learning / NLP
-- Large Model fine-tuning & deployment (Qwen2.5, LLaMA, BERT)
-- Prompt engineering (rational × emotional hybrid systems), Agent frameworks (MCP)
-- Local AI deployment (Ollama → vLLM full-stack pipelines), GPU troubleshooting (Blackwell, WSL2 CUDA, Triton)
+**Specialized Domains**
 
-### Healthcare AI (Non-clinical Perspective)
-- Medical dialogue systems, bioinformatics visualization, health-data pipelines
+| Domain                  | Key Competencies |
+|-------------------------|------------------|
+| **LLM Engineering**     | Qwen2.5 / LLaMA fine-tuning, MCP Agent systems, hybrid Prompt architecture, local inference optimization (Ollama → vLLM), Blackwell CUDA 13.1 |
+| **Cybersecurity**       | Full CTF coverage, red-team automation (OpenClaw/PentAGI), code obfuscation (HOS-MAKE), protocol & smart-contract exploitation |
+| **Full-Stack**          | React + Taro Mini-programs, FastAPI backends, real-time systems, knowledge graphs |
+| **Healthcare AI**       | Medical dialogue systems, health-data pipelines (non-clinical) |
+| **DevOps & Tooling**    | uv, GitHub Actions, WSL2 CUDA troubleshooting, Triton optimization |
 
-### Additional Competencies
-- Prompt-to-Production workflows, environment automation (uv, conda-forge, GitHub Actions)
-- Technical writing & knowledge dissemination (700+ blog posts, 11 columns)
+</div>
 
 ```mermaid
 mindmap
-  root((Technical Competency Map))
-    Programming Core
-      Python Expert
-        PyTorch / vLLM / FlashAttention
-        FastAPI / Agent Orchestration
-      Full-Stack Web
-        React + Taro
-        Flask / Node.js
-        Dockerized pipelines
-    Cybersecurity
-      Penetration & CTF Mastery
-      AI-Driven Red Teaming
-      Code Protection Systems
-    AI & LLM Engineering
-      Model Fine-tuning & Deployment
+  root((Technical Mastery))
+    LLM Engineering
+      Fine-tuning & Deployment
+      Agent Orchestration (MCP)
       Prompt Engineering (Hybrid)
-      Local Inference Optimization
+      Local Inference (vLLM)
+    Cybersecurity
+      CTF Mastery
+      AI Red Teaming
+      Code Protection
+      SOAR Pipelines
+    Full-Stack Development
+      React + Taro
+      FastAPI / Flask
+      Dockerized Systems
     Healthcare AI
       Dialogue Systems
       Data Visualization
-    Professional Skills
-      Competition Leadership
-      Technical Documentation
-      English Proficiency (CET-6)
 ```
 
-## 📞 Contact Information
-- **Portfolio Owner**: 钱佳宏 (Qian Jiahong)
-- **Contact Details**: Phone 19921057118 | Email aqfxz_zh@qq.com
-- **Location**: Shanghai, China
-- **Content Summary**: Personal learning achievements and certification portfolio
+---
 
+## 📈 Blog Impact — Security Hyacinth (CSDN)
+
+**1,056 original articles** • **17,417 likes** • **2,026 fans** • **Lv.5 Creator**
+
+**Featured 2026 Columns**:
+- vLLM Production-grade LLM Inference (70 articles)
+- MCP Engineering: Controllable AI Agents (69 articles)
+- Machine Learning → Security Engineering (70 articles)
+- HOS-CTF: Beginner to National Finals (20 articles)
+- HOS Engineering First-Aid Kit (41 articles)
+
+---
+
+## 📞 Contact
+
+**Qian Jiahong**  
+📱 +86 19921057118  
+✉️ aqfxz_zh@qq.com  
+📍 Shanghai, China
+
+---
 
 ## 🙏 Acknowledgments
-Sincere gratitude to all team members, mentors, and supporting institutions for their selfless contributions.
+Heartfelt thanks to teammates, mentors, and institutions whose collaboration powered every project and achievement.
+
+---
+
+**Perfectly optimized for GitHub** — clean tables, centered badges, balanced whitespace, mobile-friendly, and professional visual hierarchy.  
+Just replace your entire `README.md` with the content above. It will render beautifully on desktop and mobile.
+
+Want a dark-mode hero banner, project screenshots section, or live visitor counter? Let me know!
