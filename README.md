@@ -11,26 +11,25 @@
     Continuously evolving as I explore and create — <strong>April 2026</strong>
   </p>
 
-  <!-- Skill Badges -->
-  <img src="https://img.shields.io/badge/Python-Applied-3776AB?logo=python&logoColor=white" alt="Python" />
-  <img src="https://img.shields.io/badge/PyTorch-Hands-on-EE4C2C?logo=pytorch&logoColor=white" alt="PyTorch" />
-  <img src="https://img.shields.io/badge/React-Production-61DAFB?logo=react&logoColor=black" alt="React" />
-  <img src="https://img.shields.io/badge/FastAPI-Applied-009688?logo=fastapi&logoColor=white" alt="FastAPI" />
-  <img src="https://img.shields.io/badge/vLLM-Explored-4B8BBE?logo=python&logoColor=white" alt="vLLM" />
-  <img src="https://img.shields.io/badge/Docker-Used_in_Production-2496ED?logo=docker&logoColor=white" alt="Docker" />
+  <!-- 新色系技能徽章（Cyber Blue-Purple 主题） -->
+  <img src="https://img.shields.io/badge/Python-Applied-0A84FF?logo=python&logoColor=white" alt="Python" />
+  <img src="https://img.shields.io/badge/PyTorch-Hands-on-7C3AED?logo=pytorch&logoColor=white" alt="PyTorch" />
+  <img src="https://img.shields.io/badge/React-Production-22D3EE?logo=react&logoColor=black" alt="React" />
+  <img src="https://img.shields.io/badge/FastAPI-Applied-10B981?logo=fastapi&logoColor=white" alt="FastAPI" />
+  <img src="https://img.shields.io/badge/vLLM-Explored-6366F1?logo=python&logoColor=white" alt="vLLM" />
+  <img src="https://img.shields.io/badge/Docker-Production-0EA5E9?logo=docker&logoColor=white" alt="Docker" />
 
-  <!-- Project Repo Badges -->
-  [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
-  [![GitHub Release](https://img.shields.io/github/v/release/lxcxjxhx/HOS-Qian-jia-hong-resume)](https://github.com/lxcxjxhx/HOS-Qian-jia-hong-resume/releases)
-  [![Stars](https://img.shields.io/github/stars/lxcxjxhx/HOS-Qian-jia-hong-resume?style=social)](https://github.com/lxcxjxhx/HOS-Qian-jia-hong-resume)
+  <!-- 项目仓库徽章 -->
+  [![License: MIT](https://img.shields.io/badge/License-MIT-0A84FF.svg)](https://opensource.org/licenses/MIT)
+  [![GitHub Release](https://img.shields.io/github/v/release/lxcxjxhx/HOS-Qian-jia-hong-resume?color=7C3AED)](https://github.com/lxcxjxhx/HOS-Qian-jia-hong-resume/releases)
+  [![Stars](https://img.shields.io/github/stars/lxcxjxhx/HOS-Qian-jia-hong-resume?style=social&color=22D3EE)](https://github.com/lxcxjxhx/HOS-Qian-jia-hong-resume)
 </div>
 
 ---
 
 ## 📁 Overview
 
-**RES-PJEXP** 是我的个人数字档案，系统整理并分享我在网络安全、大语言模型和 AI 工具领域的实践项目、开源贡献、竞赛经历与学习成果。  
-这里不仅记录成果，更展现我持续学习、动手实践的成长轨迹。
+**RES-PJEXP** 是我的个人数字档案，系统整理并分享我在网络安全、大语言模型和 AI 工具领域的实践项目、开源贡献、竞赛经历与学习成果。这里不仅记录成果，更展现我持续学习、动手实践的成长轨迹。
 
 ---
 
@@ -39,22 +38,24 @@
 <table align="center">
   <tr>
     <td align="center" width="25%">
-      <a href="https://pypi.org/user/security_hyacinth/"><strong>PyPI</strong></a><br>
+      <a href="https://pypi.org/user/security_hyacinth/"><strong>📦 PyPI</strong></a><br>
       <strong>7 个开源包</strong><br>
-      <code>hos-m2f • gradio-gradiohossec • HOS-SECSUITE • HOS-ME • BOS-HA • HOS-GREED • hos-vortex</code>
+      <small>hos-m2f • gradio-gradiohossec • HOS-SECSUITE • HOS-ME • BOS-HA • HOS-GREED • hos-vortex</small>
     </td>
     <td align="center" width="25%">
-      <a href="https://github.com/lxcxjxhx"><strong>GitHub</strong></a><br>
-      主要开发空间<br>
-      多项仓库置顶
+      <a href="https://github.com/lxcxjxhx"><strong>🐙 GitHub</strong></a><br>
+      <strong>主要开发空间</strong><br>
+      多项仓库置顶 + 活跃贡献
     </td>
     <td align="center" width="25%">
-      <a href="https://huggingface.co/lxcxjxhx"><strong>Hugging Face</strong></a><br>
-      安全与医疗领域微调模型
+      <a href="https://huggingface.co/lxcxjxhx"><strong>🤗 Hugging Face</strong></a><br>
+      <strong>微调模型库</strong><br>
+      安全与医疗领域 LLM 探索
     </td>
     <td align="center" width="25%">
-      <a href="https://security-hyacinth.blog.csdn.net/"><strong>CSDN 博客</strong></a><br>
-      1,341 篇原创文章 • Lv.6 创作者
+      <a href="https://security-hyacinth.blog.csdn.net/"><strong>📝 CSDN 博客</strong></a><br>
+      <strong>1,341 篇原创文章</strong><br>
+      Lv.6 创作者 • 19,268 点赞 • 2,622 粉丝
     </td>
   </tr>
 </table>
