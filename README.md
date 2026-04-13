@@ -1,7 +1,4 @@
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
-[![GitHub Release](https://img.shields.io/github/v/release/lxcxjxhx/HOS-Qian-jia-hong-resume)](https://github.com/lxcxjxhx/HOS-Qian-jia-hong-resume/releases)
-[![Stars](https://img.shields.io/github/stars/lxcxjxhx/HOS-Qian-jia-hong-resume?style=social)](https://github.com/lxcxjxhx/HOS-Qian-jia-hong-resume)
 
 <div align="center">
   <h1>RES-PJEXP — Personal Achievement Portfolio</h1>
@@ -21,6 +18,10 @@
   <img src="https://img.shields.io/badge/React-Used_in_projects-61DAFB?logo=react&logoColor=black" alt="React" />
   <img src="https://img.shields.io/badge/FastAPI-Applied-009688?logo=fastapi&logoColor=white" alt="FastAPI" />
   <img src="https://img.shields.io/badge/vLLM-Explored-4B8BBE?logo=python&logoColor=white" alt="vLLM" />
+  
+  [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
+  [![GitHub Release](https://img.shields.io/github/v/release/lxcxjxhx/HOS-Qian-jia-hong-resume)](https://github.com/lxcxjxhx/HOS-Qian-jia-hong-resume/releases)
+  [![Stars](https://img.shields.io/github/stars/lxcxjxhx/HOS-Qian-jia-hong-resume?style=social)](https://github.com/lxcxjxhx/HOS-Qian-jia-hong-resume)
 </div>
 ---
 ## 📁 Overview
