@@ -65,10 +65,10 @@
 | Repository          | Team | Technologies                          | My Contributions |
 |---------------------|------|---------------------------------------|-------------------|
 | **[HOS-LS](https://github.com/lxcxjxhx/HOS-LS)** | 1 | Python, Docker, Multi-Agent AI, RAG | AI 驱动的代码安全分析与攻击链推理系统 |
-| **HOS_SKILL_WORKFLOW** | 1 | Prompt Engineering (JSON + Markdown) | LLM 任务工作流助手 |
+| **[HOS_SKILL_WORKFLOW](https://github.com/lxcxjxhx/HOS_SKILL_WORKFLOW)** | 1 | Prompt Engineering (JSON + Markdown) | LLM 任务工作流助手 |
 | **[HOS-MATCH-PROJECT](https://github.com/lxcxjxhx/HOS-MATCH-PROJECT)** | 5 | Qwen2.5/LLaMA, React, NVIDIA Edge, Knowledge Graph | Intel AI 竞赛作品——威胁检测探索 |
 | **[HOS-M2F](https://github.com/lxcxjxhx/HOS-M2F)** | 1 | PyTorch, Transformers, LaTeX | AI 辅助文档编译工具 |
-| **HOS-MAKE**        | 1 | LLM Agents, Code Analysis            | 简易 AI 代码防护实验 |
+| **[HOS-MAKE](https://github.com/lxcxjxhx/HOS-MAKE)**        | 1 | LLM Agents, Code Analysis            | 简易 AI 代码防护实验 |
 
 [→ 查看完整 GitHub 主页](https://github.com/lxcxjxhx)
 
