@@ -6,7 +6,7 @@
 <div align="center">
 
 <!-- Banner -->
-<table align="center" width="100%" style="border-collapse: collapse;">
+<table align="center" width="90%" style="margin: 0 auto; border-collapse: collapse;">
 <tr><td align="center" style="background: linear-gradient(135deg, #0f0c29 0%, #302b63 50%, #24243e 100%); padding: 40px 20px; border-radius: 16px;">
 
 <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=3500&pause=500&color=00D4FF&center=true&vCenter=true&width=700&lines=%F0%9F%9B%A1%EF%B8%8F+%E5%AE%89%E5%85%A8%E9%A3%8E%E4%BF%A1%E5%AD%90+%7C+%E4%BF%A1%E6%81%AF%E5%AE%89%E5%85%A8%C3%97AI+%E5%8F%8C%E5%9F%9F%E5%AE%9E%E8%B7%B5%E8%80%85;%F0%9F%94%A5+%E7%94%A8%E4%BB%A3%E7%A0%81%E9%94%BB%E9%80%A0%E6%99%BA%E8%83%BD%E6%97%B6%E4%BB%A3%E7%9A%84%E5%9D%9A%E7%9B%BE%E4%B8%8E%E5%88%A9%E7%9F%9B" alt="Typing SVG" />
@@ -31,7 +31,7 @@
 
 ## ✨ Highlights
 
-<table width="100%">
+<table align="center" width="90%" style="margin: 0 auto;">
 <tr>
 <td width="20%" align="center">
 <br/><img src="https://img.shields.io/badge/AI_Driven-0A84FF?style=for-the-badge&logo=robot&logoColor=white&labelColor=0A84FF" width="120"/><br/><br/>
@@ -91,7 +91,7 @@
 
 <!-- ★ Featured: HOS-LS -->
 <div align="center">
-<table width="100%">
+<table align="center" width="90%" style="margin: 0 auto;">
 <tr><td>
 
 ### 🛡️ [HOS-LS](https://github.com/lxcxjxhx/HOS-LS) — AI 驱动的代码安全分析与攻击链推理系统
@@ -119,7 +119,7 @@
 
 <!-- ★ Featured: HOS_SKILL_WORKFLOW -->
 <div align="center">
-<table width="100%">
+<table align="center" width="90%" style="margin: 0 auto;">
 <tr><td>
 
 ### ⚙️ [HOS_SKILL_WORKFLOW](https://github.com/lxcxjxhx/HOS_SKILL_WORKFLOW) — HOS 工作流提示词工厂
@@ -139,7 +139,7 @@
 
 <!-- Other Repos -->
 <div align="center">
-<table width="100%">
+<table align="center" width="90%" style="margin: 0 auto;">
 <tr>
 <td width="33%" align="center" valign="top">
 
@@ -271,20 +271,81 @@ Intel AI 竞赛 · AI+威胁检测<br/>
 
 </div>
 
-| 专栏 | 篇数 | 标签 |
-|:---|:---:|:---|
-| **HOS-CTF \| 从入门到国赛的攻防之路 2026** | 20 | 🔒 付费专栏 |
-| **vLLM 生产级 LLM 推理引擎实战（2026）** | 70 | 🏭 生产级实战 |
-| **MCP 工程实战：构建可控的 AI 工具与 Agent 系统** | 69 | 📐 系统化教程 |
-| **HOS-AI \| 大模型系统工程 × AI变现实战** | 150 | ⭐ 核心专栏 |
-| **日学日新 · HF/MS 模型进化录** | 45 | 🔄 持续更新 |
-| **如果夜神月学会 AIx信安：77个技术脑洞** | 76 | 💡 创意系列 |
-| **L的AIx信安推理：76次防御与溯源基拉** | 76 | 💡 创意系列 |
-| **HOS工程急救库 \| Git·Python·AI环境问题速查** | 41 | 🔧 工具速查 |
-| **专业帮助文档特辑：即用模板与专家解决方案** | 40 | 📋 实用模板 |
-| **2025 大模型+AIGC** | 165 | 📦 归档 |
-| **2025 信息安全CTF全题型&题解** | 160 | 📦 归档 |
-| **个人思考分享（安全风信子精选专栏）** | 13 | 💎 精选 |
+<br/>
+
+<table align="center" width="80%" style="margin: 0 auto;">
+<thead>
+<tr>
+<th align="left">专栏</th>
+<th align="center">篇数</th>
+<th align="left">标签</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left"><strong>HOS-CTF \| 从入门到国赛的攻防之路 2026</strong></td>
+<td align="center">20</td>
+<td align="left">🔒 付费专栏</td>
+</tr>
+<tr>
+<td align="left"><strong>vLLM 生产级 LLM 推理引擎实战（2026）</strong></td>
+<td align="center">70</td>
+<td align="left">🏭 生产级实战</td>
+</tr>
+<tr>
+<td align="left"><strong>MCP 工程实战：构建可控的 AI 工具与 Agent 系统</strong></td>
+<td align="center">69</td>
+<td align="left">📐 系统化教程</td>
+</tr>
+<tr>
+<td align="left"><strong>HOS-AI \| 大模型系统工程 × AI变现实战</strong></td>
+<td align="center">150</td>
+<td align="left">⭐ 核心专栏</td>
+</tr>
+<tr>
+<td align="left"><strong>日学日新 · HF/MS 模型进化录</strong></td>
+<td align="center">45</td>
+<td align="left">🔄 持续更新</td>
+</tr>
+<tr>
+<td align="left"><strong>如果夜神月学会 AIx信安：77个技术脑洞</strong></td>
+<td align="center">76</td>
+<td align="left">💡 创意系列</td>
+</tr>
+<tr>
+<td align="left"><strong>L的AIx信安推理：76次防御与溯源基拉</strong></td>
+<td align="center">76</td>
+<td align="left">💡 创意系列</td>
+</tr>
+<tr>
+<td align="left"><strong>HOS工程急救库 \| Git·Python·AI环境问题速查</strong></td>
+<td align="center">41</td>
+<td align="left">🔧 工具速查</td>
+</tr>
+<tr>
+<td align="left"><strong>专业帮助文档特辑：即用模板与专家解决方案</strong></td>
+<td align="center">40</td>
+<td align="left">📋 实用模板</td>
+</tr>
+<tr>
+<td align="left"><strong>2025 大模型+AIGC</strong></td>
+<td align="center">165</td>
+<td align="left">📦 归档</td>
+</tr>
+<tr>
+<td align="left"><strong>2025 信息安全CTF全题型&题解</strong></td>
+<td align="center">160</td>
+<td align="left">📦 归档</td>
+</tr>
+<tr>
+<td align="left"><strong>个人思考分享（安全风信子精选专栏）</strong></td>
+<td align="center">13</td>
+<td align="left">💎 精选</td>
+</tr>
+</tbody>
+</table>
+
+<br/>
 
 ---
 
@@ -296,12 +357,30 @@ Intel AI 竞赛 · AI+威胁检测<br/>
 
 </div>
 
-| | |
-|:---|:---|
-| 🥇 **竞赛** | 中美青年创客大赛**特等奖**、Intel AI 竞赛、多项国家级/省级创新大赛 |
-| 📜 **认证** | 阿里云专家博主、华为云专家博主、腾讯云创作之星、Intel AI 系列、携程技术系列、CET-4 & CET-6、网络安全应急响应（中级） |
-| ✍️ **分享** | CSDN 1,467 篇原创文章，12+ 系统化专栏，记录 AI x Security 实战心得 |
-| 🔓 **开源** | PyPI 7 个开源包、GitHub 807 年度贡献、Hugging Face 微调模型 |
+<br/>
+
+<table align="center" width="80%" style="margin: 0 auto;">
+<tbody>
+<tr>
+<td align="left">🥇 <strong>竞赛</strong></td>
+<td align="left">中美青年创客大赛<strong>特等奖</strong>、Intel AI 竞赛、多项国家级/省级创新大赛</td>
+</tr>
+<tr>
+<td align="left">📜 <strong>认证</strong></td>
+<td align="left">阿里云专家博主、华为云专家博主、腾讯云创作之星、Intel AI 系列、携程技术系列、CET-4 & CET-6、网络安全应急响应（中级）</td>
+</tr>
+<tr>
+<td align="left">✍️ <strong>分享</strong></td>
+<td align="left">CSDN 1,467 篇原创文章，12+ 系统化专栏，记录 AI x Security 实战心得</td>
+</tr>
+<tr>
+<td align="left">🔓 <strong>开源</strong></td>
+<td align="left">PyPI 7 个开源包、GitHub 807 年度贡献、Hugging Face 微调模型</td>
+</tr>
+</tbody>
+</table>
+
+<br/>
 
 ---
 
@@ -313,13 +392,40 @@ Intel AI 竞赛 · AI+威胁检测<br/>
 
 </div>
 
-| 领域 | 实践内容 |
-|:---|:---|
-| 🧠 **LLM Applications** | Qwen2.5 / LLaMA 微调与本地部署、Multi-Agent 系统、Prompt Engineering、vLLM 生产级部署、MCP 工程 |
-| 🛡️ **Cybersecurity** | CTF 实战（国赛级）、红队自动化工具、AI 驱动代码安全分析 (HOS-LS)、攻击链推理 |
-| 🌐 **Full-Stack** | React + Taro 前端 + FastAPI 后端，中小型 Web 与小程序项目 |
-| 🏥 **Healthcare AI** | 非临床视角下的对话系统与数据可视化探索 |
-| 🛠️ **DevOps** | 本地 AI 环境搭建、CUDA/WSL2 问题排查、uv 包管理 |
+<br/>
+
+<table align="center" width="80%" style="margin: 0 auto;">
+<thead>
+<tr>
+<th align="left">领域</th>
+<th align="left">实践内容</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">🧠 <strong>LLM Applications</strong></td>
+<td align="left">Qwen2.5 / LLaMA 微调与本地部署、Multi-Agent 系统、Prompt Engineering、vLLM 生产级部署、MCP 工程</td>
+</tr>
+<tr>
+<td align="left">🛡️ <strong>Cybersecurity</strong></td>
+<td align="left">CTF 实战（国赛级）、红队自动化工具、AI 驱动代码安全分析 (HOS-LS)、攻击链推理</td>
+</tr>
+<tr>
+<td align="left">🌐 <strong>Full-Stack</strong></td>
+<td align="left">React + Taro 前端 + FastAPI 后端，中小型 Web 与小程序项目</td>
+</tr>
+<tr>
+<td align="left">🏥 <strong>Healthcare AI</strong></td>
+<td align="left">非临床视角下的对话系统与数据可视化探索</td>
+</tr>
+<tr>
+<td align="left">🛠️ <strong>DevOps</strong></td>
+<td align="left">本地 AI 环境搭建、CUDA/WSL2 问题排查、uv 包管理</td>
+</tr>
+</tbody>
+</table>
+
+<br/>
 
 ---
 
