@@ -2,141 +2,67 @@
 <html lang="zh-CN">
 <head>
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>个人简历 - 钱佳宏</title>
 <style>
-  @page {
-    size: A4;
-    margin: 1.5cm 1.8cm;
-  }
+  @page { size: A4; margin: 0; }
   * { margin: 0; padding: 0; box-sizing: border-box; }
   body {
-    font-family: "Microsoft YaHei", "PingFang SC", "SimSun", Arial, sans-serif;
-    font-size: 10pt;
-    line-height: 1.55;
+    font-family: "Microsoft YaHei", "PingFang SC", "SimHei", sans-serif;
+    font-size: 9.5pt;
+    line-height: 1.42;
     color: #222;
-    background: #fff;
-    max-width: 210mm;
-    margin: 0 auto;
-    padding: 1.5cm 1.8cm;
+    width: 210mm;
+    padding: 12mm 18mm 8mm 18mm;
   }
 
-  /* Header with photo */
-  .header {
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
-    margin-bottom: 14px;
-    border-bottom: 2px solid #1a1a2e;
-    padding-bottom: 10px;
-  }
+  /* ===== Header ===== */
+  .header { display: flex; justify-content: space-between; align-items: flex-start; margin-bottom: 4px; }
   .header-left { flex: 1; }
   .header-left h1 {
-    font-size: 22pt;
-    font-weight: 700;
-    color: #1a1a2e;
-    letter-spacing: 6px;
-    margin-bottom: 8px;
+    font-size: 22pt; font-weight: 900; color: #111; letter-spacing: 4px; margin-bottom: 4px;
   }
-  .info-grid {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 2px 20px;
-    font-size: 9.5pt;
-    color: #333;
-  }
-  .info-grid span { white-space: nowrap; }
-  .links-row {
-    font-size: 9pt;
-    color: #555;
-    margin-top: 4px;
-  }
-  .photo-box {
-    width: 90px;
-    height: 115px;
-    border: 1.5px solid #ccc;
-    background: #f5f5f5;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-shrink: 0;
-    margin-left: 16px;
-    font-size: 8pt;
-    color: #999;
-    text-align: center;
-    line-height: 1.3;
+  .info-table { width: 100%; font-size: 9pt; color: #333; border-collapse: collapse; }
+  .info-table td { padding: 0; vertical-align: top; }
+  .info-table td.label { width: 48px; color: #555; font-weight: 600; }
+  .info-table td.val { padding-left: 3px; }
+  .links { font-size: 8pt; color: #666; margin-top: 2px; }
+  .links a { color: #666; text-decoration: none; }
+
+  .photo {
+    width: 78px; height: 100px; border: 1px solid #bbb; background: #fafafa;
+    display: flex; align-items: center; justify-content: center;
+    font-size: 7pt; color: #aaa; text-align: center; line-height: 1.3;
+    flex-shrink: 0; margin-left: 10px;
   }
 
-  /* Section */
-  .section { margin-bottom: 10px; }
-  .section-title {
-    font-size: 11.5pt;
-    font-weight: 700;
-    color: #fff;
-    background: #1a1a2e;
-    padding: 3px 12px;
-    margin-bottom: 8px;
-    letter-spacing: 3px;
-    display: inline-block;
+  /* ===== Divider ===== */
+  .divider { border: none; border-top: 1.5px solid #1a1a2e; margin: 4px 0 6px 0; }
+
+  /* ===== Section Title ===== */
+  .sec-title {
+    background: #1a1a2e; color: #fff; font-size: 11pt; font-weight: 700;
+    padding: 2px 10px; display: inline-block; letter-spacing: 2px; margin-bottom: 4px;
   }
 
-  /* Entry */
-  .entry { margin-bottom: 8px; }
-  .entry-header {
-    display: flex;
-    justify-content: space-between;
-    align-items: baseline;
-    flex-wrap: wrap;
-    margin-bottom: 0;
-  }
-  .entry-title {
-    font-size: 10.5pt;
-    font-weight: 700;
-    color: #1a1a2e;
-  }
-  .entry-role {
-    font-size: 9.5pt;
-    color: #444;
-    font-weight: 600;
-  }
-  .entry-date {
-    font-size: 9pt;
-    color: #666;
-    white-space: nowrap;
-  }
-  .entry-body {
-    font-size: 10pt;
-    color: #333;
-    text-indent: 2em;
-    margin-top: 1px;
-    line-height: 1.6;
-  }
+  /* ===== Entry ===== */
+  .entry { margin-bottom: 4px; }
+  .entry-top { display: flex; justify-content: space-between; align-items: baseline; }
+  .entry-name { font-size: 10pt; font-weight: 700; color: #111; }
+  .entry-date { font-size: 8.5pt; color: #666; white-space: nowrap; }
+  .entry-role { font-size: 9pt; color: #444; font-weight: 600; margin-bottom: 1px; }
+  .entry-text { font-size: 9.5pt; color: #333; text-indent: 2em; line-height: 1.5; }
 
-  /* Skills */
-  .skill-row { margin-bottom: 2px; font-size: 10pt; color: #333; line-height: 1.5; }
-  .skill-label { font-weight: 700; color: #1a1a2e; }
+  /* ===== Skill Row ===== */
+  .skill { font-size: 9.5pt; color: #333; margin-bottom: 1px; line-height: 1.45; }
+  .skill b { color: #111; }
 
-  /* Self intro */
-  .self-intro {
-    font-size: 10pt;
-    color: #333;
-    text-indent: 2em;
-    line-height: 1.6;
-  }
+  /* ===== Self Intro ===== */
+  .intro { font-size: 9.5pt; color: #333; text-indent: 2em; line-height: 1.5; }
 
-  /* Footer */
-  .footer {
-    text-align: center;
-    font-size: 8pt;
-    color: #bbb;
-    margin-top: 12px;
-  }
+  /* ===== Footer ===== */
+  .footer { text-align: center; font-size: 7.5pt; color: #bbb; margin-top: 6px; }
 
-  @media print {
-    body { padding: 0; max-width: none; }
-    .section { page-break-inside: avoid; }
-    .entry { page-break-inside: avoid; }
-  }
+  @media print { body { padding: 18mm 20mm 14mm 20mm; } }
 </style>
 </head>
 <body>
@@ -145,82 +71,58 @@
 <div class="header">
   <div class="header-left">
     <h1>个人简历</h1>
-    <div class="info-grid">
-      <span><strong>姓名：</strong>钱佳宏</span>
-      <span></span>
-      <span>生日：2006.05.11</span>
-      <span>身高：185cm</span>
-      <span>学历：本科</span>
-      <span>地址：上海市杨浦区</span>
-      <span>电话：19921057118</span>
-      <span>邮箱：aqfxz_zh@qq.com</span>
-    </div>
-    <div class="links-row">
-      开源库：https://github.com/lxcxjxhx/HOS-Qian-jia-hong-resume &nbsp;|&nbsp; 博客：https://security-hyacinth.blog.csdn.net
-    </div>
+    <table class="info-table">
+      <tr><td class="label">姓名：</td><td class="val">钱佳宏</td><td></td><td></td></tr>
+      <tr><td class="label">生日：</td><td class="val">2006.05.11</td><td class="label">身高：</td><td class="val">185cm</td></tr>
+      <tr><td class="label">学历：</td><td class="val">本科</td><td class="label">地址：</td><td class="val">上海市杨浦区</td></tr>
+      <tr><td class="label">电话：</td><td class="val">19921057118</td><td class="label">邮箱：</td><td class="val">aqfxz_zh@qq.com</td></tr>
+    </table>
+    <div class="links">开源库：<a href="https://github.com/lxcxjxhx/HOS-Qian-jia-hong-resume">https://github.com/lxcxjxhx/HOS-Qian-jia-hong-resume</a> &nbsp;|&nbsp; 博客：<a href="https://security-hyacinth.blog.csdn.net">https://security-hyacinth.blog.csdn.net</a></div>
   </div>
-  <div class="photo-box">
-    一寸<br>证件照<br>位置
-  </div>
+  <div class="photo">一寸<br>证件照<br>位置</div>
 </div>
 
+<hr class="divider">
+
 <!-- 实习经历 -->
-<div class="section">
-  <div class="section-title">实习经历</div>
-  <div class="entry">
-    <div class="entry-header">
-      <span class="entry-title">绿盟科技集团股份有限公司上海分公司</span>
-      <span class="entry-date">2025.7 – 2026.7</span>
-    </div>
-    <div class="entry-role">实习安全工程师</div>
-    <div class="entry-body">
-      在绿盟科技实习期间，我负责防火墙、IDS/IPS、WAF、RSAS等安全设备的部署、策略配置及基础运维，深度参与多个金融、制造行业客户的等保合规与安全加固项目，熟练掌握主流安全产品的实施流程与故障排查方法。在此基础上，我自主研发提效工具 HOS-LS（github.com/lxcxjxhx/HOS-LS），并成功将其提交至绿盟工程交付工具平台；主动加入"安全运营–AI赋能运营专项组"，贡献文档库 BOS-NI（github.com/lxcxjxhx/BOS-NI），协助团队探索大模型在告警分析、知识检索等场景中的落地应用。上述经历体现了我对信息安全&amp;AI的主动思考、动手落地能力及工程交付意识。
-    </div>
+<div class="sec-title">实习经历</div>
+<div class="entry">
+  <div class="entry-top">
+    <span class="entry-name">绿盟科技集团股份有限公司上海分公司</span>
+    <span class="entry-date">2025.7 – 2026.7</span>
   </div>
+  <div class="entry-role">实习安全工程师</div>
+  <div class="entry-text">在绿盟科技实习期间，我负责防火墙、IDS/IPS、WAF、RSAS等安全设备的部署、策略配置及基础运维，深度参与多个金融、制造行业客户的等保合规与安全加固项目，熟练掌握主流安全产品的实施流程与故障排查方法。在此基础上，我自主研发提效工具 HOS-LS（github.com/lxcxjxhx/HOS-LS），并成功将其提交至绿盟工程交付工具平台；主动加入"安全运营–AI赋能运营专项组"，贡献文档库 BOS-NI（github.com/lxcxjxhx/BOS-NI），协助团队探索大模型在告警分析、知识检索等场景中的落地应用。上述经历体现了我对信息安全&amp;AI的主动思考、动手落地能力及工程交付意识。</div>
 </div>
 
 <!-- 项目经历 -->
-<div class="section">
-  <div class="section-title">项目经历</div>
-
-  <div class="entry">
-    <div class="entry-header">
-      <span class="entry-title">中美创客国奖项目"安全风信子"信息安全攻防与技术交流平台</span>
-      <span class="entry-date">2024.9 – 2025.6</span>
-    </div>
-    <div class="entry-role">负责人 &amp; 软件开发</div>
-    <div class="entry-body">
-      带领六人团队联合开发"安全风信子"AI+信息安全攻防与学习平台，聚焦终端威胁检测、AI辅助漏洞分析、命令行智能建议与日志审计学习等核心功能，适配多终端与实训场景。主导平台安全体系搭建，负责渗透测试辅助模块、指令行为分析、攻击日志归类与可视化响应等核心环节，实现对异常行为的快速识别与反馈。结合Qwen等大模型构建AI安全对抗引擎，融合知识图谱与强化学习技术，提升平台在漏洞挖掘、溯源分析等方向的能力。项目已获中美创客分赛道国奖，软件著作权，正在申请专利，致力于打造面向实训场景的智能化攻防演练平台。
-    </div>
+<div class="sec-title">项目经历</div>
+<div class="entry">
+  <div class="entry-top">
+    <span class="entry-name">中美创客国奖项目"安全风信子"信息安全攻防与技术交流平台</span>
+    <span class="entry-date">2024.9 – 2025.6</span>
   </div>
-
-  <div class="entry">
-    <div class="entry-header">
-      <span class="entry-title">智医语伴机器人战队</span>
-      <span class="entry-date">2023.9 – 2024.6</span>
-    </div>
-    <div class="entry-role">队员 &amp; 人工智能应用开发</div>
-    <div class="entry-body">
-      参与英特尔人工智能创新应用大赛，依托"AI PC"平台开发医疗辅助项目"智医语伴机器人"，旨在提升基层诊疗效率与医患沟通体验。负责项目中语音数据隐私保护机制设计，主导通信链路加密、敏感内容识别、日志合规审计与安全传输策略实施，确保医疗场景下的数据安全与系统稳定性。同时参与语音识别优化与用户交互流程设计，提升系统准确率与使用体验。项目成功入围创新创业专项赛（GBAC240303106392），获得主办方高度认可，体现AI在医疗数据安全落地中的可行性。
-    </div>
+  <div class="entry-role">负责人 &amp; 软件开发</div>
+  <div class="entry-text">带领六人团队联合开发"安全风信子"AI+信息安全攻防与学习平台，聚焦终端威胁检测、AI辅助漏洞分析、命令行智能建议与日志审计学习等核心功能，适配多终端与实训场景。主导平台安全体系搭建，负责渗透测试辅助模块、指令行为分析、攻击日志归类与可视化响应等核心环节，实现对异常行为的快速识别与反馈。结合Qwen等大模型构建AI安全对抗引擎，融合知识图谱与强化学习技术，提升平台在漏洞挖掘、溯源分析等方向的能力。项目已获中美创客分赛道国奖，软件著作权，正在申请专利，致力于打造面向实训场景的智能化攻防演练平台。</div>
+</div>
+<div class="entry">
+  <div class="entry-top">
+    <span class="entry-name">智医语伴机器人战队</span>
+    <span class="entry-date">2023.9 – 2024.6</span>
   </div>
+  <div class="entry-role">队员 &amp; 人工智能应用开发</div>
+  <div class="entry-text">参与英特尔人工智能创新应用大赛，依托"AI PC"平台开发医疗辅助项目"智医语伴机器人"，旨在提升基层诊疗效率与医患沟通体验。负责项目中语音数据隐私保护机制设计，主导通信链路加密、敏感内容识别、日志合规审计与安全传输策略实施，确保医疗场景下的数据安全与系统稳定性。同时参与语音识别优化与用户交互流程设计，提升系统准确率与使用体验。项目成功入围创新创业专项赛（GBAC240303106392），获得主办方高度认可，体现AI在医疗数据安全落地中的可行性。</div>
 </div>
 
-<!-- 技能&证书 -->
-<div class="section">
-  <div class="section-title">技能 &amp; 证书</div>
-  <div class="skill-row"><span class="skill-label">语言技能：</span>英语CET6（411），普通话二级乙等</div>
-  <div class="skill-row"><span class="skill-label">专业技能：</span>熟悉Python及PyTorch框架，具备大模型（RAG、代码生成）训练调优、模型压缩蒸馏实战经验。同时掌握强化学习、AI Agent开发应用方法，拥有系统安全分析与漏洞挖掘能力，熟悉MCP、skills、langchain等前沿技术架构。</div>
-  <div class="skill-row"><span class="skill-label">办公技能：</span>EFG创业训练营结业证书（第75期），计算机一级证书，C2驾照</div>
-</div>
+<!-- 技能 & 证书 -->
+<div class="sec-title">技能 &amp; 证书</div>
+<div class="skill"><b>语言技能：</b>英语CET6（411），普通话二级乙等</div>
+<div class="skill"><b>专业技能：</b>熟悉Python及PyTorch框架，具备大模型（RAG、代码生成）训练调优、模型压缩蒸馏实战经验。同时掌握强化学习、AI Agent开发应用方法，拥有系统安全分析与漏洞挖掘能力，熟悉MCP、skills、langchain等前沿技术架构。</div>
+<div class="skill"><b>办公技能：</b>EFG创业训练营结业证书（第75期），计算机一级证书，C2驾照</div>
 
 <!-- 自我介绍 -->
-<div class="section">
-  <div class="section-title">自我介绍</div>
-  <div class="self-intro">
-    具备扎实的AI技术功底，熟悉自然语言处理（NLP）、计算机视觉及全栈算法开发，大模型应用、数据结构优化与信息安全体系设计。擅长将技术与运营需求深度融合，快速学习并掌握前沿技术，解决复杂问题。拥有出色的团队领导与协作能力，能高效带领团队完成跨领域项目，推动技术落地与创新。逻辑清晰，注重细节，善于通过数据驱动决策，优化系统性能与用户体验。热衷于技术探索与分享，适应快节奏环境，涵盖计算机视觉、NLP、全栈算法及技术运营。
-  </div>
-</div>
+<div class="sec-title">自我介绍</div>
+<div class="intro">具备扎实的AI技术功底，熟悉自然语言处理（NLP）、计算机视觉及全栈算法开发，大模型应用、数据结构优化与信息安全体系设计。擅长将技术与运营需求深度融合，快速学习并掌握前沿技术，解决复杂问题。拥有出色的团队领导与协作能力，能高效带领团队完成跨领域项目，推动技术落地与创新。逻辑清晰，注重细节，善于通过数据驱动决策，优化系统性能与用户体验。热衷于技术探索与分享，适应快节奏环境，涵盖计算机视觉、NLP、全栈算法及技术运营。</div>
 
 <div class="footer">最后更新：2026年7月</div>
 
