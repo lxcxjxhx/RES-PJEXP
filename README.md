@@ -1,4 +1,3 @@
-
 <!-- ═══════════════════════════════════════════════════════════════════════════
      安全风信子 | 信息安全×AI 双域实践者 — Personal Achievement Portfolio
      ═══════════════════════════════════════════════════════════════════════════ -->
@@ -9,7 +8,7 @@
 <table align="center" width="90%" style="margin: 0 auto; border-collapse: collapse;">
 <tr><td align="center" style="background: linear-gradient(135deg, #0f0c29 0%, #302b63 50%, #24243e 100%); padding: 40px 20px; border-radius: 16px;">
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=3500&pause=500&color=00D4FF&center=true&vCenter=true&width=700&lines=%F0%9F%9B%A1%EF%B8%8F+%E5%AE%89%E5%85%A8%E9%A3%8E%E4%BF%A1%E5%AD%90+%7C+%E4%BF%A1%E6%81%AF%E5%AE%89%E5%85%A8%C3%97AI+%E5%8F%8C%E5%9F%9F%E5%AE%9E%E8%B7%B5%E8%80%85;%F0%9F%94%A5+%E7%94%A8%E4%BB%A3%E7%A0%81%E9%94%BB%E9%80%A0%E6%99%BA%E8%83%BD%E6%97%B6%E4%BB%A3%E7%9A%84%E5%9D%9A%E7%9B%BE%E4%B8%8E%E5%88%A9%E7%9F%9B" alt="Typing SVG" />
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=3500&pause=500&color=00D4FF&center=true&vCenter=true&width=700&lines=%F0%9F%9B%A1%EF%B8%8F+%E5%AE%89%E5%85%A8%E9%A3%8E%E4%BF%A1%E5%AD%90+%7C+%E4%BF%A1%E6%81%AF%E5%AE%89%E5%85%A8%C3%97AI+%E5%8F%8C%E5%9F%9F%E5%AE%9E%E8%B7%B5%E8%80%85;%F0%9F%94%A5+%E7%94%A8%E4%BB%A3%E7%A0%81%E9%94%BB%E9%80%A0%E6%99%BA%E8%83%BD%E6%97%B6%E4%BB%A3%E7%9A%84%E5%9D%9A%E7%9B%BE%E4%B8%8E%E5%88%A9%E7%9B%BE" alt="Typing SVG" />
 
 <br/>
 
@@ -463,3 +462,7 @@ Intel AI 竞赛 · AI+威胁检测<br/>
 </div>
 
 ---
+
+<div align="center">
+<sub>🤖 本 README 通过 GitHub Actions 自动更新 | 最后更新: 2026-07-08 07:13:11 UTC</sub>
+</div>
