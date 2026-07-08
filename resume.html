@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>简历 - 钱佳宏</title>
+<style>
+  @page {
+    size: A4;
+    margin: 2cm 2.2cm;
+  }
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body {
+    font-family: "Microsoft YaHei", "PingFang SC", "Helvetica Neue", Arial, sans-serif;
+    font-size: 11pt;
+    line-height: 1.6;
+    color: #222;
+    background: #fff;
+    max-width: 210mm;
+    margin: 0 auto;
+    padding: 2cm 2.2cm;
+  }
+
+  /* Header */
+  .header {
+    text-align: center;
+    padding-bottom: 12px;
+    border-bottom: 2.5px solid #1a1a2e;
+    margin-bottom: 18px;
+  }
+  .header h1 {
+    font-size: 26pt;
+    font-weight: 700;
+    color: #1a1a2e;
+    letter-spacing: 6px;
+    margin-bottom: 6px;
+  }
+  .header .subtitle {
+    font-size: 10pt;
+    color: #555;
+    letter-spacing: 1px;
+  }
+  .contact-row {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 6px 20px;
+    margin-top: 8px;
+    font-size: 10pt;
+    color: #444;
+  }
+  .contact-row span {
+    white-space: nowrap;
+  }
+
+  /* Section */
+  .section {
+    margin-bottom: 16px;
+  }
+  .section-title {
+    font-size: 13pt;
+    font-weight: 700;
+    color: #1a1a2e;
+    border-left: 4px solid #1a1a2e;
+    padding-left: 10px;
+    margin-bottom: 10px;
+    letter-spacing: 2px;
+  }
+
+  /* Job / Project entry */
+  .entry {
+    margin-bottom: 12px;
+  }
+  .entry-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    flex-wrap: wrap;
+    margin-bottom: 2px;
+  }
+  .entry-title {
+    font-size: 11.5pt;
+    font-weight: 700;
+    color: #1a1a2e;
+  }
+  .entry-meta {
+    font-size: 9.5pt;
+    color: #666;
+    white-space: nowrap;
+  }
+  .entry-subtitle {
+    font-size: 10pt;
+    color: #555;
+    font-style: italic;
+    margin-bottom: 4px;
+  }
+  .entry ul {
+    padding-left: 18px;
+    margin-top: 2px;
+  }
+  .entry li {
+    margin-bottom: 3px;
+    font-size: 10.5pt;
+    color: #333;
+  }
+  .entry li strong {
+    color: #1a1a2e;
+  }
+
+  /* Skills grid */
+  .skill-group {
+    margin-bottom: 6px;
+  }
+  .skill-group-title {
+    font-weight: 700;
+    font-size: 10.5pt;
+    color: #1a1a2e;
+  }
+  .skill-group p {
+    font-size: 10.5pt;
+    color: #333;
+    margin-left: 0;
+  }
+
+  /* Awards table */
+  .awards-table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 10.5pt;
+  }
+  .awards-table td {
+    padding: 3px 8px 3px 0;
+    vertical-align: top;
+  }
+  .awards-table td:first-child {
+    white-space: nowrap;
+    color: #555;
+    width: 160px;
+  }
+
+  /* Footer */
+  .footer {
+    text-align: center;
+    font-size: 8.5pt;
+    color: #999;
+    margin-top: 24px;
+    padding-top: 8px;
+    border-top: 1px solid #ddd;
+  }
+
+  /* Print */
+  @media print {
+    body {
+      padding: 0;
+      max-width: none;
+    }
+    .section {
+      page-break-inside: avoid;
+    }
+    .entry {
+      page-break-inside: avoid;
+    }
+  }
+</style>
+</head>
+<body>
+
+<!-- Header -->
+<div class="header">
+  <h1>钱佳宏</h1>
+  <div class="subtitle">信息安全 × AI 双域实践者</div>
+  <div class="contact-row">
+    <span>📱 19921057118</span>
+    <span>✉️ aqfxz_zh@qq.com</span>
+    <span>📍 上海市杨浦区</span>
+    <span>🎂 2006.05</span>
+    <span> 185cm</span>
+    <span>🎓 本科在读</span>
+  </div>
+  <div class="contact-row" style="margin-top:4px;">
+    <span>🔗 github.com/lxcxjxhx</span>
+    <span>📝 security-hyacinth.blog.csdn.net</span>
+  </div>
+</div>
+
+<!-- 求职意向 -->
+<div class="section">
+  <div class="section-title">求职意向</div>
+  <p style="font-size:10.5pt; color:#333;">信息安全工程师 / AI安全工程师 / 安全研发工程师</p>
+</div>
+
+<!-- 实习经历 -->
+<div class="section">
+  <div class="section-title">实习经历</div>
+
+  <div class="entry">
+    <div class="entry-header">
+      <span class="entry-title">绿盟科技集团股份有限公司上海分公司</span>
+      <span class="entry-meta">2025.07 – 2026.07</span>
+    </div>
+    <div class="entry-subtitle">实习安全工程师</div>
+    <ul>
+      <li><strong>安全设备运维：</strong>负责防火墙、IDS/IPS、WAF、RSAS等安全设备的部署、策略配置及基础运维，服务金融、制造行业客户</li>
+      <li><strong>等保合规项目：</strong>深度参与多个等保合规与安全加固项目，熟练掌握主流安全产品的实施流程与故障排查</li>
+      <li><strong>自研提效工具：</strong>自主研发 HOS-LS 代码安全分析系统，成功提交至绿盟工程交付工具平台</li>
+      <li><strong>AI安全运营：</strong>加入"安全运营–AI赋能运营专项组"，探索大模型在告警分析、知识检索等场景的落地应用</li>
+    </ul>
+  </div>
+</div>
+
+<!-- 项目经历 -->
+<div class="section">
+  <div class="section-title">项目经历</div>
+
+  <div class="entry">
+    <div class="entry-header">
+      <span class="entry-title">安全风信子 — 信息安全攻防与技术交流平台</span>
+      <span class="entry-meta">2024.09 – 2025.06</span>
+    </div>
+    <div class="entry-subtitle">项目负责人 · 中美青年创客大赛特等奖</div>
+    <ul>
+      <li>带领6人团队开发AI+信息安全攻防平台，聚焦终端威胁检测、AI辅助漏洞分析、命令行智能建议与日志审计</li>
+      <li>主导平台安全体系搭建，负责渗透测试辅助模块、指令行为分析、攻击日志归类与可视化响应</li>
+      <li>结合Qwen大模型构建AI安全对抗引擎，融合知识图谱与强化学习技术</li>
+      <li><strong>成果：</strong>中美创客分赛道国奖、软件著作权、专利申请中</li>
+    </ul>
+  </div>
+
+  <div class="entry">
+    <div class="entry-header">
+      <span class="entry-title">智医语伴机器人 — 医疗AI辅助项目</span>
+      <span class="entry-meta">2023.09 – 2024.06</span>
+    </div>
+    <div class="entry-subtitle">核心开发 · 英特尔AI创新应用大赛</div>
+    <ul>
+      <li>基于"AI PC"平台开发医疗辅助项目，提升基层诊疗效率与医患沟通体验</li>
+      <li>负责语音数据隐私保护机制设计，主导通信链路加密、敏感内容识别、日志合规审计与安全传输策略</li>
+      <li>参与语音识别优化与用户交互流程设计</li>
+      <li><strong>成果：</strong>入围创新创业专项赛（GBAC240303106392）</li>
+    </ul>
+  </div>
+
+  <div class="entry">
+    <div class="entry-header">
+      <span class="entry-title">HOS-LS — AI驱动的代码安全分析与攻击链推理系统</span>
+      <span class="entry-meta">2025</span>
+    </div>
+    <div class="entry-subtitle">独立开发</div>
+    <ul>
+      <li>基于AI语义理解的代码安全分析引擎，超越传统正则匹配</li>
+      <li>实现端到端攻击链推理与可视化，支持多Agent协同分析与自动化漏洞利用代码生成</li>
+      <li><strong>技术栈：</strong>Python, PyTorch, Multi-Agent AI, RAG, LangChain</li>
+    </ul>
+  </div>
+</div>
+
+<!-- 技能 -->
+<div class="section">
+  <div class="section-title">专业技能</div>
+
+  <div class="skill-group">
+    <span class="skill-group-title">编程语言：</span>
+    <p>Python（精通）、TypeScript、C/C++、Shell</p>
+  </div>
+  <div class="skill-group">
+    <span class="skill-group-title">AI与大模型：</span>
+    <p>PyTorch、RAG、模型微调与压缩蒸馏、Multi-Agent系统、Prompt Engineering、MCP工程、vLLM推理引擎、LangChain</p>
+  </div>
+  <div class="skill-group">
+    <span class="skill-group-title">信息安全：</span>
+    <p>系统安全分析、漏洞挖掘、攻击链推理、CTF实战（国赛级）、红队自动化工具、等保合规、安全设备部署与运维</p>
+  </div>
+  <div class="skill-group">
+    <span class="skill-group-title">全栈开发：</span>
+    <p>React、Taro跨端、FastAPI、Node.js、Docker、GitHub Actions</p>
+  </div>
+  <div class="skill-group">
+    <span class="skill-group-title">语言能力：</span>
+    <p>英语 CET-6（411分）、普通话二级乙等</p>
+  </div>
+</div>
+
+<!-- 荣誉奖项 -->
+<div class="section">
+  <div class="section-title">荣誉奖项</div>
+  <table class="awards-table">
+    <tr><td>中美青年创客大赛特等奖</td><td>2025 · 国家级</td></tr>
+    <tr><td>英特尔AI创新应用大赛入围</td><td>2024 · 创新创业专项赛</td></tr>
+    <tr><td>阿里云专家博主</td><td>CSDN 1,467篇原创，1.2M+访问</td></tr>
+    <tr><td>华为云专家博主 / 腾讯云创作之星</td><td>技术内容创作者</td></tr>
+    <tr><td>EFG创业训练营结业</td><td>第75期</td></tr>
+  </table>
+</div>
+
+<!-- 开源与博客 -->
+<div class="section">
+  <div class="section-title">开源贡献 & 技术分享</div>
+  <ul>
+    <li><strong>GitHub：</strong>807+ 年度贡献，7个PyPI开源包，Hugging Face微调模型</li>
+    <li><strong>技术博客：</strong>CSDN 1,467篇原创，12+系统化专栏（vLLM实战、MCP工程、CTF攻防等）</li>
+    <li><strong>PyPI：</strong>security_hyacinth 安全工具包系列</li>
+  </ul>
+</div>
+
+<!-- 自我评价 -->
+<div class="section">
+  <div class="section-title">自我评价</div>
+  <ul>
+    <li>具备扎实的AI技术功底，熟悉NLP、计算机视觉及全栈算法开发，擅长将技术与安全运营需求深度融合</li>
+    <li>拥有出色的团队领导与协作能力，能高效带领团队完成跨领域项目，推动技术落地与创新</li>
+    <li>逻辑清晰，注重细节，善于通过数据驱动决策，优化系统性能与用户体验</li>
+    <li>热衷于技术探索与分享，适应快节奏环境，持续学习前沿技术</li>
+  </ul>
+</div>
+
+<div class="footer">
+  最后更新：2026年7月
+</div>
+
+</body>
+</html>
