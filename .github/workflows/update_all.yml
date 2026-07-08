@@ -40,13 +40,13 @@ jobs:
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       run: |
-        python update_pr_workflow.py
+        python .github/scripts/update_pr_workflow.py
     
     - name: Generate updated README
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       run: |
-        python generate_readme.py
+        python .github/scripts/generate_readme.py
     
     - name: Commit and push changes
       run: |
