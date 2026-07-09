@@ -2,8 +2,9 @@ name: Update PR Records and README
 
 on:
   schedule:
+    # 每天 UTC 00:00 运行
     - cron: '0 0 * * *'
-  workflow_dispatch:
+  workflow_dispatch:  # 支持手动触发
   push:
     branches:
       - main
@@ -17,10 +18,12 @@ permissions:
 jobs:
   update-pr-records:
     runs-on: ubuntu-latest
+
     steps:
     - name: Checkout repository
       uses: actions/checkout@v4
       with:
+        # 需要完整历史以便提交
         fetch-depth: 0
 
     - name: Set up Python
@@ -46,14 +49,17 @@ jobs:
         python .github/scripts/generate_readme.py
 
     - name: Commit and push changes
-      env:
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       run: |
         git config user.name "github-actions[bot]"
         git config user.email "github-actions[bot]@users.noreply.github.com"
         git add -A
-        TIMESTAMP=$(date -u '+%Y-%m-%d %H:%M:%S UTC')
         git diff --staged --quiet || git commit -m "Auto-update PR records and README
 
-        Updated at: ${TIMESTAMP}"
+Updated at: $(date -u '+%Y-%m-%d %H:%M:%S UTC')
+
+* Updated PR records with latest merged PRs
+* Regenerated README with current statistics
+* Updated contribution counts and metrics"
         git push
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
