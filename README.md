@@ -1,3 +1,4 @@
+
 <!-- ═══════════════════════════════════════════════════════════════════════════
      安全风信子 | 信息安全×AI 双域实践者 — Personal Achievement Portfolio
      ═══════════════════════════════════════════════════════════════════════════ -->
@@ -53,9 +54,9 @@
 <sub>国家级竞赛荣誉<br/>AI×安全创新</sub>
 </td>
 <td width="20%" align="center">
-<br/><img src="https://img.shields.io/badge/807-22D3EE?style=for-the-badge&logo=github&logoColor=white&labelColor=22D3EE" width="120"/><br/><br/>
+<br/><img src="https://img.shields.io/badge/983-22D3EE?style=for-the-badge&logo=github&logoColor=white&labelColor=22D3EE" width="120"/><br/><br/>
 <b>GitHub 贡献</b><br/>
-<sub>年度 807 commits<br/>持续开源</sub>
+<sub>年度 983 commits<br/>持续开源</sub>
 </td>
 </tr>
 </table>
@@ -75,6 +76,26 @@
 <a href="https://pypi.org/user/security_hyacinth/"><img src="https://img.shields.io/badge/PyPI-7_Packages-3775A9?style=for-the-badge&logo=pypi&logoColor=white" alt="PyPI"/></a>
 <a href="https://huggingface.co/lxcxjxhx"><img src="https://img.shields.io/badge/Hugging_Face-Models-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black" alt="Hugging Face"/></a>
 <a href="mailto:aqfxz_zh@qq.com"><img src="https://img.shields.io/badge/Email-aqfxz_zh@qq.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/></a>
+
+</div>
+
+---
+
+<!-- ════════ Open Source Contributions ════════ -->
+
+<div align="center">
+
+## 🔓 Open Source Contributions
+
+<br/>
+
+<a href="./PR/README.md">
+<img src="https://img.shields.io/badge/📊_查看_PR_记录-0_merged-10B981?style=for-the-badge&logo=github&logoColor=white" />
+</a>
+
+<br/><br/>
+
+<sub>已合并 Pull Request: <b>8</b> | 涉及项目: <b>6+</b></sub>
 
 </div>
 
@@ -374,7 +395,7 @@ Intel AI 竞赛 · AI+威胁检测<br/>
 </tr>
 <tr>
 <td align="left">🔓 <strong>开源</strong></td>
-<td align="left">PyPI 7 个开源包、GitHub 807 年度贡献、Hugging Face 微调模型</td>
+<td align="left">PyPI 7 个开源包、GitHub 983 年度贡献、Hugging Face 微调模型</td>
 </tr>
 </tbody>
 </table>
@@ -464,5 +485,5 @@ Intel AI 竞赛 · AI+威胁检测<br/>
 ---
 
 <div align="center">
-<sub>🤖 本 README 通过 GitHub Actions 自动更新 | 最后更新: 2026-07-08 07:13:11 UTC</sub>
+<sub>🤖 本 README 通过 GitHub Actions 自动更新 | 最后更新: 2026-07-09 11:33:30 UTC</sub>
 </div>
