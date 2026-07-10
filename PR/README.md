@@ -4,8 +4,8 @@ Merged Pull Requests across open source projects.
 
 ## Summary
 
-- **Total Merged PRs**: 8
-- **Projects**: 5
+- **Total Merged PRs**: 9
+- **Projects**: 6
 
 ## PR List
 
@@ -16,6 +16,7 @@ Merged Pull Requests across open source projects.
 | [hiyouga/LlamaFactory](https://github.com/hiyouga/LlamaFactory) | [#10626](https://github.com/hiyouga/LlamaFactory/pull/10626) | docs: improve getting started guide with comprehensive content | 2026-07-08 |
 | [huggingface/peft](https://github.com/huggingface/peft) | [#3396](https://github.com/huggingface/peft/pull/3396) | fix: remove dead code in LoRA get_delta_weight and fix unsafe merge dtype inconsistency | 2026-07-08 |
 | [huggingface/peft](https://github.com/huggingface/peft) | [#3392](https://github.com/huggingface/peft/pull/3392) | docs: fix missing torch import and variable name in README examples | 2026-07-06 |
+| [slimm609/checksec](https://github.com/slimm609/checksec) | [#349](https://github.com/slimm609/checksec/pull/349) | Fix: handle value 2 for kernel.unprivileged_bpf_disabled (Issue #347) | 2026-07-09 |
 | [vanhauser-thc/thc-hydra](https://github.com/vanhauser-thc/thc-hydra) | [#1088](https://github.com/vanhauser-thc/thc-hydra/pull/1088) | Fix file handle leaks in hydra.c | 2026-07-07 |
 | [vanhauser-thc/thc-hydra](https://github.com/vanhauser-thc/thc-hydra) | [#1087](https://github.com/vanhauser-thc/thc-hydra/pull/1087) | Fix file handle leaks in main function | 2026-07-07 |
 | [vanhauser-thc/thc-hydra](https://github.com/vanhauser-thc/thc-hydra) | [#1089](https://github.com/vanhauser-thc/thc-hydra/pull/1089) | Fix socket leak in SMB service initialization | 2026-07-07 |
@@ -36,7 +37,7 @@ PR/
 
 Updated daily via GitHub Actions at UTC 00:00.
 
-Last updated: 2026-07-09 11:33:27 UTC
+Last updated: 2026-07-10 02:41:03 UTC
 
 ---
 
