@@ -166,4 +166,4 @@ tests/test_embedding_parameter.py::TestEmbeddingParameterBackwardCompatibility::
 - **Diff**: https://github.com/lxcxjxhx/llama-cpp-python/pull/3.diff
 
 ---
-*Auto-generated at 2026-07-11 02:22:17 UTC*
+*Auto-generated at 2026-07-12 02:26:51 UTC*
