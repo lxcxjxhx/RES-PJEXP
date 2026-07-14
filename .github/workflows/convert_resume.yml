@@ -14,30 +14,76 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
 
-      - name: Install pandoc & weasyprint
-        run: sudo apt-get update && sudo apt-get install -y pandoc libpango1.0-dev libharfbuzz-dev
+      - name: Install system deps & Chinese fonts
+        run: |
+          echo "=== Installing system dependencies ==="
+          sudo apt-get update -qq
+          sudo apt-get install -y -qq \
+            libpango1.0-dev libharfbuzz-dev libffi-dev libcairo2-dev \
+            fonts-noto-cjk fonts-wqy-zenhei fonts-wqy-microhei
+          echo "=== Updating font cache ==="
+          fc-cache -fv
+          echo "=== Available CJK fonts ==="
+          fc-list :lang=zh family | sort -u || echo "No CJK fonts found"
+          echo "=== Font installation complete ==="
 
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
           python-version: '3.11'
 
-      - name: Install weasyprint
-        run: pip install weasyprint
+      - name: Install Python deps
+        run: |
+          echo "=== Installing Python dependencies ==="
+          python -m pip install --upgrade pip
+          pip install weasyprint python-docx beautifulsoup4 lxml
+          echo "=== Python dependencies installed ==="
 
-      - name: HTML -> PDF
-        run: weasyprint resume.html "简历 钱佳宏.pdf"
+      - name: Generate PDF
+        run: |
+          echo "=== Generating PDF ==="
+          python .github/scripts/convert_to_pdf.py
+          if [ -f "简历 钱佳宏.pdf" ]; then
+            echo "✓ PDF generated successfully"
+            ls -lh "简历 钱佳宏.pdf"
+          else
+            echo "✗ PDF generation failed"
+            exit 1
+          fi
 
-      - name: HTML -> DOCX
-        run: pandoc resume.html -o "简历 钱佳宏.docx" --from=html --to=docx
+      - name: Generate DOCX
+        run: |
+          echo "=== Generating DOCX ==="
+          python .github/scripts/convert_to_docx.py
+          if [ -f "简历 钱佳宏.docx" ]; then
+            echo "✓ DOCX generated successfully"
+            ls -lh "简历 钱佳宏.docx"
+          else
+            echo "✗ DOCX generation failed"
+            exit 1
+          fi
 
       - name: Commit & push
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
+          echo "=== Committing changes ==="
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add "简历 钱佳宏.docx" "简历 钱佳宏.pdf"
-          git diff --staged --quiet || git commit -m "Auto-convert resume to DOCX and PDF"
-          git push
+          
+          if git diff --staged --quiet; then
+            echo "No changes to commit"
+          else
+            echo "Committing converted files..."
+            git commit -m "Auto-convert resume to DOCX and PDF
+
+            Generated from resume.html using GitHub Actions
+            - PDF: weasyprint with CJK font support
+            - DOCX: python-docx with precise A4 layout"
+            git push
+            echo "✓ Changes pushed successfully"
+          fi
