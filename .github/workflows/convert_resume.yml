@@ -1,0 +1,43 @@
+name: Convert Resume HTML to DOCX & PDF
+
+on:
+  push:
+    branches: [main]
+    paths: ['resume.html']
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  convert:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Install pandoc & weasyprint
+        run: sudo apt-get update && sudo apt-get install -y pandoc libpango1.0-dev libharfbuzz-dev
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install weasyprint
+        run: pip install weasyprint
+
+      - name: HTML -> PDF
+        run: weasyprint resume.html "简历 钱佳宏.pdf"
+
+      - name: HTML -> DOCX
+        run: pandoc resume.html -o "简历 钱佳宏.docx" --from=html --to=docx
+
+      - name: Commit & push
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add "简历 钱佳宏.docx" "简历 钱佳宏.pdf"
+          git diff --staged --quiet || git commit -m "Auto-convert resume to DOCX and PDF"
+          git push
