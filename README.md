@@ -428,7 +428,7 @@ Intel AI 竞赛 · AI+威胁检测<br/>
 </tr>
 <tr>
 <td align="left">🛡️ <strong>Cybersecurity</strong></td>
-<td align="left">CTF 实战（国赛级）、红队自动化工具、AI 驱动代码安全分析 (HOS-LS)、攻击链推理</td>
+<td align="left">CTF 实战、红队自动化工具、AI 驱动代码安全分析 (HOS-LS)、攻击链推理</td>
 </tr>
 <tr>
 <td align="left">🌐 <strong>Full-Stack</strong></td>
