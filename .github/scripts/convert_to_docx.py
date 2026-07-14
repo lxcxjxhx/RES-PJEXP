@@ -129,20 +129,23 @@ def main():
                     run = p.add_run("  ".join(parts))
                     set_font(run, size=9, color=TEXT)
 
-        # Links - horizontal single line
-        links_div = header.find("div", class_="links")
-        if links_div:
+        # Links - table layout (4 cols: label, value, label, value)
+        links_table = header.find("table", class_="links-table")
+        if links_table:
             p = doc.add_paragraph()
             p.paragraph_format.space_before = Pt(3)
-            items = links_div.find_all("div", class_="link-item")
-            texts = []
-            for item in items:
-                label = item.find("span", class_="link-label")
-                a_tag = item.find("a")
-                if label and a_tag:
-                    texts.append(f"{label.get_text(strip=True)}{a_tag.get_text(strip=True)}")
-            run = p.add_run("    ".join(texts))
-            set_font(run, size=8, color=LIGHT_GRAY)
+            for row in links_table.find_all("tr"):
+                cells = row.find_all("td")
+                texts = []
+                for i in range(0, len(cells), 2):
+                    label = cells[i].get_text(strip=True)
+                    a_tag = cells[i + 1].find("a") if i + 1 < len(cells) else None
+                    if a_tag:
+                        texts.append(f"{label}{a_tag.get_text(strip=True)}")
+                    else:
+                        texts.append(f"{label}{cells[i + 1].get_text(strip=True)}")
+                run = p.add_run("    ".join(texts))
+                set_font(run, size=8, color=LIGHT_GRAY)
 
     # ===== Process body children =====
     for child in body.children:
