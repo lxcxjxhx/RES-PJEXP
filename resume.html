@@ -25,16 +25,15 @@
   .info-table td { padding: 1px 0; vertical-align: middle; }
   .info-table td.label { width: 48px; color: #555; font-weight: 600; }
   .info-table td.val { padding-left: 4px; }
-  .links { font-size: 8pt; color: #555; margin-top: 3px; line-height: 1.5; }
-  .links .link-item { display: flex; align-items: baseline; margin-bottom: 1px; }
-  .links .link-label { display: inline-block; width: 48px; color: #555; font-weight: 600; flex-shrink: 0; }
-  .links .link-value { flex: 1; }
+  .links { font-size: 8pt; color: #555; margin-top: 3px; line-height: 1.5; display: flex; flex-wrap: wrap; gap: 8px 16px; }
+  .links .link-item { display: inline-flex; align-items: baseline; }
+  .links .link-label { color: #555; font-weight: 600; }
   .links a { color: #3498db; text-decoration: none; transition: color 0.2s; }
   .links a:hover { color: #2980b9; text-decoration: underline; }
 
   .photo {
-    width: 76px; height: 98px; border: 2px solid #2c3e50; background: #fafafa;
-    flex-shrink: 0; margin-left: 12px; overflow: hidden; box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    width: 76px; height: 98px; background: #fafafa;
+    flex-shrink: 0; margin-left: 12px; overflow: hidden;
   }
   .photo img { width: 100%; height: 100%; object-fit: cover; }
 
@@ -102,6 +101,14 @@
         <span class="link-label">博客：</span>
         <span class="link-value"><a href="https://security-hyacinth.blog.csdn.net">security-hyacinth.blog.csdn.net</a></span>
       </div>
+      <div class="link-item">
+        <span class="link-label">arXiv：</span>
+        <span class="link-value"><a href="https://arxiv.org/search/?query=JH-Qian&searchtype=author">arxiv.org/search/?query=JH-Qian</a></span>
+      </div>
+      <div class="link-item">
+        <span class="link-label">LinkedIn：</span>
+        <span class="link-value"><a href="https://www.linkedin.com/in/%E4%BD%B3%E5%AE%8F-%E9%92%B1-816875352/">linkedin.com/in/佳宏-钱</a></span>
+      </div>
     </div>
   </div>
   <div class="photo">
@@ -150,11 +157,11 @@
 <!-- 开源贡献 -->
 <div class="sec-title">开源贡献</div>
 <ul class="pr-list">
-  <li><span class="pr-tag">合并</span><a href="https://github.com/nvidia/garak/pull/1923">nvidia/garak#1923</a> - 添加MCP安全评估模块，支持对AI工具链的自动化安全测试</li>
-  <li><span class="pr-tag">合并</span><a href="https://github.com/huggingface/peft/pull/3402">huggingface/peft#3402</a> - 修复AdaLora目标模块检测bug，支持Conv2d和ConvTranspose2d层</li>
-  <li><span class="pr-tag">合并</span><a href="https://github.com/thc-hydra/hydra/pull/1089">thc-hydra/hydra#1089</a> - 修复MySQL模块内存泄漏问题，优化连接池管理</li>
-  <li><span class="pr-tag">开放</span><a href="https://github.com/Gallopsled/pwntools/pull/2755">Gallopsled/pwntools#2755</a> - 实现MCP Server，提供ELF分析、ROP链构建等10个工具</li>
-  <li><span class="pr-tag">开放</span><a href="https://github.com/volatilityfoundation/volatility3/pull/2003">volatilityfoundation/volatility3#2003</a> - 开发MCP Server，支持内存镜像分析、进程检测等10个工具</li>
+  <li><span class="pr-tag">合并</span><a href="https://github.com/vanhauser-thc/thc-hydra/pull/1092">thc-hydra#1092</a> - 修复IMAP和SNMP处理程序中的缓冲区溢出漏洞</li>
+  <li><span class="pr-tag">合并</span><a href="https://github.com/vanhauser-thc/thc-hydra/pull/1091">thc-hydra#1091</a> - 修复认证错误路径中的内存泄漏</li>
+  <li><span class="pr-tag">合并</span><a href="https://github.com/hiyouga/LlamaFactory/pull/10626">LlamaFactory#10626</a> - 改进入门指南文档</li>
+  <li><span class="pr-tag">合并</span><a href="https://github.com/axolotl-ai-cloud/axolotl/pull/3802">axolotl#3802</a> - 改进jinja聊天模板的验证错误提示</li>
+  <li><span class="pr-tag">合并</span><a href="https://github.com/slimm609/checksec/pull/349">checksec#349</a> - 修复kernel.unprivileged_bpf_disabled值为2时的处理</li>
 </ul>
 
 <!-- 自我介绍 -->
