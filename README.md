@@ -54,9 +54,9 @@
 <sub>国家级竞赛荣誉<br/>AI×安全创新</sub>
 </td>
 <td width="20%" align="center">
-<br/><img src="https://img.shields.io/badge/927-22D3EE?style=for-the-badge&logo=github&logoColor=white&labelColor=22D3EE" width="120"/><br/><br/>
+<br/><img src="https://img.shields.io/badge/964-22D3EE?style=for-the-badge&logo=github&logoColor=white&labelColor=22D3EE" width="120"/><br/><br/>
 <b>GitHub 贡献</b><br/>
-<sub>年度 927 commits<br/>持续开源</sub>
+<sub>年度 964 commits<br/>持续开源</sub>
 </td>
 </tr>
 </table>
@@ -95,7 +95,7 @@
 
 <br/><br/>
 
-<sub>已合并 Pull Request: <b>11</b> | 涉及项目: <b>6+</b></sub>
+<sub>已合并 Pull Request: <b>13</b> | 涉及项目: <b>6+</b></sub>
 
 </div>
 
@@ -395,7 +395,7 @@ Intel AI 竞赛 · AI+威胁检测<br/>
 </tr>
 <tr>
 <td align="left">🔓 <strong>开源</strong></td>
-<td align="left">PyPI 7 个开源包、GitHub 927 年度贡献、Hugging Face 微调模型</td>
+<td align="left">PyPI 7 个开源包、GitHub 964 年度贡献、Hugging Face 微调模型</td>
 </tr>
 </tbody>
 </table>
@@ -428,7 +428,7 @@ Intel AI 竞赛 · AI+威胁检测<br/>
 </tr>
 <tr>
 <td align="left">🛡️ <strong>Cybersecurity</strong></td>
-<td align="left">CTF 实战、红队自动化工具、AI 驱动代码安全分析 (HOS-LS)、攻击链推理</td>
+<td align="left">CTF 实战（国赛级）、红队自动化工具、AI 驱动代码安全分析 (HOS-LS)、攻击链推理</td>
 </tr>
 <tr>
 <td align="left">🌐 <strong>Full-Stack</strong></td>
@@ -485,5 +485,5 @@ Intel AI 竞赛 · AI+威胁检测<br/>
 ---
 
 <div align="center">
-<sub>🤖 本 README 通过 GitHub Actions 自动更新 | 最后更新: 2026-07-14 02:07:57 UTC</sub>
+<sub>🤖 本 README 通过 GitHub Actions 自动更新 | 最后更新: 2026-07-15 02:05:28 UTC</sub>
 </div>

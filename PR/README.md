@@ -4,8 +4,8 @@ Merged Pull Requests across open source projects.
 
 ## Summary
 
-- **Total Merged PRs**: 11
-- **Projects**: 6
+- **Total Merged PRs**: 13
+- **Projects**: 7
 
 ## PR List
 
@@ -16,6 +16,8 @@ Merged Pull Requests across open source projects.
 | [hiyouga/LlamaFactory](https://github.com/hiyouga/LlamaFactory) | [#10626](https://github.com/hiyouga/LlamaFactory/pull/10626) | docs: improve getting started guide with comprehensive content | 2026-07-08 |
 | [huggingface/peft](https://github.com/huggingface/peft) | [#3396](https://github.com/huggingface/peft/pull/3396) | fix: remove dead code in LoRA get_delta_weight and fix unsafe merge dtype inconsistency | 2026-07-08 |
 | [huggingface/peft](https://github.com/huggingface/peft) | [#3392](https://github.com/huggingface/peft/pull/3392) | docs: fix missing torch import and variable name in README examples | 2026-07-06 |
+| [lxcxjxhx/lxcxjxhx](https://github.com/lxcxjxhx/lxcxjxhx) | [#3](https://github.com/lxcxjxhx/lxcxjxhx/pull/3) | YOLO Test PR | 2026-07-14 |
+| [lxcxjxhx/lxcxjxhx](https://github.com/lxcxjxhx/lxcxjxhx) | [#2](https://github.com/lxcxjxhx/lxcxjxhx/pull/2) | 测试空PR | 2026-07-14 |
 | [slimm609/checksec](https://github.com/slimm609/checksec) | [#349](https://github.com/slimm609/checksec/pull/349) | Fix: handle value 2 for kernel.unprivileged_bpf_disabled (Issue #347) | 2026-07-09 |
 | [vanhauser-thc/thc-hydra](https://github.com/vanhauser-thc/thc-hydra) | [#1092](https://github.com/vanhauser-thc/thc-hydra/pull/1092) | security: fix buffer overflows in IMAP and SNMP handlers | 2026-07-11 |
 | [vanhauser-thc/thc-hydra](https://github.com/vanhauser-thc/thc-hydra) | [#1091](https://github.com/vanhauser-thc/thc-hydra/pull/1091) | fix: memory leaks in authentication error paths | 2026-07-11 |
@@ -39,7 +41,7 @@ PR/
 
 Updated daily via GitHub Actions at UTC 00:00.
 
-Last updated: 2026-07-14 02:07:54 UTC
+Last updated: 2026-07-15 02:05:26 UTC
 
 ---
 
