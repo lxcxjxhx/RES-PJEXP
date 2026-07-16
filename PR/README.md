@@ -4,8 +4,8 @@ Merged Pull Requests across open source projects.
 
 ## Summary
 
-- **Total Merged PRs**: 13
-- **Projects**: 7
+- **Total Merged PRs**: 14
+- **Projects**: 8
 
 ## PR List
 
@@ -19,6 +19,7 @@ Merged Pull Requests across open source projects.
 | [lxcxjxhx/lxcxjxhx](https://github.com/lxcxjxhx/lxcxjxhx) | [#3](https://github.com/lxcxjxhx/lxcxjxhx/pull/3) | YOLO Test PR | 2026-07-14 |
 | [lxcxjxhx/lxcxjxhx](https://github.com/lxcxjxhx/lxcxjxhx) | [#2](https://github.com/lxcxjxhx/lxcxjxhx/pull/2) | 测试空PR | 2026-07-14 |
 | [slimm609/checksec](https://github.com/slimm609/checksec) | [#349](https://github.com/slimm609/checksec/pull/349) | Fix: handle value 2 for kernel.unprivileged_bpf_disabled (Issue #347) | 2026-07-09 |
+| [unslothai/unsloth](https://github.com/unslothai/unsloth) | [#7138](https://github.com/unslothai/unsloth/pull/7138) | Fix bare except clauses and remove duplicate MAX_FUSED_SIZE definition | 2026-07-15 |
 | [vanhauser-thc/thc-hydra](https://github.com/vanhauser-thc/thc-hydra) | [#1092](https://github.com/vanhauser-thc/thc-hydra/pull/1092) | security: fix buffer overflows in IMAP and SNMP handlers | 2026-07-11 |
 | [vanhauser-thc/thc-hydra](https://github.com/vanhauser-thc/thc-hydra) | [#1091](https://github.com/vanhauser-thc/thc-hydra/pull/1091) | fix: memory leaks in authentication error paths | 2026-07-11 |
 | [vanhauser-thc/thc-hydra](https://github.com/vanhauser-thc/thc-hydra) | [#1088](https://github.com/vanhauser-thc/thc-hydra/pull/1088) | Fix file handle leaks in hydra.c | 2026-07-07 |
@@ -41,7 +42,7 @@ PR/
 
 Updated daily via GitHub Actions at UTC 00:00.
 
-Last updated: 2026-07-15 02:05:26 UTC
+Last updated: 2026-07-16 02:14:24 UTC
 
 ---
 
