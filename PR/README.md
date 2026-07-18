@@ -4,7 +4,7 @@ Merged Pull Requests across open source projects.
 
 ## Summary
 
-- **Total Merged PRs**: 15
+- **Total Merged PRs**: 16
 - **Projects**: 9
 
 ## PR List
@@ -21,6 +21,7 @@ Merged Pull Requests across open source projects.
 | [openvinotoolkit/openvino](https://github.com/openvinotoolkit/openvino) | [#36859](https://github.com/openvinotoolkit/openvino/pull/36859) | Fix resource leak in test_read_model_from_tensor | 2026-07-16 |
 | [slimm609/checksec](https://github.com/slimm609/checksec) | [#349](https://github.com/slimm609/checksec/pull/349) | Fix: handle value 2 for kernel.unprivileged_bpf_disabled (Issue #347) | 2026-07-09 |
 | [unslothai/unsloth](https://github.com/unslothai/unsloth) | [#7138](https://github.com/unslothai/unsloth/pull/7138) | Fix bare except clauses and remove duplicate MAX_FUSED_SIZE definition | 2026-07-15 |
+| [vanhauser-thc/thc-hydra](https://github.com/vanhauser-thc/thc-hydra) | [#1095](https://github.com/vanhauser-thc/thc-hydra/pull/1095) | Fix NULL pointer dereference in stringify_headers() error path | 2026-07-17 |
 | [vanhauser-thc/thc-hydra](https://github.com/vanhauser-thc/thc-hydra) | [#1092](https://github.com/vanhauser-thc/thc-hydra/pull/1092) | security: fix buffer overflows in IMAP and SNMP handlers | 2026-07-11 |
 | [vanhauser-thc/thc-hydra](https://github.com/vanhauser-thc/thc-hydra) | [#1091](https://github.com/vanhauser-thc/thc-hydra/pull/1091) | fix: memory leaks in authentication error paths | 2026-07-11 |
 | [vanhauser-thc/thc-hydra](https://github.com/vanhauser-thc/thc-hydra) | [#1088](https://github.com/vanhauser-thc/thc-hydra/pull/1088) | Fix file handle leaks in hydra.c | 2026-07-07 |
@@ -43,7 +44,7 @@ PR/
 
 Updated daily via GitHub Actions at UTC 00:00.
 
-Last updated: 2026-07-17 02:22:45 UTC
+Last updated: 2026-07-18 02:06:48 UTC
 
 ---
 
