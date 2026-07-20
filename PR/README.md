@@ -4,8 +4,8 @@ Merged Pull Requests across open source projects.
 
 ## Summary
 
-- **Total Merged PRs**: 16
-- **Projects**: 9
+- **Total Merged PRs**: 17
+- **Projects**: 10
 
 ## PR List
 
@@ -16,6 +16,7 @@ Merged Pull Requests across open source projects.
 | [hiyouga/LlamaFactory](https://github.com/hiyouga/LlamaFactory) | [#10626](https://github.com/hiyouga/LlamaFactory/pull/10626) | docs: improve getting started guide with comprehensive content | 2026-07-08 |
 | [huggingface/peft](https://github.com/huggingface/peft) | [#3396](https://github.com/huggingface/peft/pull/3396) | fix: remove dead code in LoRA get_delta_weight and fix unsafe merge dtype inconsistency | 2026-07-08 |
 | [huggingface/peft](https://github.com/huggingface/peft) | [#3392](https://github.com/huggingface/peft/pull/3392) | docs: fix missing torch import and variable name in README examples | 2026-07-06 |
+| [intel/neural-compressor](https://github.com/intel/neural-compressor) | [#2526](https://github.com/intel/neural-compressor/pull/2526) | fix: use context managers for file I/O to prevent resource leaks | 2026-07-20 |
 | [lxcxjxhx/lxcxjxhx](https://github.com/lxcxjxhx/lxcxjxhx) | [#3](https://github.com/lxcxjxhx/lxcxjxhx/pull/3) | YOLO Test PR | 2026-07-14 |
 | [lxcxjxhx/lxcxjxhx](https://github.com/lxcxjxhx/lxcxjxhx) | [#2](https://github.com/lxcxjxhx/lxcxjxhx/pull/2) | 测试空PR | 2026-07-14 |
 | [openvinotoolkit/openvino](https://github.com/openvinotoolkit/openvino) | [#36859](https://github.com/openvinotoolkit/openvino/pull/36859) | Fix resource leak in test_read_model_from_tensor | 2026-07-16 |
@@ -44,7 +45,7 @@ PR/
 
 Updated daily via GitHub Actions at UTC 00:00.
 
-Last updated: 2026-07-19 02:24:06 UTC
+Last updated: 2026-07-20 02:39:34 UTC
 
 ---
 
