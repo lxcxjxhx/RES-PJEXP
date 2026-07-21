@@ -4,14 +4,17 @@ Merged Pull Requests across open source projects.
 
 ## Summary
 
-- **Total Merged PRs**: 17
-- **Projects**: 10
+- **Total Merged PRs**: 20
+- **Projects**: 11
 
 ## PR List
 
 | Repository | PR | Title | Merged |
 |------------|-----|-------|--------|
 | [GH05TCREW/pentestagent](https://github.com/GH05TCREW/pentestagent) | [#82](https://github.com/GH05TCREW/pentestagent/pull/82) | fix: add parameter validation for timeout and max_retries | 2026-07-07 |
+| [MoonNightSkytoyou/excel-masking-tool](https://github.com/MoonNightSkytoyou/excel-masking-tool) | [#2](https://github.com/MoonNightSkytoyou/excel-masking-tool/pull/2) | refactor: 提取翻译/配置常量、清理依赖、启用严格模式并添加错误边界 | 2026-07-20 |
+| [MoonNightSkytoyou/excel-masking-tool](https://github.com/MoonNightSkytoyou/excel-masking-tool) | [#1](https://github.com/MoonNightSkytoyou/excel-masking-tool/pull/1) | fix: 修复内存泄漏、无效CSS类名、重复常量及文件验证问题 | 2026-07-20 |
+| [MoonNightSkytoyou/excel-masking-tool](https://github.com/MoonNightSkytoyou/excel-masking-tool) | [#3](https://github.com/MoonNightSkytoyou/excel-masking-tool/pull/3) | perf: 优化性能、修复 SHA-256 Int32Array 问题与列索引算法 | 2026-07-20 |
 | [axolotl-ai-cloud/axolotl](https://github.com/axolotl-ai-cloud/axolotl) | [#3802](https://github.com/axolotl-ai-cloud/axolotl/pull/3802) | fix: improve validation error for jinja chat template | 2026-07-07 |
 | [hiyouga/LlamaFactory](https://github.com/hiyouga/LlamaFactory) | [#10626](https://github.com/hiyouga/LlamaFactory/pull/10626) | docs: improve getting started guide with comprehensive content | 2026-07-08 |
 | [huggingface/peft](https://github.com/huggingface/peft) | [#3396](https://github.com/huggingface/peft/pull/3396) | fix: remove dead code in LoRA get_delta_weight and fix unsafe merge dtype inconsistency | 2026-07-08 |
@@ -45,7 +48,7 @@ PR/
 
 Updated daily via GitHub Actions at UTC 00:00.
 
-Last updated: 2026-07-20 02:39:34 UTC
+Last updated: 2026-07-21 02:23:50 UTC
 
 ---
 
