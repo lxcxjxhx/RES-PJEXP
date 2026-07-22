@@ -4,8 +4,8 @@ Merged Pull Requests across open source projects.
 
 ## Summary
 
-- **Total Merged PRs**: 20
-- **Projects**: 11
+- **Total Merged PRs**: 23
+- **Projects**: 13
 
 ## PR List
 
@@ -20,6 +20,9 @@ Merged Pull Requests across open source projects.
 | [huggingface/peft](https://github.com/huggingface/peft) | [#3396](https://github.com/huggingface/peft/pull/3396) | fix: remove dead code in LoRA get_delta_weight and fix unsafe merge dtype inconsistency | 2026-07-08 |
 | [huggingface/peft](https://github.com/huggingface/peft) | [#3392](https://github.com/huggingface/peft/pull/3392) | docs: fix missing torch import and variable name in README examples | 2026-07-06 |
 | [intel/neural-compressor](https://github.com/intel/neural-compressor) | [#2526](https://github.com/intel/neural-compressor/pull/2526) | fix: use context managers for file I/O to prevent resource leaks | 2026-07-20 |
+| [lxcxjxhx/HOS-Model-Optimizer](https://github.com/lxcxjxhx/HOS-Model-Optimizer) | [#1](https://github.com/lxcxjxhx/HOS-Model-Optimizer/pull/1) | 代码质量优化与 Bug 修复（第 1 轮） | 2026-07-21 |
+| [lxcxjxhx/HOS_SKILL_WORKFLOW](https://github.com/lxcxjxhx/HOS_SKILL_WORKFLOW) | [#2](https://github.com/lxcxjxhx/HOS_SKILL_WORKFLOW/pull/2) | docs: optimize README with accurate module descriptions and structure | 2026-07-21 |
+| [lxcxjxhx/HOS_SKILL_WORKFLOW](https://github.com/lxcxjxhx/HOS_SKILL_WORKFLOW) | [#1](https://github.com/lxcxjxhx/HOS_SKILL_WORKFLOW/pull/1) | feat: add HOS-IP-Writing skill system for intellectual property writing | 2026-07-21 |
 | [lxcxjxhx/lxcxjxhx](https://github.com/lxcxjxhx/lxcxjxhx) | [#3](https://github.com/lxcxjxhx/lxcxjxhx/pull/3) | YOLO Test PR | 2026-07-14 |
 | [lxcxjxhx/lxcxjxhx](https://github.com/lxcxjxhx/lxcxjxhx) | [#2](https://github.com/lxcxjxhx/lxcxjxhx/pull/2) | 测试空PR | 2026-07-14 |
 | [openvinotoolkit/openvino](https://github.com/openvinotoolkit/openvino) | [#36859](https://github.com/openvinotoolkit/openvino/pull/36859) | Fix resource leak in test_read_model_from_tensor | 2026-07-16 |
@@ -48,7 +51,7 @@ PR/
 
 Updated daily via GitHub Actions at UTC 00:00.
 
-Last updated: 2026-07-21 02:23:50 UTC
+Last updated: 2026-07-22 02:21:48 UTC
 
 ---
 
