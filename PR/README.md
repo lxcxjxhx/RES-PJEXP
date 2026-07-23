@@ -4,7 +4,7 @@ Merged Pull Requests across open source projects.
 
 ## Summary
 
-- **Total Merged PRs**: 23
+- **Total Merged PRs**: 24
 - **Projects**: 13
 
 ## PR List
@@ -17,6 +17,7 @@ Merged Pull Requests across open source projects.
 | [MoonNightSkytoyou/excel-masking-tool](https://github.com/MoonNightSkytoyou/excel-masking-tool) | [#3](https://github.com/MoonNightSkytoyou/excel-masking-tool/pull/3) | perf: 优化性能、修复 SHA-256 Int32Array 问题与列索引算法 | 2026-07-20 |
 | [axolotl-ai-cloud/axolotl](https://github.com/axolotl-ai-cloud/axolotl) | [#3802](https://github.com/axolotl-ai-cloud/axolotl/pull/3802) | fix: improve validation error for jinja chat template | 2026-07-07 |
 | [hiyouga/LlamaFactory](https://github.com/hiyouga/LlamaFactory) | [#10626](https://github.com/hiyouga/LlamaFactory/pull/10626) | docs: improve getting started guide with comprehensive content | 2026-07-08 |
+| [huggingface/peft](https://github.com/huggingface/peft) | [#3462](https://github.com/huggingface/peft/pull/3462) | fix: replace bare except with except Exception | 2026-07-22 |
 | [huggingface/peft](https://github.com/huggingface/peft) | [#3396](https://github.com/huggingface/peft/pull/3396) | fix: remove dead code in LoRA get_delta_weight and fix unsafe merge dtype inconsistency | 2026-07-08 |
 | [huggingface/peft](https://github.com/huggingface/peft) | [#3392](https://github.com/huggingface/peft/pull/3392) | docs: fix missing torch import and variable name in README examples | 2026-07-06 |
 | [intel/neural-compressor](https://github.com/intel/neural-compressor) | [#2526](https://github.com/intel/neural-compressor/pull/2526) | fix: use context managers for file I/O to prevent resource leaks | 2026-07-20 |
@@ -51,7 +52,7 @@ PR/
 
 Updated daily via GitHub Actions at UTC 00:00.
 
-Last updated: 2026-07-22 02:21:48 UTC
+Last updated: 2026-07-23 02:26:43 UTC
 
 ---
 
