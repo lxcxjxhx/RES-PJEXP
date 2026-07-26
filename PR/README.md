@@ -4,8 +4,8 @@ Merged Pull Requests across open source projects.
 
 ## Summary
 
-- **Total Merged PRs**: 24
-- **Projects**: 13
+- **Total Merged PRs**: 34
+- **Projects**: 15
 
 ## PR List
 
@@ -21,12 +21,22 @@ Merged Pull Requests across open source projects.
 | [huggingface/peft](https://github.com/huggingface/peft) | [#3396](https://github.com/huggingface/peft/pull/3396) | fix: remove dead code in LoRA get_delta_weight and fix unsafe merge dtype inconsistency | 2026-07-08 |
 | [huggingface/peft](https://github.com/huggingface/peft) | [#3392](https://github.com/huggingface/peft/pull/3392) | docs: fix missing torch import and variable name in README examples | 2026-07-06 |
 | [intel/neural-compressor](https://github.com/intel/neural-compressor) | [#2526](https://github.com/intel/neural-compressor/pull/2526) | fix: use context managers for file I/O to prevent resource leaks | 2026-07-20 |
+| [lxcxjxhx/HOS-Forge](https://github.com/lxcxjxhx/HOS-Forge) | [#29](https://github.com/lxcxjxhx/HOS-Forge/pull/29) | ci: add unified CI workflow adapted from OpenHands | 2026-07-25 |
+| [lxcxjxhx/HOS-Forge](https://github.com/lxcxjxhx/HOS-Forge) | [#28](https://github.com/lxcxjxhx/HOS-Forge/pull/28) | feat: complete security tools implementation and knowledge vector search | 2026-07-25 |
+| [lxcxjxhx/HOS-Forge](https://github.com/lxcxjxhx/HOS-Forge) | [#19](https://github.com/lxcxjxhx/HOS-Forge/pull/19) | feat(mcp-server): extract hardcoded service names to config.yaml | 2026-07-25 |
+| [lxcxjxhx/HOS-Forge](https://github.com/lxcxjxhx/HOS-Forge) | [#18](https://github.com/lxcxjxhx/HOS-Forge/pull/18) | chore(hosforge): add pyproject.toml and improve code quality | 2026-07-25 |
+| [lxcxjxhx/HOS-Forge](https://github.com/lxcxjxhx/HOS-Forge) | [#17](https://github.com/lxcxjxhx/HOS-Forge/pull/17) | fix: Windows compatibility issues in file encoding and SQLite path | 2026-07-25 |
 | [lxcxjxhx/HOS-Model-Optimizer](https://github.com/lxcxjxhx/HOS-Model-Optimizer) | [#1](https://github.com/lxcxjxhx/HOS-Model-Optimizer/pull/1) | 代码质量优化与 Bug 修复（第 1 轮） | 2026-07-21 |
+| [lxcxjxhx/HOS_SKILL_WORKFLOW](https://github.com/lxcxjxhx/HOS_SKILL_WORKFLOW) | [#7](https://github.com/lxcxjxhx/HOS_SKILL_WORKFLOW/pull/7) | fix: 优化 CI 工作流适配多语言 Monorepo | 2026-07-25 |
+| [lxcxjxhx/HOS_SKILL_WORKFLOW](https://github.com/lxcxjxhx/HOS_SKILL_WORKFLOW) | [#5](https://github.com/lxcxjxhx/HOS_SKILL_WORKFLOW/pull/5) | feat: integrate HOS-QuizMaster as skill for HOS-LIFE-OKR | 2026-07-25 |
 | [lxcxjxhx/HOS_SKILL_WORKFLOW](https://github.com/lxcxjxhx/HOS_SKILL_WORKFLOW) | [#2](https://github.com/lxcxjxhx/HOS_SKILL_WORKFLOW/pull/2) | docs: optimize README with accurate module descriptions and structure | 2026-07-21 |
 | [lxcxjxhx/HOS_SKILL_WORKFLOW](https://github.com/lxcxjxhx/HOS_SKILL_WORKFLOW) | [#1](https://github.com/lxcxjxhx/HOS_SKILL_WORKFLOW/pull/1) | feat: add HOS-IP-Writing skill system for intellectual property writing | 2026-07-21 |
 | [lxcxjxhx/lxcxjxhx](https://github.com/lxcxjxhx/lxcxjxhx) | [#3](https://github.com/lxcxjxhx/lxcxjxhx/pull/3) | YOLO Test PR | 2026-07-14 |
 | [lxcxjxhx/lxcxjxhx](https://github.com/lxcxjxhx/lxcxjxhx) | [#2](https://github.com/lxcxjxhx/lxcxjxhx/pull/2) | 测试空PR | 2026-07-14 |
 | [openvinotoolkit/openvino](https://github.com/openvinotoolkit/openvino) | [#36859](https://github.com/openvinotoolkit/openvino/pull/36859) | Fix resource leak in test_read_model_from_tensor | 2026-07-16 |
+| [qianeric-backup/kind-all](https://github.com/qianeric-backup/kind-all) | [#3](https://github.com/qianeric-backup/kind-all/pull/3) | docs: enhance README with comprehensive framework documentation | 2026-07-25 |
+| [qianeric-backup/kind-all](https://github.com/qianeric-backup/kind-all) | [#4](https://github.com/qianeric-backup/kind-all/pull/4) | fix: improve CLI entry points and documentation accuracy | 2026-07-25 |
+| [qianeric-backup/kind-all](https://github.com/qianeric-backup/kind-all) | [#2](https://github.com/qianeric-backup/kind-all/pull/2) | refactor: transform into pluggable resource automation framework | 2026-07-25 |
 | [slimm609/checksec](https://github.com/slimm609/checksec) | [#349](https://github.com/slimm609/checksec/pull/349) | Fix: handle value 2 for kernel.unprivileged_bpf_disabled (Issue #347) | 2026-07-09 |
 | [unslothai/unsloth](https://github.com/unslothai/unsloth) | [#7138](https://github.com/unslothai/unsloth/pull/7138) | Fix bare except clauses and remove duplicate MAX_FUSED_SIZE definition | 2026-07-15 |
 | [vanhauser-thc/thc-hydra](https://github.com/vanhauser-thc/thc-hydra) | [#1095](https://github.com/vanhauser-thc/thc-hydra/pull/1095) | Fix NULL pointer dereference in stringify_headers() error path | 2026-07-17 |
@@ -52,7 +62,7 @@ PR/
 
 Updated daily via GitHub Actions at UTC 00:00.
 
-Last updated: 2026-07-25 02:22:37 UTC
+Last updated: 2026-07-26 02:28:41 UTC
 
 ---
 
