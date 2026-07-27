@@ -4,7 +4,7 @@ Merged Pull Requests across open source projects.
 
 ## Summary
 
-- **Total Merged PRs**: 34
+- **Total Merged PRs**: 57
 - **Projects**: 15
 
 ## PR List
@@ -27,6 +27,29 @@ Merged Pull Requests across open source projects.
 | [lxcxjxhx/HOS-Forge](https://github.com/lxcxjxhx/HOS-Forge) | [#18](https://github.com/lxcxjxhx/HOS-Forge/pull/18) | chore(hosforge): add pyproject.toml and improve code quality | 2026-07-25 |
 | [lxcxjxhx/HOS-Forge](https://github.com/lxcxjxhx/HOS-Forge) | [#17](https://github.com/lxcxjxhx/HOS-Forge/pull/17) | fix: Windows compatibility issues in file encoding and SQLite path | 2026-07-25 |
 | [lxcxjxhx/HOS-Model-Optimizer](https://github.com/lxcxjxhx/HOS-Model-Optimizer) | [#1](https://github.com/lxcxjxhx/HOS-Model-Optimizer/pull/1) | 代码质量优化与 Bug 修复（第 1 轮） | 2026-07-21 |
+| [lxcxjxhx/HOS_SKILL_WORKFLOW](https://github.com/lxcxjxhx/HOS_SKILL_WORKFLOW) | [#21](https://github.com/lxcxjxhx/HOS_SKILL_WORKFLOW/pull/21) | docs(06-fuck-demo): unify YAML front matter format with standardized fields | 2026-07-27 |
+| [lxcxjxhx/HOS_SKILL_WORKFLOW](https://github.com/lxcxjxhx/HOS_SKILL_WORKFLOW) | [#32](https://github.com/lxcxjxhx/HOS_SKILL_WORKFLOW/pull/32) | docs(300-human-pass): beautify README.md with unified template | 2026-07-27 |
+| [lxcxjxhx/HOS_SKILL_WORKFLOW](https://github.com/lxcxjxhx/HOS_SKILL_WORKFLOW) | [#31](https://github.com/lxcxjxhx/HOS_SKILL_WORKFLOW/pull/31) | docs(100-auto-workflow): beautify README.md with unified template | 2026-07-27 |
+| [lxcxjxhx/HOS_SKILL_WORKFLOW](https://github.com/lxcxjxhx/HOS_SKILL_WORKFLOW) | [#30](https://github.com/lxcxjxhx/HOS_SKILL_WORKFLOW/pull/30) | docs(300-human-pass): add SKILL.md with standardized metadata | 2026-07-27 |
+| [lxcxjxhx/HOS_SKILL_WORKFLOW](https://github.com/lxcxjxhx/HOS_SKILL_WORKFLOW) | [#29](https://github.com/lxcxjxhx/HOS_SKILL_WORKFLOW/pull/29) | docs(100-auto-workflow): add SKILL.md with standardized metadata | 2026-07-27 |
+| [lxcxjxhx/HOS_SKILL_WORKFLOW](https://github.com/lxcxjxhx/HOS_SKILL_WORKFLOW) | [#28](https://github.com/lxcxjxhx/HOS_SKILL_WORKFLOW/pull/28) | docs(101-ai-guardrail): add comprehensive README.md with unified template | 2026-07-27 |
+| [lxcxjxhx/HOS_SKILL_WORKFLOW](https://github.com/lxcxjxhx/HOS_SKILL_WORKFLOW) | [#27](https://github.com/lxcxjxhx/HOS_SKILL_WORKFLOW/pull/27) | docs(07-ip-writing): beautify README.md with unified template | 2026-07-27 |
+| [lxcxjxhx/HOS_SKILL_WORKFLOW](https://github.com/lxcxjxhx/HOS_SKILL_WORKFLOW) | [#25](https://github.com/lxcxjxhx/HOS_SKILL_WORKFLOW/pull/25) | docs(200-json-prompts): beautify README.md with unified template | 2026-07-27 |
+| [lxcxjxhx/HOS_SKILL_WORKFLOW](https://github.com/lxcxjxhx/HOS_SKILL_WORKFLOW) | [#24](https://github.com/lxcxjxhx/HOS_SKILL_WORKFLOW/pull/24) | docs(200-json-prompts): add SKILL.md with standardized metadata | 2026-07-27 |
+| [lxcxjxhx/HOS_SKILL_WORKFLOW](https://github.com/lxcxjxhx/HOS_SKILL_WORKFLOW) | [#23](https://github.com/lxcxjxhx/HOS_SKILL_WORKFLOW/pull/23) | docs(09-content-engine): unify SKILL.md YAML front matter format | 2026-07-27 |
+| [lxcxjxhx/HOS_SKILL_WORKFLOW](https://github.com/lxcxjxhx/HOS_SKILL_WORKFLOW) | [#22](https://github.com/lxcxjxhx/HOS_SKILL_WORKFLOW/pull/22) | docs(06-fuck-demo): beautify README.md with unified template | 2026-07-27 |
+| [lxcxjxhx/HOS_SKILL_WORKFLOW](https://github.com/lxcxjxhx/HOS_SKILL_WORKFLOW) | [#20](https://github.com/lxcxjxhx/HOS_SKILL_WORKFLOW/pull/20) | docs(06-fuck-demo): rename skill.md to SKILL.md for AI IDE compatibility | 2026-07-27 |
+| [lxcxjxhx/HOS_SKILL_WORKFLOW](https://github.com/lxcxjxhx/HOS_SKILL_WORKFLOW) | [#19](https://github.com/lxcxjxhx/HOS_SKILL_WORKFLOW/pull/19) | docs(04-silly-mock): unify YAML front matter format and beautify README | 2026-07-27 |
+| [lxcxjxhx/HOS_SKILL_WORKFLOW](https://github.com/lxcxjxhx/HOS_SKILL_WORKFLOW) | [#18](https://github.com/lxcxjxhx/HOS_SKILL_WORKFLOW/pull/18) | docs(05-xrg-loop): add SKILL.md and README.md with standardized format | 2026-07-27 |
+| [lxcxjxhx/HOS_SKILL_WORKFLOW](https://github.com/lxcxjxhx/HOS_SKILL_WORKFLOW) | [#17](https://github.com/lxcxjxhx/HOS_SKILL_WORKFLOW/pull/17) | docs(03-vibe-guard): add YAML front matter to SKILL.md | 2026-07-27 |
+| [lxcxjxhx/HOS_SKILL_WORKFLOW](https://github.com/lxcxjxhx/HOS_SKILL_WORKFLOW) | [#16](https://github.com/lxcxjxhx/HOS_SKILL_WORKFLOW/pull/16) | docs(02-life-okr): add README.md with unified format | 2026-07-27 |
+| [lxcxjxhx/HOS_SKILL_WORKFLOW](https://github.com/lxcxjxhx/HOS_SKILL_WORKFLOW) | [#15](https://github.com/lxcxjxhx/HOS_SKILL_WORKFLOW/pull/15) | docs(01-save-cost): add SKILL.md with standardized metadata | 2026-07-27 |
+| [lxcxjxhx/HOS_SKILL_WORKFLOW](https://github.com/lxcxjxhx/HOS_SKILL_WORKFLOW) | [#14](https://github.com/lxcxjxhx/HOS_SKILL_WORKFLOW/pull/14) | docs(00-sec-engine): add SKILL.md with standardized metadata | 2026-07-27 |
+| [lxcxjxhx/HOS_SKILL_WORKFLOW](https://github.com/lxcxjxhx/HOS_SKILL_WORKFLOW) | [#13](https://github.com/lxcxjxhx/HOS_SKILL_WORKFLOW/pull/13) | feat(08-HOS-Micro-Biz): add full operational docs and visual design assets | 2026-07-27 |
+| [lxcxjxhx/HOS_SKILL_WORKFLOW](https://github.com/lxcxjxhx/HOS_SKILL_WORKFLOW) | [#26](https://github.com/lxcxjxhx/HOS_SKILL_WORKFLOW/pull/26) | docs(07-ip-writing): unify YAML front matter format in SKILL.md | 2026-07-26 |
+| [lxcxjxhx/HOS_SKILL_WORKFLOW](https://github.com/lxcxjxhx/HOS_SKILL_WORKFLOW) | [#12](https://github.com/lxcxjxhx/HOS_SKILL_WORKFLOW/pull/12) | feat: add HOS operations skill suite (09-HOS-Ops-Skills) | 2026-07-26 |
+| [lxcxjxhx/HOS_SKILL_WORKFLOW](https://github.com/lxcxjxhx/HOS_SKILL_WORKFLOW) | [#11](https://github.com/lxcxjxhx/HOS_SKILL_WORKFLOW/pull/11) | refactor: redesign HOS-IP-Writing skill system to v2.0 | 2026-07-26 |
+| [lxcxjxhx/HOS_SKILL_WORKFLOW](https://github.com/lxcxjxhx/HOS_SKILL_WORKFLOW) | [#10](https://github.com/lxcxjxhx/HOS_SKILL_WORKFLOW/pull/10) | feat: add 08-HOS-Micro-Biz skill for micro-business tech service operations | 2026-07-26 |
 | [lxcxjxhx/HOS_SKILL_WORKFLOW](https://github.com/lxcxjxhx/HOS_SKILL_WORKFLOW) | [#7](https://github.com/lxcxjxhx/HOS_SKILL_WORKFLOW/pull/7) | fix: 优化 CI 工作流适配多语言 Monorepo | 2026-07-25 |
 | [lxcxjxhx/HOS_SKILL_WORKFLOW](https://github.com/lxcxjxhx/HOS_SKILL_WORKFLOW) | [#5](https://github.com/lxcxjxhx/HOS_SKILL_WORKFLOW/pull/5) | feat: integrate HOS-QuizMaster as skill for HOS-LIFE-OKR | 2026-07-25 |
 | [lxcxjxhx/HOS_SKILL_WORKFLOW](https://github.com/lxcxjxhx/HOS_SKILL_WORKFLOW) | [#2](https://github.com/lxcxjxhx/HOS_SKILL_WORKFLOW/pull/2) | docs: optimize README with accurate module descriptions and structure | 2026-07-21 |
@@ -62,7 +85,7 @@ PR/
 
 Updated daily via GitHub Actions at UTC 00:00.
 
-Last updated: 2026-07-26 02:28:41 UTC
+Last updated: 2026-07-27 02:36:36 UTC
 
 ---
 
