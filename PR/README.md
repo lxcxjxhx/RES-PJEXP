@@ -4,8 +4,8 @@ Merged Pull Requests across open source projects.
 
 ## Summary
 
-- **Total Merged PRs**: 57
-- **Projects**: 15
+- **Total Merged PRs**: 80
+- **Projects**: 16
 
 ## PR List
 
@@ -21,12 +21,19 @@ Merged Pull Requests across open source projects.
 | [huggingface/peft](https://github.com/huggingface/peft) | [#3396](https://github.com/huggingface/peft/pull/3396) | fix: remove dead code in LoRA get_delta_weight and fix unsafe merge dtype inconsistency | 2026-07-08 |
 | [huggingface/peft](https://github.com/huggingface/peft) | [#3392](https://github.com/huggingface/peft/pull/3392) | docs: fix missing torch import and variable name in README examples | 2026-07-06 |
 | [intel/neural-compressor](https://github.com/intel/neural-compressor) | [#2526](https://github.com/intel/neural-compressor/pull/2526) | fix: use context managers for file I/O to prevent resource leaks | 2026-07-20 |
+| [lxcxjxhx/HOS-Forge](https://github.com/lxcxjxhx/HOS-Forge) | [#34](https://github.com/lxcxjxhx/HOS-Forge/pull/34) | feat(mcp-server): add error handling and startup verification | 2026-07-27 |
+| [lxcxjxhx/HOS-Forge](https://github.com/lxcxjxhx/HOS-Forge) | [#33](https://github.com/lxcxjxhx/HOS-Forge/pull/33) | feat(taskflow): implement executable taskflow engine with parallel execution | 2026-07-27 |
+| [lxcxjxhx/HOS-Forge](https://github.com/lxcxjxhx/HOS-Forge) | [#31](https://github.com/lxcxjxhx/HOS-Forge/pull/31) | feat(cli): fix entry point configuration and add CLI tests | 2026-07-27 |
+| [lxcxjxhx/HOS-Forge](https://github.com/lxcxjxhx/HOS-Forge) | [#36](https://github.com/lxcxjxhx/HOS-Forge/pull/36) | feat: implement TrivyTool and enhance security tools integration | 2026-07-27 |
+| [lxcxjxhx/HOS-Forge](https://github.com/lxcxjxhx/HOS-Forge) | [#35](https://github.com/lxcxjxhx/HOS-Forge/pull/35) | feat: enhance Taskflow Engine with parallel execution support | 2026-07-27 |
+| [lxcxjxhx/HOS-Forge](https://github.com/lxcxjxhx/HOS-Forge) | [#30](https://github.com/lxcxjxhx/HOS-Forge/pull/30) | fix: resolve CI workflow failures | 2026-07-27 |
 | [lxcxjxhx/HOS-Forge](https://github.com/lxcxjxhx/HOS-Forge) | [#29](https://github.com/lxcxjxhx/HOS-Forge/pull/29) | ci: add unified CI workflow adapted from OpenHands | 2026-07-25 |
 | [lxcxjxhx/HOS-Forge](https://github.com/lxcxjxhx/HOS-Forge) | [#28](https://github.com/lxcxjxhx/HOS-Forge/pull/28) | feat: complete security tools implementation and knowledge vector search | 2026-07-25 |
 | [lxcxjxhx/HOS-Forge](https://github.com/lxcxjxhx/HOS-Forge) | [#19](https://github.com/lxcxjxhx/HOS-Forge/pull/19) | feat(mcp-server): extract hardcoded service names to config.yaml | 2026-07-25 |
 | [lxcxjxhx/HOS-Forge](https://github.com/lxcxjxhx/HOS-Forge) | [#18](https://github.com/lxcxjxhx/HOS-Forge/pull/18) | chore(hosforge): add pyproject.toml and improve code quality | 2026-07-25 |
 | [lxcxjxhx/HOS-Forge](https://github.com/lxcxjxhx/HOS-Forge) | [#17](https://github.com/lxcxjxhx/HOS-Forge/pull/17) | fix: Windows compatibility issues in file encoding and SQLite path | 2026-07-25 |
 | [lxcxjxhx/HOS-Model-Optimizer](https://github.com/lxcxjxhx/HOS-Model-Optimizer) | [#1](https://github.com/lxcxjxhx/HOS-Model-Optimizer/pull/1) | 代码质量优化与 Bug 修复（第 1 轮） | 2026-07-21 |
+| [lxcxjxhx/HOS_SKILL_WORKFLOW](https://github.com/lxcxjxhx/HOS_SKILL_WORKFLOW) | [#34](https://github.com/lxcxjxhx/HOS_SKILL_WORKFLOW/pull/34) | feat: add 09-HOS-Content-Engine — 4D content model for AI Security Lab | 2026-07-27 |
 | [lxcxjxhx/HOS_SKILL_WORKFLOW](https://github.com/lxcxjxhx/HOS_SKILL_WORKFLOW) | [#21](https://github.com/lxcxjxhx/HOS_SKILL_WORKFLOW/pull/21) | docs(06-fuck-demo): unify YAML front matter format with standardized fields | 2026-07-27 |
 | [lxcxjxhx/HOS_SKILL_WORKFLOW](https://github.com/lxcxjxhx/HOS_SKILL_WORKFLOW) | [#32](https://github.com/lxcxjxhx/HOS_SKILL_WORKFLOW/pull/32) | docs(300-human-pass): beautify README.md with unified template | 2026-07-27 |
 | [lxcxjxhx/HOS_SKILL_WORKFLOW](https://github.com/lxcxjxhx/HOS_SKILL_WORKFLOW) | [#31](https://github.com/lxcxjxhx/HOS_SKILL_WORKFLOW/pull/31) | docs(100-auto-workflow): beautify README.md with unified template | 2026-07-27 |
@@ -54,9 +61,25 @@ Merged Pull Requests across open source projects.
 | [lxcxjxhx/HOS_SKILL_WORKFLOW](https://github.com/lxcxjxhx/HOS_SKILL_WORKFLOW) | [#5](https://github.com/lxcxjxhx/HOS_SKILL_WORKFLOW/pull/5) | feat: integrate HOS-QuizMaster as skill for HOS-LIFE-OKR | 2026-07-25 |
 | [lxcxjxhx/HOS_SKILL_WORKFLOW](https://github.com/lxcxjxhx/HOS_SKILL_WORKFLOW) | [#2](https://github.com/lxcxjxhx/HOS_SKILL_WORKFLOW/pull/2) | docs: optimize README with accurate module descriptions and structure | 2026-07-21 |
 | [lxcxjxhx/HOS_SKILL_WORKFLOW](https://github.com/lxcxjxhx/HOS_SKILL_WORKFLOW) | [#1](https://github.com/lxcxjxhx/HOS_SKILL_WORKFLOW/pull/1) | feat: add HOS-IP-Writing skill system for intellectual property writing | 2026-07-21 |
+| [lxcxjxhx/Video-Operations-skill](https://github.com/lxcxjxhx/Video-Operations-skill) | [#14](https://github.com/lxcxjxhx/Video-Operations-skill/pull/14) | feat: implement SmartClipper with highlight detection | 2026-07-27 |
+| [lxcxjxhx/Video-Operations-skill](https://github.com/lxcxjxhx/Video-Operations-skill) | [#18](https://github.com/lxcxjxhx/Video-Operations-skill/pull/18) | feat: implement WorkflowEngine for video processing pipelines | 2026-07-27 |
+| [lxcxjxhx/Video-Operations-skill](https://github.com/lxcxjxhx/Video-Operations-skill) | [#11](https://github.com/lxcxjxhx/Video-Operations-skill/pull/11) | feat: implement SubtitleGenerator with Whisper integration | 2026-07-27 |
+| [lxcxjxhx/Video-Operations-skill](https://github.com/lxcxjxhx/Video-Operations-skill) | [#9](https://github.com/lxcxjxhx/Video-Operations-skill/pull/9) | feat: implement VideoProcessor with clip, transcode, merge, and extract | 2026-07-27 |
+| [lxcxjxhx/Video-Operations-skill](https://github.com/lxcxjxhx/Video-Operations-skill) | [#7](https://github.com/lxcxjxhx/Video-Operations-skill/pull/7) | feat: implement FFmpeg adapter with async execution and progress callbacks | 2026-07-27 |
+| [lxcxjxhx/Video-Operations-skill](https://github.com/lxcxjxhx/Video-Operations-skill) | [#5](https://github.com/lxcxjxhx/Video-Operations-skill/pull/5) | feat: implement SceneDetector with frame difference analysis | 2026-07-27 |
+| [lxcxjxhx/Video-Operations-skill](https://github.com/lxcxjxhx/Video-Operations-skill) | [#1](https://github.com/lxcxjxhx/Video-Operations-skill/pull/1) | feat: initialize project structure with core data models | 2026-07-27 |
 | [lxcxjxhx/lxcxjxhx](https://github.com/lxcxjxhx/lxcxjxhx) | [#3](https://github.com/lxcxjxhx/lxcxjxhx/pull/3) | YOLO Test PR | 2026-07-14 |
 | [lxcxjxhx/lxcxjxhx](https://github.com/lxcxjxhx/lxcxjxhx) | [#2](https://github.com/lxcxjxhx/lxcxjxhx/pull/2) | 测试空PR | 2026-07-14 |
 | [openvinotoolkit/openvino](https://github.com/openvinotoolkit/openvino) | [#36859](https://github.com/openvinotoolkit/openvino/pull/36859) | Fix resource leak in test_read_model_from_tensor | 2026-07-16 |
+| [qianeric-backup/kind-all](https://github.com/qianeric-backup/kind-all) | [#9](https://github.com/qianeric-backup/kind-all/pull/9) | fix: raise TimeoutError when next delay exceeds timeout in RetryEngine | 2026-07-27 |
+| [qianeric-backup/kind-all](https://github.com/qianeric-backup/kind-all) | [#23](https://github.com/qianeric-backup/kind-all/pull/23) | feat: enhance Payment Gate with multi-layer detection and security hardening | 2026-07-27 |
+| [qianeric-backup/kind-all](https://github.com/qianeric-backup/kind-all) | [#15](https://github.com/qianeric-backup/kind-all/pull/15) | feat: enhance EventBus with async error handling, timeouts, and priorities | 2026-07-27 |
+| [qianeric-backup/kind-all](https://github.com/qianeric-backup/kind-all) | [#13](https://github.com/qianeric-backup/kind-all/pull/13) | refactor: extract state transition rules and add lifecycle hooks | 2026-07-27 |
+| [qianeric-backup/kind-all](https://github.com/qianeric-backup/kind-all) | [#11](https://github.com/qianeric-backup/kind-all/pull/11) | feat: add connection pool management and health checks to HTTPAdapter | 2026-07-27 |
+| [qianeric-backup/kind-all](https://github.com/qianeric-backup/kind-all) | [#17](https://github.com/qianeric-backup/kind-all/pull/17) | fix: improve scheduler accuracy with monotonic clock and drift compensation | 2026-07-27 |
+| [qianeric-backup/kind-all](https://github.com/qianeric-backup/kind-all) | [#19](https://github.com/qianeric-backup/kind-all/pull/19) | feat: add transaction support and concurrency control to SQLite storage | 2026-07-27 |
+| [qianeric-backup/kind-all](https://github.com/qianeric-backup/kind-all) | [#7](https://github.com/qianeric-backup/kind-all/pull/7) | fix: correct HoldController initial state to prevent false positive is_holding | 2026-07-27 |
+| [qianeric-backup/kind-all](https://github.com/qianeric-backup/kind-all) | [#21](https://github.com/qianeric-backup/kind-all/pull/21) | perf: optimize AI Vision Solver with caching and batching | 2026-07-27 |
 | [qianeric-backup/kind-all](https://github.com/qianeric-backup/kind-all) | [#3](https://github.com/qianeric-backup/kind-all/pull/3) | docs: enhance README with comprehensive framework documentation | 2026-07-25 |
 | [qianeric-backup/kind-all](https://github.com/qianeric-backup/kind-all) | [#4](https://github.com/qianeric-backup/kind-all/pull/4) | fix: improve CLI entry points and documentation accuracy | 2026-07-25 |
 | [qianeric-backup/kind-all](https://github.com/qianeric-backup/kind-all) | [#2](https://github.com/qianeric-backup/kind-all/pull/2) | refactor: transform into pluggable resource automation framework | 2026-07-25 |
@@ -85,7 +108,7 @@ PR/
 
 Updated daily via GitHub Actions at UTC 00:00.
 
-Last updated: 2026-07-27 02:36:36 UTC
+Last updated: 2026-07-28 02:11:13 UTC
 
 ---
 
