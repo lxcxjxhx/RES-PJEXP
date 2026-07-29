@@ -4,8 +4,8 @@ Merged Pull Requests across open source projects.
 
 ## Summary
 
-- **Total Merged PRs**: 80
-- **Projects**: 16
+- **Total Merged PRs**: 77
+- **Projects**: 15
 
 ## PR List
 
@@ -21,6 +21,10 @@ Merged Pull Requests across open source projects.
 | [huggingface/peft](https://github.com/huggingface/peft) | [#3396](https://github.com/huggingface/peft/pull/3396) | fix: remove dead code in LoRA get_delta_weight and fix unsafe merge dtype inconsistency | 2026-07-08 |
 | [huggingface/peft](https://github.com/huggingface/peft) | [#3392](https://github.com/huggingface/peft/pull/3392) | docs: fix missing torch import and variable name in README examples | 2026-07-06 |
 | [intel/neural-compressor](https://github.com/intel/neural-compressor) | [#2526](https://github.com/intel/neural-compressor/pull/2526) | fix: use context managers for file I/O to prevent resource leaks | 2026-07-20 |
+| [lxcxjxhx/HOS-Forge](https://github.com/lxcxjxhx/HOS-Forge) | [#41](https://github.com/lxcxjxhx/HOS-Forge/pull/41) | test: add integration tests for IDE adapters and CLI | 2026-07-29 |
+| [lxcxjxhx/HOS-Forge](https://github.com/lxcxjxhx/HOS-Forge) | [#40](https://github.com/lxcxjxhx/HOS-Forge/pull/40) | docs: enhance documentation with API reference and guides | 2026-07-28 |
+| [lxcxjxhx/HOS-Forge](https://github.com/lxcxjxhx/HOS-Forge) | [#39](https://github.com/lxcxjxhx/HOS-Forge/pull/39) | test: add integration tests for skill system and MCP server | 2026-07-28 |
+| [lxcxjxhx/HOS-Forge](https://github.com/lxcxjxhx/HOS-Forge) | [#38](https://github.com/lxcxjxhx/HOS-Forge/pull/38) | refactor: restructure to IDE-agnostic skill+plugin architecture | 2026-07-28 |
 | [lxcxjxhx/HOS-Forge](https://github.com/lxcxjxhx/HOS-Forge) | [#34](https://github.com/lxcxjxhx/HOS-Forge/pull/34) | feat(mcp-server): add error handling and startup verification | 2026-07-27 |
 | [lxcxjxhx/HOS-Forge](https://github.com/lxcxjxhx/HOS-Forge) | [#33](https://github.com/lxcxjxhx/HOS-Forge/pull/33) | feat(taskflow): implement executable taskflow engine with parallel execution | 2026-07-27 |
 | [lxcxjxhx/HOS-Forge](https://github.com/lxcxjxhx/HOS-Forge) | [#31](https://github.com/lxcxjxhx/HOS-Forge/pull/31) | feat(cli): fix entry point configuration and add CLI tests | 2026-07-27 |
@@ -61,13 +65,6 @@ Merged Pull Requests across open source projects.
 | [lxcxjxhx/HOS_SKILL_WORKFLOW](https://github.com/lxcxjxhx/HOS_SKILL_WORKFLOW) | [#5](https://github.com/lxcxjxhx/HOS_SKILL_WORKFLOW/pull/5) | feat: integrate HOS-QuizMaster as skill for HOS-LIFE-OKR | 2026-07-25 |
 | [lxcxjxhx/HOS_SKILL_WORKFLOW](https://github.com/lxcxjxhx/HOS_SKILL_WORKFLOW) | [#2](https://github.com/lxcxjxhx/HOS_SKILL_WORKFLOW/pull/2) | docs: optimize README with accurate module descriptions and structure | 2026-07-21 |
 | [lxcxjxhx/HOS_SKILL_WORKFLOW](https://github.com/lxcxjxhx/HOS_SKILL_WORKFLOW) | [#1](https://github.com/lxcxjxhx/HOS_SKILL_WORKFLOW/pull/1) | feat: add HOS-IP-Writing skill system for intellectual property writing | 2026-07-21 |
-| [lxcxjxhx/Video-Operations-skill](https://github.com/lxcxjxhx/Video-Operations-skill) | [#14](https://github.com/lxcxjxhx/Video-Operations-skill/pull/14) | feat: implement SmartClipper with highlight detection | 2026-07-27 |
-| [lxcxjxhx/Video-Operations-skill](https://github.com/lxcxjxhx/Video-Operations-skill) | [#18](https://github.com/lxcxjxhx/Video-Operations-skill/pull/18) | feat: implement WorkflowEngine for video processing pipelines | 2026-07-27 |
-| [lxcxjxhx/Video-Operations-skill](https://github.com/lxcxjxhx/Video-Operations-skill) | [#11](https://github.com/lxcxjxhx/Video-Operations-skill/pull/11) | feat: implement SubtitleGenerator with Whisper integration | 2026-07-27 |
-| [lxcxjxhx/Video-Operations-skill](https://github.com/lxcxjxhx/Video-Operations-skill) | [#9](https://github.com/lxcxjxhx/Video-Operations-skill/pull/9) | feat: implement VideoProcessor with clip, transcode, merge, and extract | 2026-07-27 |
-| [lxcxjxhx/Video-Operations-skill](https://github.com/lxcxjxhx/Video-Operations-skill) | [#7](https://github.com/lxcxjxhx/Video-Operations-skill/pull/7) | feat: implement FFmpeg adapter with async execution and progress callbacks | 2026-07-27 |
-| [lxcxjxhx/Video-Operations-skill](https://github.com/lxcxjxhx/Video-Operations-skill) | [#5](https://github.com/lxcxjxhx/Video-Operations-skill/pull/5) | feat: implement SceneDetector with frame difference analysis | 2026-07-27 |
-| [lxcxjxhx/Video-Operations-skill](https://github.com/lxcxjxhx/Video-Operations-skill) | [#1](https://github.com/lxcxjxhx/Video-Operations-skill/pull/1) | feat: initialize project structure with core data models | 2026-07-27 |
 | [lxcxjxhx/lxcxjxhx](https://github.com/lxcxjxhx/lxcxjxhx) | [#3](https://github.com/lxcxjxhx/lxcxjxhx/pull/3) | YOLO Test PR | 2026-07-14 |
 | [lxcxjxhx/lxcxjxhx](https://github.com/lxcxjxhx/lxcxjxhx) | [#2](https://github.com/lxcxjxhx/lxcxjxhx/pull/2) | 测试空PR | 2026-07-14 |
 | [openvinotoolkit/openvino](https://github.com/openvinotoolkit/openvino) | [#36859](https://github.com/openvinotoolkit/openvino/pull/36859) | Fix resource leak in test_read_model_from_tensor | 2026-07-16 |
@@ -108,7 +105,7 @@ PR/
 
 Updated daily via GitHub Actions at UTC 00:00.
 
-Last updated: 2026-07-28 02:11:13 UTC
+Last updated: 2026-07-29 02:15:19 UTC
 
 ---
 
