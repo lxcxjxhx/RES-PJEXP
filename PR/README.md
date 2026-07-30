@@ -4,13 +4,15 @@ Merged Pull Requests across open source projects.
 
 ## Summary
 
-- **Total Merged PRs**: 77
-- **Projects**: 15
+- **Total Merged PRs**: 84
+- **Projects**: 17
 
 ## PR List
 
 | Repository | PR | Title | Merged |
 |------------|-----|-------|--------|
+| [Bearer/bearer](https://github.com/Bearer/bearer) | [#2007](https://github.com/Bearer/bearer/pull/2007) | fix: use %w for error wrapping in scan command | 2026-07-29 |
+| [DefectDojo/django-DefectDojo](https://github.com/DefectDojo/django-DefectDojo) | [#15391](https://github.com/DefectDojo/django-DefectDojo/pull/15391) | fix: add missing return after exception in GitHub issue handlers | 2026-07-29 |
 | [GH05TCREW/pentestagent](https://github.com/GH05TCREW/pentestagent) | [#82](https://github.com/GH05TCREW/pentestagent/pull/82) | fix: add parameter validation for timeout and max_retries | 2026-07-07 |
 | [MoonNightSkytoyou/excel-masking-tool](https://github.com/MoonNightSkytoyou/excel-masking-tool) | [#2](https://github.com/MoonNightSkytoyou/excel-masking-tool/pull/2) | refactor: 提取翻译/配置常量、清理依赖、启用严格模式并添加错误边界 | 2026-07-20 |
 | [MoonNightSkytoyou/excel-masking-tool](https://github.com/MoonNightSkytoyou/excel-masking-tool) | [#1](https://github.com/MoonNightSkytoyou/excel-masking-tool/pull/1) | fix: 修复内存泄漏、无效CSS类名、重复常量及文件验证问题 | 2026-07-20 |
@@ -21,6 +23,8 @@ Merged Pull Requests across open source projects.
 | [huggingface/peft](https://github.com/huggingface/peft) | [#3396](https://github.com/huggingface/peft/pull/3396) | fix: remove dead code in LoRA get_delta_weight and fix unsafe merge dtype inconsistency | 2026-07-08 |
 | [huggingface/peft](https://github.com/huggingface/peft) | [#3392](https://github.com/huggingface/peft/pull/3392) | docs: fix missing torch import and variable name in README examples | 2026-07-06 |
 | [intel/neural-compressor](https://github.com/intel/neural-compressor) | [#2526](https://github.com/intel/neural-compressor/pull/2526) | fix: use context managers for file I/O to prevent resource leaks | 2026-07-20 |
+| [lxcxjxhx/HOS-Forge](https://github.com/lxcxjxhx/HOS-Forge) | [#43](https://github.com/lxcxjxhx/HOS-Forge/pull/43) | feat: implement real marketplace backend, skill init toolchain, sandbox execution, and performance optimization | 2026-07-29 |
+| [lxcxjxhx/HOS-Forge](https://github.com/lxcxjxhx/HOS-Forge) | [#42](https://github.com/lxcxjxhx/HOS-Forge/pull/42) | test: add security isolation tests for skill execution | 2026-07-29 |
 | [lxcxjxhx/HOS-Forge](https://github.com/lxcxjxhx/HOS-Forge) | [#41](https://github.com/lxcxjxhx/HOS-Forge/pull/41) | test: add integration tests for IDE adapters and CLI | 2026-07-29 |
 | [lxcxjxhx/HOS-Forge](https://github.com/lxcxjxhx/HOS-Forge) | [#40](https://github.com/lxcxjxhx/HOS-Forge/pull/40) | docs: enhance documentation with API reference and guides | 2026-07-28 |
 | [lxcxjxhx/HOS-Forge](https://github.com/lxcxjxhx/HOS-Forge) | [#39](https://github.com/lxcxjxhx/HOS-Forge/pull/39) | test: add integration tests for skill system and MCP server | 2026-07-28 |
@@ -37,6 +41,9 @@ Merged Pull Requests across open source projects.
 | [lxcxjxhx/HOS-Forge](https://github.com/lxcxjxhx/HOS-Forge) | [#18](https://github.com/lxcxjxhx/HOS-Forge/pull/18) | chore(hosforge): add pyproject.toml and improve code quality | 2026-07-25 |
 | [lxcxjxhx/HOS-Forge](https://github.com/lxcxjxhx/HOS-Forge) | [#17](https://github.com/lxcxjxhx/HOS-Forge/pull/17) | fix: Windows compatibility issues in file encoding and SQLite path | 2026-07-25 |
 | [lxcxjxhx/HOS-Model-Optimizer](https://github.com/lxcxjxhx/HOS-Model-Optimizer) | [#1](https://github.com/lxcxjxhx/HOS-Model-Optimizer/pull/1) | 代码质量优化与 Bug 修复（第 1 轮） | 2026-07-21 |
+| [lxcxjxhx/HOS_SKILL_WORKFLOW](https://github.com/lxcxjxhx/HOS_SKILL_WORKFLOW) | [#37](https://github.com/lxcxjxhx/HOS_SKILL_WORKFLOW/pull/37) | feat: enhance ContribOS with comprehensive experience integration | 2026-07-29 |
+| [lxcxjxhx/HOS_SKILL_WORKFLOW](https://github.com/lxcxjxhx/HOS_SKILL_WORKFLOW) | [#36](https://github.com/lxcxjxhx/HOS_SKILL_WORKFLOW/pull/36) | refactor: replace HOS-OSS-Contributor with HOS-GH-ContribOS - unified contribution lifecycle framework | 2026-07-29 |
+| [lxcxjxhx/HOS_SKILL_WORKFLOW](https://github.com/lxcxjxhx/HOS_SKILL_WORKFLOW) | [#35](https://github.com/lxcxjxhx/HOS_SKILL_WORKFLOW/pull/35) | feat: add HOS-OSS-Contributor skill - AI-driven open source contribution workflow | 2026-07-29 |
 | [lxcxjxhx/HOS_SKILL_WORKFLOW](https://github.com/lxcxjxhx/HOS_SKILL_WORKFLOW) | [#34](https://github.com/lxcxjxhx/HOS_SKILL_WORKFLOW/pull/34) | feat: add 09-HOS-Content-Engine — 4D content model for AI Security Lab | 2026-07-27 |
 | [lxcxjxhx/HOS_SKILL_WORKFLOW](https://github.com/lxcxjxhx/HOS_SKILL_WORKFLOW) | [#21](https://github.com/lxcxjxhx/HOS_SKILL_WORKFLOW/pull/21) | docs(06-fuck-demo): unify YAML front matter format with standardized fields | 2026-07-27 |
 | [lxcxjxhx/HOS_SKILL_WORKFLOW](https://github.com/lxcxjxhx/HOS_SKILL_WORKFLOW) | [#32](https://github.com/lxcxjxhx/HOS_SKILL_WORKFLOW/pull/32) | docs(300-human-pass): beautify README.md with unified template | 2026-07-27 |
@@ -105,7 +112,7 @@ PR/
 
 Updated daily via GitHub Actions at UTC 00:00.
 
-Last updated: 2026-07-29 02:15:19 UTC
+Last updated: 2026-07-30 02:03:47 UTC
 
 ---
 
