@@ -4,25 +4,29 @@ Merged Pull Requests across open source projects.
 
 ## Summary
 
-- **Total Merged PRs**: 84
-- **Projects**: 17
+- **Total Merged PRs**: 89
+- **Projects**: 19
 
 ## PR List
 
 | Repository | PR | Title | Merged |
 |------------|-----|-------|--------|
 | [Bearer/bearer](https://github.com/Bearer/bearer) | [#2007](https://github.com/Bearer/bearer/pull/2007) | fix: use %w for error wrapping in scan command | 2026-07-29 |
+| [DefectDojo/django-DefectDojo](https://github.com/DefectDojo/django-DefectDojo) | [#15430](https://github.com/DefectDojo/django-DefectDojo/pull/15430) | fix: replace bare except with specific exception types | 2026-07-30 |
 | [DefectDojo/django-DefectDojo](https://github.com/DefectDojo/django-DefectDojo) | [#15391](https://github.com/DefectDojo/django-DefectDojo/pull/15391) | fix: add missing return after exception in GitHub issue handlers | 2026-07-29 |
+| [GH05TCREW/pentestagent](https://github.com/GH05TCREW/pentestagent) | [#86](https://github.com/GH05TCREW/pentestagent/pull/86) | fix: use context manager for tarfile operations in DockerRuntime | 2026-07-30 |
 | [GH05TCREW/pentestagent](https://github.com/GH05TCREW/pentestagent) | [#82](https://github.com/GH05TCREW/pentestagent/pull/82) | fix: add parameter validation for timeout and max_retries | 2026-07-07 |
 | [MoonNightSkytoyou/excel-masking-tool](https://github.com/MoonNightSkytoyou/excel-masking-tool) | [#2](https://github.com/MoonNightSkytoyou/excel-masking-tool/pull/2) | refactor: 提取翻译/配置常量、清理依赖、启用严格模式并添加错误边界 | 2026-07-20 |
 | [MoonNightSkytoyou/excel-masking-tool](https://github.com/MoonNightSkytoyou/excel-masking-tool) | [#1](https://github.com/MoonNightSkytoyou/excel-masking-tool/pull/1) | fix: 修复内存泄漏、无效CSS类名、重复常量及文件验证问题 | 2026-07-20 |
 | [MoonNightSkytoyou/excel-masking-tool](https://github.com/MoonNightSkytoyou/excel-masking-tool) | [#3](https://github.com/MoonNightSkytoyou/excel-masking-tool/pull/3) | perf: 优化性能、修复 SHA-256 Int32Array 问题与列索引算法 | 2026-07-20 |
+| [aquasecurity/trivy](https://github.com/aquasecurity/trivy) | [#11013](https://github.com/aquasecurity/trivy/pull/11013) | refactor(alpine): remove type assertion when reading the APKINDEX archive | 2026-07-30 |
 | [axolotl-ai-cloud/axolotl](https://github.com/axolotl-ai-cloud/axolotl) | [#3802](https://github.com/axolotl-ai-cloud/axolotl/pull/3802) | fix: improve validation error for jinja chat template | 2026-07-07 |
 | [hiyouga/LlamaFactory](https://github.com/hiyouga/LlamaFactory) | [#10626](https://github.com/hiyouga/LlamaFactory/pull/10626) | docs: improve getting started guide with comprehensive content | 2026-07-08 |
 | [huggingface/peft](https://github.com/huggingface/peft) | [#3462](https://github.com/huggingface/peft/pull/3462) | fix: replace bare except with except Exception | 2026-07-22 |
 | [huggingface/peft](https://github.com/huggingface/peft) | [#3396](https://github.com/huggingface/peft/pull/3396) | fix: remove dead code in LoRA get_delta_weight and fix unsafe merge dtype inconsistency | 2026-07-08 |
 | [huggingface/peft](https://github.com/huggingface/peft) | [#3392](https://github.com/huggingface/peft/pull/3392) | docs: fix missing torch import and variable name in README examples | 2026-07-06 |
 | [intel/neural-compressor](https://github.com/intel/neural-compressor) | [#2526](https://github.com/intel/neural-compressor/pull/2526) | fix: use context managers for file I/O to prevent resource leaks | 2026-07-20 |
+| [lxcxjxhx/HOS-Forge](https://github.com/lxcxjxhx/HOS-Forge) | [#44](https://github.com/lxcxjxhx/HOS-Forge/pull/44) | feat: add version locking, pipeline error strategies, and registry-pipeline integration | 2026-07-30 |
 | [lxcxjxhx/HOS-Forge](https://github.com/lxcxjxhx/HOS-Forge) | [#43](https://github.com/lxcxjxhx/HOS-Forge/pull/43) | feat: implement real marketplace backend, skill init toolchain, sandbox execution, and performance optimization | 2026-07-29 |
 | [lxcxjxhx/HOS-Forge](https://github.com/lxcxjxhx/HOS-Forge) | [#42](https://github.com/lxcxjxhx/HOS-Forge/pull/42) | test: add security isolation tests for skill execution | 2026-07-29 |
 | [lxcxjxhx/HOS-Forge](https://github.com/lxcxjxhx/HOS-Forge) | [#41](https://github.com/lxcxjxhx/HOS-Forge/pull/41) | test: add integration tests for IDE adapters and CLI | 2026-07-29 |
@@ -95,6 +99,7 @@ Merged Pull Requests across open source projects.
 | [vanhauser-thc/thc-hydra](https://github.com/vanhauser-thc/thc-hydra) | [#1088](https://github.com/vanhauser-thc/thc-hydra/pull/1088) | Fix file handle leaks in hydra.c | 2026-07-07 |
 | [vanhauser-thc/thc-hydra](https://github.com/vanhauser-thc/thc-hydra) | [#1087](https://github.com/vanhauser-thc/thc-hydra/pull/1087) | Fix file handle leaks in main function | 2026-07-07 |
 | [vanhauser-thc/thc-hydra](https://github.com/vanhauser-thc/thc-hydra) | [#1089](https://github.com/vanhauser-thc/thc-hydra/pull/1089) | Fix socket leak in SMB service initialization | 2026-07-07 |
+| [zaproxy/zaproxy](https://github.com/zaproxy/zaproxy) | [#9411](https://github.com/zaproxy/zaproxy/pull/9411) | Use try-with-resources in HashUtils | 2026-07-30 |
 
 ## Detail Files
 
@@ -112,7 +117,7 @@ PR/
 
 Updated daily via GitHub Actions at UTC 00:00.
 
-Last updated: 2026-07-30 02:03:47 UTC
+Last updated: 2026-07-31 02:30:38 UTC
 
 ---
 
