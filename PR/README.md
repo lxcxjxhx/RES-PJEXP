@@ -4,7 +4,7 @@ Merged Pull Requests across open source projects.
 
 ## Summary
 
-- **Total Merged PRs**: 89
+- **Total Merged PRs**: 100
 - **Projects**: 19
 
 ## PR List
@@ -15,16 +15,12 @@ Merged Pull Requests across open source projects.
 | [DefectDojo/django-DefectDojo](https://github.com/DefectDojo/django-DefectDojo) | [#15430](https://github.com/DefectDojo/django-DefectDojo/pull/15430) | fix: replace bare except with specific exception types | 2026-07-30 |
 | [DefectDojo/django-DefectDojo](https://github.com/DefectDojo/django-DefectDojo) | [#15391](https://github.com/DefectDojo/django-DefectDojo/pull/15391) | fix: add missing return after exception in GitHub issue handlers | 2026-07-29 |
 | [GH05TCREW/pentestagent](https://github.com/GH05TCREW/pentestagent) | [#86](https://github.com/GH05TCREW/pentestagent/pull/86) | fix: use context manager for tarfile operations in DockerRuntime | 2026-07-30 |
-| [GH05TCREW/pentestagent](https://github.com/GH05TCREW/pentestagent) | [#82](https://github.com/GH05TCREW/pentestagent/pull/82) | fix: add parameter validation for timeout and max_retries | 2026-07-07 |
 | [MoonNightSkytoyou/excel-masking-tool](https://github.com/MoonNightSkytoyou/excel-masking-tool) | [#2](https://github.com/MoonNightSkytoyou/excel-masking-tool/pull/2) | refactor: 提取翻译/配置常量、清理依赖、启用严格模式并添加错误边界 | 2026-07-20 |
 | [MoonNightSkytoyou/excel-masking-tool](https://github.com/MoonNightSkytoyou/excel-masking-tool) | [#1](https://github.com/MoonNightSkytoyou/excel-masking-tool/pull/1) | fix: 修复内存泄漏、无效CSS类名、重复常量及文件验证问题 | 2026-07-20 |
 | [MoonNightSkytoyou/excel-masking-tool](https://github.com/MoonNightSkytoyou/excel-masking-tool) | [#3](https://github.com/MoonNightSkytoyou/excel-masking-tool/pull/3) | perf: 优化性能、修复 SHA-256 Int32Array 问题与列索引算法 | 2026-07-20 |
 | [aquasecurity/trivy](https://github.com/aquasecurity/trivy) | [#11013](https://github.com/aquasecurity/trivy/pull/11013) | refactor(alpine): remove type assertion when reading the APKINDEX archive | 2026-07-30 |
-| [axolotl-ai-cloud/axolotl](https://github.com/axolotl-ai-cloud/axolotl) | [#3802](https://github.com/axolotl-ai-cloud/axolotl/pull/3802) | fix: improve validation error for jinja chat template | 2026-07-07 |
-| [hiyouga/LlamaFactory](https://github.com/hiyouga/LlamaFactory) | [#10626](https://github.com/hiyouga/LlamaFactory/pull/10626) | docs: improve getting started guide with comprehensive content | 2026-07-08 |
+| [bytedance/g3](https://github.com/bytedance/g3) | [#1103](https://github.com/bytedance/g3/pull/1103) | fix(g3-types): replace unsafe unwrap() with proper error handling in openssl cert pair | 2026-07-31 |
 | [huggingface/peft](https://github.com/huggingface/peft) | [#3462](https://github.com/huggingface/peft/pull/3462) | fix: replace bare except with except Exception | 2026-07-22 |
-| [huggingface/peft](https://github.com/huggingface/peft) | [#3396](https://github.com/huggingface/peft/pull/3396) | fix: remove dead code in LoRA get_delta_weight and fix unsafe merge dtype inconsistency | 2026-07-08 |
-| [huggingface/peft](https://github.com/huggingface/peft) | [#3392](https://github.com/huggingface/peft/pull/3392) | docs: fix missing torch import and variable name in README examples | 2026-07-06 |
 | [intel/neural-compressor](https://github.com/intel/neural-compressor) | [#2526](https://github.com/intel/neural-compressor/pull/2526) | fix: use context managers for file I/O to prevent resource leaks | 2026-07-20 |
 | [lxcxjxhx/HOS-Forge](https://github.com/lxcxjxhx/HOS-Forge) | [#44](https://github.com/lxcxjxhx/HOS-Forge/pull/44) | feat: add version locking, pipeline error strategies, and registry-pipeline integration | 2026-07-30 |
 | [lxcxjxhx/HOS-Forge](https://github.com/lxcxjxhx/HOS-Forge) | [#43](https://github.com/lxcxjxhx/HOS-Forge/pull/43) | feat: implement real marketplace backend, skill init toolchain, sandbox execution, and performance optimization | 2026-07-29 |
@@ -44,7 +40,22 @@ Merged Pull Requests across open source projects.
 | [lxcxjxhx/HOS-Forge](https://github.com/lxcxjxhx/HOS-Forge) | [#19](https://github.com/lxcxjxhx/HOS-Forge/pull/19) | feat(mcp-server): extract hardcoded service names to config.yaml | 2026-07-25 |
 | [lxcxjxhx/HOS-Forge](https://github.com/lxcxjxhx/HOS-Forge) | [#18](https://github.com/lxcxjxhx/HOS-Forge/pull/18) | chore(hosforge): add pyproject.toml and improve code quality | 2026-07-25 |
 | [lxcxjxhx/HOS-Forge](https://github.com/lxcxjxhx/HOS-Forge) | [#17](https://github.com/lxcxjxhx/HOS-Forge/pull/17) | fix: Windows compatibility issues in file encoding and SQLite path | 2026-07-25 |
+| [lxcxjxhx/HOS-LS](https://github.com/lxcxjxhx/HOS-LS) | [#19](https://github.com/lxcxjxhx/HOS-LS/pull/19) | fix(cli): correct --dif parameter name to --diff | 2026-07-31 |
+| [lxcxjxhx/HOS-LS](https://github.com/lxcxjxhx/HOS-LS) | [#18](https://github.com/lxcxjxhx/HOS-LS/pull/18) | chore(config): update DeepSeek API configuration | 2026-07-31 |
+| [lxcxjxhx/HOS-LS](https://github.com/lxcxjxhx/HOS-LS) | [#17](https://github.com/lxcxjxhx/HOS-LS/pull/17) | feat(errors): add APIError exception class for AI providers | 2026-07-31 |
+| [lxcxjxhx/HOS-LS](https://github.com/lxcxjxhx/HOS-LS) | [#16](https://github.com/lxcxjxhx/HOS-LS/pull/16) | feat(json_utils): add unified JSON parsing utility module | 2026-07-31 |
+| [lxcxjxhx/HOS-LS](https://github.com/lxcxjxhx/HOS-LS) | [#15](https://github.com/lxcxjxhx/HOS-LS/pull/15) | feat(logger): add RotatingFileHandler file output support | 2026-07-31 |
+| [lxcxjxhx/HOS-LS](https://github.com/lxcxjxhx/HOS-LS) | [#14](https://github.com/lxcxjxhx/HOS-LS/pull/14) | refactor(result_reviewer): migrate from legacy OpenAI API | 2026-07-31 |
+| [lxcxjxhx/HOS-LS](https://github.com/lxcxjxhx/HOS-LS) | [#13](https://github.com/lxcxjxhx/HOS-LS/pull/13) | fix(deepseek): restore actual API test in validate_api_access | 2026-07-31 |
+| [lxcxjxhx/HOS-LS](https://github.com/lxcxjxhx/HOS-LS) | [#12](https://github.com/lxcxjxhx/HOS-LS/pull/12) | fix(prompt_evolver): add 5-layer JSON parsing protection | 2026-07-31 |
+| [lxcxjxhx/HOS-LS](https://github.com/lxcxjxhx/HOS-LS) | [#11](https://github.com/lxcxjxhx/HOS-LS/pull/11) | fix(pure_ai_analyzer): unify logging and improve error handling | 2026-07-31 |
+| [lxcxjxhx/HOS-LS](https://github.com/lxcxjxhx/HOS-LS) | [#10](https://github.com/lxcxjxhx/HOS-LS/pull/10) | fix(multi_agent_pipeline): unify logging and fix hard routing issues | 2026-07-31 |
+| [lxcxjxhx/HOS-LS](https://github.com/lxcxjxhx/HOS-LS) | [#9](https://github.com/lxcxjxhx/HOS-LS/pull/9) | refactor(schema_validator): migrate print() to unified logger | 2026-07-31 |
+| [lxcxjxhx/HOS-LS](https://github.com/lxcxjxhx/HOS-LS) | [#8](https://github.com/lxcxjxhx/HOS-LS/pull/8) | refactor(file_prioritizer): migrate print() to unified logger | 2026-07-31 |
+| [lxcxjxhx/HOS-LS](https://github.com/lxcxjxhx/HOS-LS) | [#7](https://github.com/lxcxjxhx/HOS-LS/pull/7) | refactor(context_builder): migrate print() to unified logger | 2026-07-31 |
+| [lxcxjxhx/HOS-LS](https://github.com/lxcxjxhx/HOS-LS) | [#6](https://github.com/lxcxjxhx/HOS-LS/pull/6) | feat: Comprehensive optimization aligned with 8 state-of-the-art SAST papers | 2026-07-31 |
 | [lxcxjxhx/HOS-Model-Optimizer](https://github.com/lxcxjxhx/HOS-Model-Optimizer) | [#1](https://github.com/lxcxjxhx/HOS-Model-Optimizer/pull/1) | 代码质量优化与 Bug 修复（第 1 轮） | 2026-07-21 |
+| [lxcxjxhx/HOS_SKILL_WORKFLOW](https://github.com/lxcxjxhx/HOS_SKILL_WORKFLOW) | [#38](https://github.com/lxcxjxhx/HOS_SKILL_WORKFLOW/pull/38) | feat: 新增 HOS-Paper-RedTeam 论文红队系统（HOS论文鞭尸局） | 2026-07-31 |
 | [lxcxjxhx/HOS_SKILL_WORKFLOW](https://github.com/lxcxjxhx/HOS_SKILL_WORKFLOW) | [#37](https://github.com/lxcxjxhx/HOS_SKILL_WORKFLOW/pull/37) | feat: enhance ContribOS with comprehensive experience integration | 2026-07-29 |
 | [lxcxjxhx/HOS_SKILL_WORKFLOW](https://github.com/lxcxjxhx/HOS_SKILL_WORKFLOW) | [#36](https://github.com/lxcxjxhx/HOS_SKILL_WORKFLOW/pull/36) | refactor: replace HOS-OSS-Contributor with HOS-GH-ContribOS - unified contribution lifecycle framework | 2026-07-29 |
 | [lxcxjxhx/HOS_SKILL_WORKFLOW](https://github.com/lxcxjxhx/HOS_SKILL_WORKFLOW) | [#35](https://github.com/lxcxjxhx/HOS_SKILL_WORKFLOW/pull/35) | feat: add HOS-OSS-Contributor skill - AI-driven open source contribution workflow | 2026-07-29 |
@@ -117,7 +128,7 @@ PR/
 
 Updated daily via GitHub Actions at UTC 00:00.
 
-Last updated: 2026-07-31 02:30:38 UTC
+Last updated: 2026-08-01 02:30:47 UTC
 
 ---
 
