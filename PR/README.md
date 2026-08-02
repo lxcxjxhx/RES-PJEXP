@@ -55,6 +55,9 @@ Merged Pull Requests across open source projects.
 | [lxcxjxhx/HOS-LS](https://github.com/lxcxjxhx/HOS-LS) | [#7](https://github.com/lxcxjxhx/HOS-LS/pull/7) | refactor(context_builder): migrate print() to unified logger | 2026-07-31 |
 | [lxcxjxhx/HOS-LS](https://github.com/lxcxjxhx/HOS-LS) | [#6](https://github.com/lxcxjxhx/HOS-LS/pull/6) | feat: Comprehensive optimization aligned with 8 state-of-the-art SAST papers | 2026-07-31 |
 | [lxcxjxhx/HOS-Model-Optimizer](https://github.com/lxcxjxhx/HOS-Model-Optimizer) | [#1](https://github.com/lxcxjxhx/HOS-Model-Optimizer/pull/1) | 代码质量优化与 Bug 修复（第 1 轮） | 2026-07-21 |
+| [lxcxjxhx/HOS_SKILL_WORKFLOW](https://github.com/lxcxjxhx/HOS_SKILL_WORKFLOW) | [#41](https://github.com/lxcxjxhx/HOS_SKILL_WORKFLOW/pull/41) | feat(contrib): 审核者视角自检门升级 G0–G8 + 合并速度评估维度 | 2026-08-01 |
+| [lxcxjxhx/HOS_SKILL_WORKFLOW](https://github.com/lxcxjxhx/HOS_SKILL_WORKFLOW) | [#40](https://github.com/lxcxjxhx/HOS_SKILL_WORKFLOW/pull/40) | refactor: split HOS-GH-ContribOS into a multi-file skill (mirror submit-oss-pr layout) | 2026-08-01 |
+| [lxcxjxhx/HOS_SKILL_WORKFLOW](https://github.com/lxcxjxhx/HOS_SKILL_WORKFLOW) | [#39](https://github.com/lxcxjxhx/HOS_SKILL_WORKFLOW/pull/39) | feat: add reviewer-perspective gate, scenario memory, AI disclosure; refactor HOS-GH-ContribOS to multi-file skill | 2026-08-01 |
 | [lxcxjxhx/HOS_SKILL_WORKFLOW](https://github.com/lxcxjxhx/HOS_SKILL_WORKFLOW) | [#38](https://github.com/lxcxjxhx/HOS_SKILL_WORKFLOW/pull/38) | feat: 新增 HOS-Paper-RedTeam 论文红队系统（HOS论文鞭尸局） | 2026-07-31 |
 | [lxcxjxhx/HOS_SKILL_WORKFLOW](https://github.com/lxcxjxhx/HOS_SKILL_WORKFLOW) | [#37](https://github.com/lxcxjxhx/HOS_SKILL_WORKFLOW/pull/37) | feat: enhance ContribOS with comprehensive experience integration | 2026-07-29 |
 | [lxcxjxhx/HOS_SKILL_WORKFLOW](https://github.com/lxcxjxhx/HOS_SKILL_WORKFLOW) | [#36](https://github.com/lxcxjxhx/HOS_SKILL_WORKFLOW/pull/36) | refactor: replace HOS-OSS-Contributor with HOS-GH-ContribOS - unified contribution lifecycle framework | 2026-07-29 |
@@ -107,9 +110,6 @@ Merged Pull Requests across open source projects.
 | [vanhauser-thc/thc-hydra](https://github.com/vanhauser-thc/thc-hydra) | [#1095](https://github.com/vanhauser-thc/thc-hydra/pull/1095) | Fix NULL pointer dereference in stringify_headers() error path | 2026-07-17 |
 | [vanhauser-thc/thc-hydra](https://github.com/vanhauser-thc/thc-hydra) | [#1092](https://github.com/vanhauser-thc/thc-hydra/pull/1092) | security: fix buffer overflows in IMAP and SNMP handlers | 2026-07-11 |
 | [vanhauser-thc/thc-hydra](https://github.com/vanhauser-thc/thc-hydra) | [#1091](https://github.com/vanhauser-thc/thc-hydra/pull/1091) | fix: memory leaks in authentication error paths | 2026-07-11 |
-| [vanhauser-thc/thc-hydra](https://github.com/vanhauser-thc/thc-hydra) | [#1088](https://github.com/vanhauser-thc/thc-hydra/pull/1088) | Fix file handle leaks in hydra.c | 2026-07-07 |
-| [vanhauser-thc/thc-hydra](https://github.com/vanhauser-thc/thc-hydra) | [#1087](https://github.com/vanhauser-thc/thc-hydra/pull/1087) | Fix file handle leaks in main function | 2026-07-07 |
-| [vanhauser-thc/thc-hydra](https://github.com/vanhauser-thc/thc-hydra) | [#1089](https://github.com/vanhauser-thc/thc-hydra/pull/1089) | Fix socket leak in SMB service initialization | 2026-07-07 |
 | [zaproxy/zaproxy](https://github.com/zaproxy/zaproxy) | [#9411](https://github.com/zaproxy/zaproxy/pull/9411) | Use try-with-resources in HashUtils | 2026-07-30 |
 
 ## Detail Files
@@ -128,7 +128,7 @@ PR/
 
 Updated daily via GitHub Actions at UTC 00:00.
 
-Last updated: 2026-08-01 02:30:47 UTC
+Last updated: 2026-08-02 02:28:29 UTC
 
 ---
 
