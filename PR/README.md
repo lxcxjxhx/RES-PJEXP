@@ -5,7 +5,7 @@ Merged Pull Requests across open source projects.
 ## Summary
 
 - **Total Merged PRs**: 100
-- **Projects**: 19
+- **Projects**: 18
 
 ## PR List
 
@@ -15,13 +15,13 @@ Merged Pull Requests across open source projects.
 | [DefectDojo/django-DefectDojo](https://github.com/DefectDojo/django-DefectDojo) | [#15430](https://github.com/DefectDojo/django-DefectDojo/pull/15430) | fix: replace bare except with specific exception types | 2026-07-30 |
 | [DefectDojo/django-DefectDojo](https://github.com/DefectDojo/django-DefectDojo) | [#15391](https://github.com/DefectDojo/django-DefectDojo/pull/15391) | fix: add missing return after exception in GitHub issue handlers | 2026-07-29 |
 | [GH05TCREW/pentestagent](https://github.com/GH05TCREW/pentestagent) | [#86](https://github.com/GH05TCREW/pentestagent/pull/86) | fix: use context manager for tarfile operations in DockerRuntime | 2026-07-30 |
-| [MoonNightSkytoyou/excel-masking-tool](https://github.com/MoonNightSkytoyou/excel-masking-tool) | [#2](https://github.com/MoonNightSkytoyou/excel-masking-tool/pull/2) | refactor: 提取翻译/配置常量、清理依赖、启用严格模式并添加错误边界 | 2026-07-20 |
-| [MoonNightSkytoyou/excel-masking-tool](https://github.com/MoonNightSkytoyou/excel-masking-tool) | [#1](https://github.com/MoonNightSkytoyou/excel-masking-tool/pull/1) | fix: 修复内存泄漏、无效CSS类名、重复常量及文件验证问题 | 2026-07-20 |
-| [MoonNightSkytoyou/excel-masking-tool](https://github.com/MoonNightSkytoyou/excel-masking-tool) | [#3](https://github.com/MoonNightSkytoyou/excel-masking-tool/pull/3) | perf: 优化性能、修复 SHA-256 Int32Array 问题与列索引算法 | 2026-07-20 |
 | [aquasecurity/trivy](https://github.com/aquasecurity/trivy) | [#11013](https://github.com/aquasecurity/trivy/pull/11013) | refactor(alpine): remove type assertion when reading the APKINDEX archive | 2026-07-30 |
 | [bytedance/g3](https://github.com/bytedance/g3) | [#1103](https://github.com/bytedance/g3/pull/1103) | fix(g3-types): replace unsafe unwrap() with proper error handling in openssl cert pair | 2026-07-31 |
-| [huggingface/peft](https://github.com/huggingface/peft) | [#3462](https://github.com/huggingface/peft/pull/3462) | fix: replace bare except with except Exception | 2026-07-22 |
-| [intel/neural-compressor](https://github.com/intel/neural-compressor) | [#2526](https://github.com/intel/neural-compressor/pull/2526) | fix: use context managers for file I/O to prevent resource leaks | 2026-07-20 |
+| [lxcxjxhx/BOS-FS](https://github.com/lxcxjxhx/BOS-FS) | [#1](https://github.com/lxcxjxhx/BOS-FS/pull/1) | chore: 切换许可证为 AGPLv3 并引入 DCO | 2026-08-02 |
+| [lxcxjxhx/BOS-NI](https://github.com/lxcxjxhx/BOS-NI) | [#2](https://github.com/lxcxjxhx/BOS-NI/pull/2) | chore: 清理残留的旧 MIT 许可证文件与 README 引用 | 2026-08-02 |
+| [lxcxjxhx/BOS-NI](https://github.com/lxcxjxhx/BOS-NI) | [#1](https://github.com/lxcxjxhx/BOS-NI/pull/1) | chore: 切换许可证为 AGPLv3 并引入 DCO | 2026-08-02 |
+| [lxcxjxhx/HOS-Forge](https://github.com/lxcxjxhx/HOS-Forge) | [#46](https://github.com/lxcxjxhx/HOS-Forge/pull/46) | chore: 清理残留的旧 MIT 许可证文件与 README 引用 | 2026-08-02 |
+| [lxcxjxhx/HOS-Forge](https://github.com/lxcxjxhx/HOS-Forge) | [#45](https://github.com/lxcxjxhx/HOS-Forge/pull/45) | chore: 切换许可证为 AGPLv3 并引入 DCO | 2026-08-02 |
 | [lxcxjxhx/HOS-Forge](https://github.com/lxcxjxhx/HOS-Forge) | [#44](https://github.com/lxcxjxhx/HOS-Forge/pull/44) | feat: add version locking, pipeline error strategies, and registry-pipeline integration | 2026-07-30 |
 | [lxcxjxhx/HOS-Forge](https://github.com/lxcxjxhx/HOS-Forge) | [#43](https://github.com/lxcxjxhx/HOS-Forge/pull/43) | feat: implement real marketplace backend, skill init toolchain, sandbox execution, and performance optimization | 2026-07-29 |
 | [lxcxjxhx/HOS-Forge](https://github.com/lxcxjxhx/HOS-Forge) | [#42](https://github.com/lxcxjxhx/HOS-Forge/pull/42) | test: add security isolation tests for skill execution | 2026-07-29 |
@@ -35,11 +35,7 @@ Merged Pull Requests across open source projects.
 | [lxcxjxhx/HOS-Forge](https://github.com/lxcxjxhx/HOS-Forge) | [#36](https://github.com/lxcxjxhx/HOS-Forge/pull/36) | feat: implement TrivyTool and enhance security tools integration | 2026-07-27 |
 | [lxcxjxhx/HOS-Forge](https://github.com/lxcxjxhx/HOS-Forge) | [#35](https://github.com/lxcxjxhx/HOS-Forge/pull/35) | feat: enhance Taskflow Engine with parallel execution support | 2026-07-27 |
 | [lxcxjxhx/HOS-Forge](https://github.com/lxcxjxhx/HOS-Forge) | [#30](https://github.com/lxcxjxhx/HOS-Forge/pull/30) | fix: resolve CI workflow failures | 2026-07-27 |
-| [lxcxjxhx/HOS-Forge](https://github.com/lxcxjxhx/HOS-Forge) | [#29](https://github.com/lxcxjxhx/HOS-Forge/pull/29) | ci: add unified CI workflow adapted from OpenHands | 2026-07-25 |
-| [lxcxjxhx/HOS-Forge](https://github.com/lxcxjxhx/HOS-Forge) | [#28](https://github.com/lxcxjxhx/HOS-Forge/pull/28) | feat: complete security tools implementation and knowledge vector search | 2026-07-25 |
-| [lxcxjxhx/HOS-Forge](https://github.com/lxcxjxhx/HOS-Forge) | [#19](https://github.com/lxcxjxhx/HOS-Forge/pull/19) | feat(mcp-server): extract hardcoded service names to config.yaml | 2026-07-25 |
-| [lxcxjxhx/HOS-Forge](https://github.com/lxcxjxhx/HOS-Forge) | [#18](https://github.com/lxcxjxhx/HOS-Forge/pull/18) | chore(hosforge): add pyproject.toml and improve code quality | 2026-07-25 |
-| [lxcxjxhx/HOS-Forge](https://github.com/lxcxjxhx/HOS-Forge) | [#17](https://github.com/lxcxjxhx/HOS-Forge/pull/17) | fix: Windows compatibility issues in file encoding and SQLite path | 2026-07-25 |
+| [lxcxjxhx/HOS-LS](https://github.com/lxcxjxhx/HOS-LS) | [#20](https://github.com/lxcxjxhx/HOS-LS/pull/20) | chore: 切换许可证为 AGPLv3 并引入 DCO | 2026-08-02 |
 | [lxcxjxhx/HOS-LS](https://github.com/lxcxjxhx/HOS-LS) | [#19](https://github.com/lxcxjxhx/HOS-LS/pull/19) | fix(cli): correct --dif parameter name to --diff | 2026-07-31 |
 | [lxcxjxhx/HOS-LS](https://github.com/lxcxjxhx/HOS-LS) | [#18](https://github.com/lxcxjxhx/HOS-LS/pull/18) | chore(config): update DeepSeek API configuration | 2026-07-31 |
 | [lxcxjxhx/HOS-LS](https://github.com/lxcxjxhx/HOS-LS) | [#17](https://github.com/lxcxjxhx/HOS-LS/pull/17) | feat(errors): add APIError exception class for AI providers | 2026-07-31 |
@@ -54,7 +50,19 @@ Merged Pull Requests across open source projects.
 | [lxcxjxhx/HOS-LS](https://github.com/lxcxjxhx/HOS-LS) | [#8](https://github.com/lxcxjxhx/HOS-LS/pull/8) | refactor(file_prioritizer): migrate print() to unified logger | 2026-07-31 |
 | [lxcxjxhx/HOS-LS](https://github.com/lxcxjxhx/HOS-LS) | [#7](https://github.com/lxcxjxhx/HOS-LS/pull/7) | refactor(context_builder): migrate print() to unified logger | 2026-07-31 |
 | [lxcxjxhx/HOS-LS](https://github.com/lxcxjxhx/HOS-LS) | [#6](https://github.com/lxcxjxhx/HOS-LS/pull/6) | feat: Comprehensive optimization aligned with 8 state-of-the-art SAST papers | 2026-07-31 |
-| [lxcxjxhx/HOS-Model-Optimizer](https://github.com/lxcxjxhx/HOS-Model-Optimizer) | [#1](https://github.com/lxcxjxhx/HOS-Model-Optimizer/pull/1) | 代码质量优化与 Bug 修复（第 1 轮） | 2026-07-21 |
+| [lxcxjxhx/HOS-MATCH-PROJECT](https://github.com/lxcxjxhx/HOS-MATCH-PROJECT) | [#1](https://github.com/lxcxjxhx/HOS-MATCH-PROJECT/pull/1) | chore: 切换许可证为 AGPLv3 并引入 DCO | 2026-08-02 |
+| [lxcxjxhx/HOS-Model-Optimizer](https://github.com/lxcxjxhx/HOS-Model-Optimizer) | [#3](https://github.com/lxcxjxhx/HOS-Model-Optimizer/pull/3) | chore: 清理残留的旧 MIT 许可证文件与 README 引用 | 2026-08-02 |
+| [lxcxjxhx/HOS-Model-Optimizer](https://github.com/lxcxjxhx/HOS-Model-Optimizer) | [#2](https://github.com/lxcxjxhx/HOS-Model-Optimizer/pull/2) | chore: 切换许可证为 AGPLv3 并引入 DCO | 2026-08-02 |
+| [lxcxjxhx/HOS-Qian-jia-hong-resume](https://github.com/lxcxjxhx/HOS-Qian-jia-hong-resume) | [#1](https://github.com/lxcxjxhx/HOS-Qian-jia-hong-resume/pull/1) | chore: 切换许可证为 AGPLv3 并引入 DCO | 2026-08-02 |
+| [lxcxjxhx/HOS_SKILL_WORKFLOW](https://github.com/lxcxjxhx/HOS_SKILL_WORKFLOW) | [#50](https://github.com/lxcxjxhx/HOS_SKILL_WORKFLOW/pull/50) | feat(S-12): 新增多篇汇总 HTML 渲染工具 render-summary-html.py | 2026-08-03 |
+| [lxcxjxhx/HOS_SKILL_WORKFLOW](https://github.com/lxcxjxhx/HOS_SKILL_WORKFLOW) | [#49](https://github.com/lxcxjxhx/HOS_SKILL_WORKFLOW/pull/49) | fix(S-12): 默认输出升级为 HTML + Evidence 强制联网核验 arXiv/GitHub 元数据 | 2026-08-03 |
+| [lxcxjxhx/HOS_SKILL_WORKFLOW](https://github.com/lxcxjxhx/HOS_SKILL_WORKFLOW) | [#48](https://github.com/lxcxjxhx/HOS_SKILL_WORKFLOW/pull/48) | chore: 清理残留的旧 MIT 许可证文件与 README 引用 | 2026-08-02 |
+| [lxcxjxhx/HOS_SKILL_WORKFLOW](https://github.com/lxcxjxhx/HOS_SKILL_WORKFLOW) | [#47](https://github.com/lxcxjxhx/HOS_SKILL_WORKFLOW/pull/47) | feat(S-12): 论文输入 tex 源优先 + PDF 多级降级链，输出升级为美观 HTML/PDF | 2026-08-02 |
+| [lxcxjxhx/HOS_SKILL_WORKFLOW](https://github.com/lxcxjxhx/HOS_SKILL_WORKFLOW) | [#46](https://github.com/lxcxjxhx/HOS_SKILL_WORKFLOW/pull/46) | chore: 切换许可证为 AGPLv3 并引入 DCO | 2026-08-02 |
+| [lxcxjxhx/HOS_SKILL_WORKFLOW](https://github.com/lxcxjxhx/HOS_SKILL_WORKFLOW) | [#45](https://github.com/lxcxjxhx/HOS_SKILL_WORKFLOW/pull/45) | feat: 新增 S-12-HOS-Critic-Review 六维批判式评审 Skill | 2026-08-02 |
+| [lxcxjxhx/HOS_SKILL_WORKFLOW](https://github.com/lxcxjxhx/HOS_SKILL_WORKFLOW) | [#44](https://github.com/lxcxjxhx/HOS_SKILL_WORKFLOW/pull/44) | refactor: W 类编号独立归零（W-12~15 → W-00~03） | 2026-08-02 |
+| [lxcxjxhx/HOS_SKILL_WORKFLOW](https://github.com/lxcxjxhx/HOS_SKILL_WORKFLOW) | [#43](https://github.com/lxcxjxhx/HOS_SKILL_WORKFLOW/pull/43) | refactor: 顶层目录增加 S/W 类别前缀区分设计理念 | 2026-08-02 |
+| [lxcxjxhx/HOS_SKILL_WORKFLOW](https://github.com/lxcxjxhx/HOS_SKILL_WORKFLOW) | [#42](https://github.com/lxcxjxhx/HOS_SKILL_WORKFLOW/pull/42) | refactor: 统一顶层目录命名与编号顺序管理 | 2026-08-02 |
 | [lxcxjxhx/HOS_SKILL_WORKFLOW](https://github.com/lxcxjxhx/HOS_SKILL_WORKFLOW) | [#41](https://github.com/lxcxjxhx/HOS_SKILL_WORKFLOW/pull/41) | feat(contrib): 审核者视角自检门升级 G0–G8 + 合并速度评估维度 | 2026-08-01 |
 | [lxcxjxhx/HOS_SKILL_WORKFLOW](https://github.com/lxcxjxhx/HOS_SKILL_WORKFLOW) | [#40](https://github.com/lxcxjxhx/HOS_SKILL_WORKFLOW/pull/40) | refactor: split HOS-GH-ContribOS into a multi-file skill (mirror submit-oss-pr layout) | 2026-08-01 |
 | [lxcxjxhx/HOS_SKILL_WORKFLOW](https://github.com/lxcxjxhx/HOS_SKILL_WORKFLOW) | [#39](https://github.com/lxcxjxhx/HOS_SKILL_WORKFLOW/pull/39) | feat: add reviewer-perspective gate, scenario memory, AI disclosure; refactor HOS-GH-ContribOS to multi-file skill | 2026-08-01 |
@@ -88,11 +96,10 @@ Merged Pull Requests across open source projects.
 | [lxcxjxhx/HOS_SKILL_WORKFLOW](https://github.com/lxcxjxhx/HOS_SKILL_WORKFLOW) | [#10](https://github.com/lxcxjxhx/HOS_SKILL_WORKFLOW/pull/10) | feat: add 08-HOS-Micro-Biz skill for micro-business tech service operations | 2026-07-26 |
 | [lxcxjxhx/HOS_SKILL_WORKFLOW](https://github.com/lxcxjxhx/HOS_SKILL_WORKFLOW) | [#7](https://github.com/lxcxjxhx/HOS_SKILL_WORKFLOW/pull/7) | fix: 优化 CI 工作流适配多语言 Monorepo | 2026-07-25 |
 | [lxcxjxhx/HOS_SKILL_WORKFLOW](https://github.com/lxcxjxhx/HOS_SKILL_WORKFLOW) | [#5](https://github.com/lxcxjxhx/HOS_SKILL_WORKFLOW/pull/5) | feat: integrate HOS-QuizMaster as skill for HOS-LIFE-OKR | 2026-07-25 |
-| [lxcxjxhx/HOS_SKILL_WORKFLOW](https://github.com/lxcxjxhx/HOS_SKILL_WORKFLOW) | [#2](https://github.com/lxcxjxhx/HOS_SKILL_WORKFLOW/pull/2) | docs: optimize README with accurate module descriptions and structure | 2026-07-21 |
-| [lxcxjxhx/HOS_SKILL_WORKFLOW](https://github.com/lxcxjxhx/HOS_SKILL_WORKFLOW) | [#1](https://github.com/lxcxjxhx/HOS_SKILL_WORKFLOW/pull/1) | feat: add HOS-IP-Writing skill system for intellectual property writing | 2026-07-21 |
-| [lxcxjxhx/lxcxjxhx](https://github.com/lxcxjxhx/lxcxjxhx) | [#3](https://github.com/lxcxjxhx/lxcxjxhx/pull/3) | YOLO Test PR | 2026-07-14 |
-| [lxcxjxhx/lxcxjxhx](https://github.com/lxcxjxhx/lxcxjxhx) | [#2](https://github.com/lxcxjxhx/lxcxjxhx/pull/2) | 测试空PR | 2026-07-14 |
-| [openvinotoolkit/openvino](https://github.com/openvinotoolkit/openvino) | [#36859](https://github.com/openvinotoolkit/openvino/pull/36859) | Fix resource leak in test_read_model_from_tensor | 2026-07-16 |
+| [lxcxjxhx/academic-resume](https://github.com/lxcxjxhx/academic-resume) | [#1](https://github.com/lxcxjxhx/academic-resume/pull/1) | chore: 切换许可证为 AGPLv3 并引入 DCO | 2026-08-02 |
+| [lxcxjxhx/lxcxjxhx](https://github.com/lxcxjxhx/lxcxjxhx) | [#6](https://github.com/lxcxjxhx/lxcxjxhx/pull/6) | chore: 移除 profile 仓库的 LICENSE 文件与展示 | 2026-08-02 |
+| [lxcxjxhx/lxcxjxhx](https://github.com/lxcxjxhx/lxcxjxhx) | [#5](https://github.com/lxcxjxhx/lxcxjxhx/pull/5) | chore: 切换许可证为 AGPLv3 并引入 DCO | 2026-08-02 |
+| [lxcxjxhx/lxcxjxhx.github.io](https://github.com/lxcxjxhx/lxcxjxhx.github.io) | [#1](https://github.com/lxcxjxhx/lxcxjxhx.github.io/pull/1) | chore: 切换许可证为 AGPLv3 并引入 DCO | 2026-08-02 |
 | [qianeric-backup/kind-all](https://github.com/qianeric-backup/kind-all) | [#9](https://github.com/qianeric-backup/kind-all/pull/9) | fix: raise TimeoutError when next delay exceeds timeout in RetryEngine | 2026-07-27 |
 | [qianeric-backup/kind-all](https://github.com/qianeric-backup/kind-all) | [#23](https://github.com/qianeric-backup/kind-all/pull/23) | feat: enhance Payment Gate with multi-layer detection and security hardening | 2026-07-27 |
 | [qianeric-backup/kind-all](https://github.com/qianeric-backup/kind-all) | [#15](https://github.com/qianeric-backup/kind-all/pull/15) | feat: enhance EventBus with async error handling, timeouts, and priorities | 2026-07-27 |
@@ -102,14 +109,7 @@ Merged Pull Requests across open source projects.
 | [qianeric-backup/kind-all](https://github.com/qianeric-backup/kind-all) | [#19](https://github.com/qianeric-backup/kind-all/pull/19) | feat: add transaction support and concurrency control to SQLite storage | 2026-07-27 |
 | [qianeric-backup/kind-all](https://github.com/qianeric-backup/kind-all) | [#7](https://github.com/qianeric-backup/kind-all/pull/7) | fix: correct HoldController initial state to prevent false positive is_holding | 2026-07-27 |
 | [qianeric-backup/kind-all](https://github.com/qianeric-backup/kind-all) | [#21](https://github.com/qianeric-backup/kind-all/pull/21) | perf: optimize AI Vision Solver with caching and batching | 2026-07-27 |
-| [qianeric-backup/kind-all](https://github.com/qianeric-backup/kind-all) | [#3](https://github.com/qianeric-backup/kind-all/pull/3) | docs: enhance README with comprehensive framework documentation | 2026-07-25 |
 | [qianeric-backup/kind-all](https://github.com/qianeric-backup/kind-all) | [#4](https://github.com/qianeric-backup/kind-all/pull/4) | fix: improve CLI entry points and documentation accuracy | 2026-07-25 |
-| [qianeric-backup/kind-all](https://github.com/qianeric-backup/kind-all) | [#2](https://github.com/qianeric-backup/kind-all/pull/2) | refactor: transform into pluggable resource automation framework | 2026-07-25 |
-| [slimm609/checksec](https://github.com/slimm609/checksec) | [#349](https://github.com/slimm609/checksec/pull/349) | Fix: handle value 2 for kernel.unprivileged_bpf_disabled (Issue #347) | 2026-07-09 |
-| [unslothai/unsloth](https://github.com/unslothai/unsloth) | [#7138](https://github.com/unslothai/unsloth/pull/7138) | Fix bare except clauses and remove duplicate MAX_FUSED_SIZE definition | 2026-07-15 |
-| [vanhauser-thc/thc-hydra](https://github.com/vanhauser-thc/thc-hydra) | [#1095](https://github.com/vanhauser-thc/thc-hydra/pull/1095) | Fix NULL pointer dereference in stringify_headers() error path | 2026-07-17 |
-| [vanhauser-thc/thc-hydra](https://github.com/vanhauser-thc/thc-hydra) | [#1092](https://github.com/vanhauser-thc/thc-hydra/pull/1092) | security: fix buffer overflows in IMAP and SNMP handlers | 2026-07-11 |
-| [vanhauser-thc/thc-hydra](https://github.com/vanhauser-thc/thc-hydra) | [#1091](https://github.com/vanhauser-thc/thc-hydra/pull/1091) | fix: memory leaks in authentication error paths | 2026-07-11 |
 | [zaproxy/zaproxy](https://github.com/zaproxy/zaproxy) | [#9411](https://github.com/zaproxy/zaproxy/pull/9411) | Use try-with-resources in HashUtils | 2026-07-30 |
 
 ## Detail Files
@@ -128,7 +128,7 @@ PR/
 
 Updated daily via GitHub Actions at UTC 00:00.
 
-Last updated: 2026-08-02 02:28:29 UTC
+Last updated: 2026-08-03 02:30:53 UTC
 
 ---
 
