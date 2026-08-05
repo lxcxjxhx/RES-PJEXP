@@ -34,7 +34,6 @@ Merged Pull Requests across open source projects.
 | [lxcxjxhx/HOS-Forge](https://github.com/lxcxjxhx/HOS-Forge) | [#31](https://github.com/lxcxjxhx/HOS-Forge/pull/31) | feat(cli): fix entry point configuration and add CLI tests | 2026-07-27 |
 | [lxcxjxhx/HOS-Forge](https://github.com/lxcxjxhx/HOS-Forge) | [#36](https://github.com/lxcxjxhx/HOS-Forge/pull/36) | feat: implement TrivyTool and enhance security tools integration | 2026-07-27 |
 | [lxcxjxhx/HOS-Forge](https://github.com/lxcxjxhx/HOS-Forge) | [#35](https://github.com/lxcxjxhx/HOS-Forge/pull/35) | feat: enhance Taskflow Engine with parallel execution support | 2026-07-27 |
-| [lxcxjxhx/HOS-Forge](https://github.com/lxcxjxhx/HOS-Forge) | [#30](https://github.com/lxcxjxhx/HOS-Forge/pull/30) | fix: resolve CI workflow failures | 2026-07-27 |
 | [lxcxjxhx/HOS-LS](https://github.com/lxcxjxhx/HOS-LS) | [#20](https://github.com/lxcxjxhx/HOS-LS/pull/20) | chore: 切换许可证为 AGPLv3 并引入 DCO | 2026-08-02 |
 | [lxcxjxhx/HOS-LS](https://github.com/lxcxjxhx/HOS-LS) | [#19](https://github.com/lxcxjxhx/HOS-LS/pull/19) | fix(cli): correct --dif parameter name to --diff | 2026-07-31 |
 | [lxcxjxhx/HOS-LS](https://github.com/lxcxjxhx/HOS-LS) | [#18](https://github.com/lxcxjxhx/HOS-LS/pull/18) | chore(config): update DeepSeek API configuration | 2026-07-31 |
@@ -54,6 +53,8 @@ Merged Pull Requests across open source projects.
 | [lxcxjxhx/HOS-Model-Optimizer](https://github.com/lxcxjxhx/HOS-Model-Optimizer) | [#3](https://github.com/lxcxjxhx/HOS-Model-Optimizer/pull/3) | chore: 清理残留的旧 MIT 许可证文件与 README 引用 | 2026-08-02 |
 | [lxcxjxhx/HOS-Model-Optimizer](https://github.com/lxcxjxhx/HOS-Model-Optimizer) | [#2](https://github.com/lxcxjxhx/HOS-Model-Optimizer/pull/2) | chore: 切换许可证为 AGPLv3 并引入 DCO | 2026-08-02 |
 | [lxcxjxhx/HOS-Qian-jia-hong-resume](https://github.com/lxcxjxhx/HOS-Qian-jia-hong-resume) | [#1](https://github.com/lxcxjxhx/HOS-Qian-jia-hong-resume/pull/1) | chore: 切换许可证为 AGPLv3 并引入 DCO | 2026-08-02 |
+| [lxcxjxhx/HOS_SKILL_WORKFLOW](https://github.com/lxcxjxhx/HOS_SKILL_WORKFLOW) | [#52](https://github.com/lxcxjxhx/HOS_SKILL_WORKFLOW/pull/52) | fix(S-01): 移除不存在的 mcp-compressor 依赖，改为 Reasonix 原生 [[plugins]] MCP 直连 | 2026-08-04 |
+| [lxcxjxhx/HOS_SKILL_WORKFLOW](https://github.com/lxcxjxhx/HOS_SKILL_WORKFLOW) | [#51](https://github.com/lxcxjxhx/HOS_SKILL_WORKFLOW/pull/51) | feat(S-01): HOS-Save-Cost 重构为工作流层 Token 管家（四层集成 v2.0） | 2026-08-04 |
 | [lxcxjxhx/HOS_SKILL_WORKFLOW](https://github.com/lxcxjxhx/HOS_SKILL_WORKFLOW) | [#50](https://github.com/lxcxjxhx/HOS_SKILL_WORKFLOW/pull/50) | feat(S-12): 新增多篇汇总 HTML 渲染工具 render-summary-html.py | 2026-08-03 |
 | [lxcxjxhx/HOS_SKILL_WORKFLOW](https://github.com/lxcxjxhx/HOS_SKILL_WORKFLOW) | [#49](https://github.com/lxcxjxhx/HOS_SKILL_WORKFLOW/pull/49) | fix(S-12): 默认输出升级为 HTML + Evidence 强制联网核验 arXiv/GitHub 元数据 | 2026-08-03 |
 | [lxcxjxhx/HOS_SKILL_WORKFLOW](https://github.com/lxcxjxhx/HOS_SKILL_WORKFLOW) | [#48](https://github.com/lxcxjxhx/HOS_SKILL_WORKFLOW/pull/48) | chore: 清理残留的旧 MIT 许可证文件与 README 引用 | 2026-08-02 |
@@ -109,7 +110,6 @@ Merged Pull Requests across open source projects.
 | [qianeric-backup/kind-all](https://github.com/qianeric-backup/kind-all) | [#19](https://github.com/qianeric-backup/kind-all/pull/19) | feat: add transaction support and concurrency control to SQLite storage | 2026-07-27 |
 | [qianeric-backup/kind-all](https://github.com/qianeric-backup/kind-all) | [#7](https://github.com/qianeric-backup/kind-all/pull/7) | fix: correct HoldController initial state to prevent false positive is_holding | 2026-07-27 |
 | [qianeric-backup/kind-all](https://github.com/qianeric-backup/kind-all) | [#21](https://github.com/qianeric-backup/kind-all/pull/21) | perf: optimize AI Vision Solver with caching and batching | 2026-07-27 |
-| [qianeric-backup/kind-all](https://github.com/qianeric-backup/kind-all) | [#4](https://github.com/qianeric-backup/kind-all/pull/4) | fix: improve CLI entry points and documentation accuracy | 2026-07-25 |
 | [zaproxy/zaproxy](https://github.com/zaproxy/zaproxy) | [#9411](https://github.com/zaproxy/zaproxy/pull/9411) | Use try-with-resources in HashUtils | 2026-07-30 |
 
 ## Detail Files
@@ -128,7 +128,7 @@ PR/
 
 Updated daily via GitHub Actions at UTC 00:00.
 
-Last updated: 2026-08-04 02:11:01 UTC
+Last updated: 2026-08-05 02:09:42 UTC
 
 ---
 
