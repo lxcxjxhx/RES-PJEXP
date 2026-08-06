@@ -485,5 +485,5 @@ Intel AI 竞赛 · AI+威胁检测<br/>
 ---
 
 <div align="center">
-<sub>🤖 本 README 通过 GitHub Actions 自动更新 | 最后更新: 2026-08-05 02:09:45 UTC</sub>
+<sub>🤖 本 README 通过 GitHub Actions 自动更新 | 最后更新: 2026-08-06 02:13:29 UTC</sub>
 </div>
