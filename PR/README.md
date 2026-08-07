@@ -53,6 +53,7 @@ Merged Pull Requests across open source projects.
 | [lxcxjxhx/HOS-Model-Optimizer](https://github.com/lxcxjxhx/HOS-Model-Optimizer) | [#3](https://github.com/lxcxjxhx/HOS-Model-Optimizer/pull/3) | chore: 清理残留的旧 MIT 许可证文件与 README 引用 | 2026-08-02 |
 | [lxcxjxhx/HOS-Model-Optimizer](https://github.com/lxcxjxhx/HOS-Model-Optimizer) | [#2](https://github.com/lxcxjxhx/HOS-Model-Optimizer/pull/2) | chore: 切换许可证为 AGPLv3 并引入 DCO | 2026-08-02 |
 | [lxcxjxhx/HOS-Qian-jia-hong-resume](https://github.com/lxcxjxhx/HOS-Qian-jia-hong-resume) | [#1](https://github.com/lxcxjxhx/HOS-Qian-jia-hong-resume/pull/1) | chore: 切换许可证为 AGPLv3 并引入 DCO | 2026-08-02 |
+| [lxcxjxhx/HOS_SKILL_WORKFLOW](https://github.com/lxcxjxhx/HOS_SKILL_WORKFLOW) | [#53](https://github.com/lxcxjxhx/HOS_SKILL_WORKFLOW/pull/53) | feat: 新增 S-13-HOS-Char-Factory 角色素材工厂 skill | 2026-08-06 |
 | [lxcxjxhx/HOS_SKILL_WORKFLOW](https://github.com/lxcxjxhx/HOS_SKILL_WORKFLOW) | [#52](https://github.com/lxcxjxhx/HOS_SKILL_WORKFLOW/pull/52) | fix(S-01): 移除不存在的 mcp-compressor 依赖，改为 Reasonix 原生 [[plugins]] MCP 直连 | 2026-08-04 |
 | [lxcxjxhx/HOS_SKILL_WORKFLOW](https://github.com/lxcxjxhx/HOS_SKILL_WORKFLOW) | [#51](https://github.com/lxcxjxhx/HOS_SKILL_WORKFLOW/pull/51) | feat(S-01): HOS-Save-Cost 重构为工作流层 Token 管家（四层集成 v2.0） | 2026-08-04 |
 | [lxcxjxhx/HOS_SKILL_WORKFLOW](https://github.com/lxcxjxhx/HOS_SKILL_WORKFLOW) | [#50](https://github.com/lxcxjxhx/HOS_SKILL_WORKFLOW/pull/50) | feat(S-12): 新增多篇汇总 HTML 渲染工具 render-summary-html.py | 2026-08-03 |
@@ -96,7 +97,6 @@ Merged Pull Requests across open source projects.
 | [lxcxjxhx/HOS_SKILL_WORKFLOW](https://github.com/lxcxjxhx/HOS_SKILL_WORKFLOW) | [#11](https://github.com/lxcxjxhx/HOS_SKILL_WORKFLOW/pull/11) | refactor: redesign HOS-IP-Writing skill system to v2.0 | 2026-07-26 |
 | [lxcxjxhx/HOS_SKILL_WORKFLOW](https://github.com/lxcxjxhx/HOS_SKILL_WORKFLOW) | [#10](https://github.com/lxcxjxhx/HOS_SKILL_WORKFLOW/pull/10) | feat: add 08-HOS-Micro-Biz skill for micro-business tech service operations | 2026-07-26 |
 | [lxcxjxhx/HOS_SKILL_WORKFLOW](https://github.com/lxcxjxhx/HOS_SKILL_WORKFLOW) | [#7](https://github.com/lxcxjxhx/HOS_SKILL_WORKFLOW/pull/7) | fix: 优化 CI 工作流适配多语言 Monorepo | 2026-07-25 |
-| [lxcxjxhx/HOS_SKILL_WORKFLOW](https://github.com/lxcxjxhx/HOS_SKILL_WORKFLOW) | [#5](https://github.com/lxcxjxhx/HOS_SKILL_WORKFLOW/pull/5) | feat: integrate HOS-QuizMaster as skill for HOS-LIFE-OKR | 2026-07-25 |
 | [lxcxjxhx/academic-resume](https://github.com/lxcxjxhx/academic-resume) | [#1](https://github.com/lxcxjxhx/academic-resume/pull/1) | chore: 切换许可证为 AGPLv3 并引入 DCO | 2026-08-02 |
 | [lxcxjxhx/lxcxjxhx](https://github.com/lxcxjxhx/lxcxjxhx) | [#6](https://github.com/lxcxjxhx/lxcxjxhx/pull/6) | chore: 移除 profile 仓库的 LICENSE 文件与展示 | 2026-08-02 |
 | [lxcxjxhx/lxcxjxhx](https://github.com/lxcxjxhx/lxcxjxhx) | [#5](https://github.com/lxcxjxhx/lxcxjxhx/pull/5) | chore: 切换许可证为 AGPLv3 并引入 DCO | 2026-08-02 |
@@ -128,7 +128,7 @@ PR/
 
 Updated daily via GitHub Actions at UTC 00:00.
 
-Last updated: 2026-08-06 02:13:27 UTC
+Last updated: 2026-08-07 02:31:06 UTC
 
 ---
 
