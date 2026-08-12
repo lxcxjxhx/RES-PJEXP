@@ -53,6 +53,7 @@ Merged Pull Requests across open source projects.
 | [lxcxjxhx/HOS-Model-Optimizer](https://github.com/lxcxjxhx/HOS-Model-Optimizer) | [#3](https://github.com/lxcxjxhx/HOS-Model-Optimizer/pull/3) | chore: 清理残留的旧 MIT 许可证文件与 README 引用 | 2026-08-02 |
 | [lxcxjxhx/HOS-Model-Optimizer](https://github.com/lxcxjxhx/HOS-Model-Optimizer) | [#2](https://github.com/lxcxjxhx/HOS-Model-Optimizer/pull/2) | chore: 切换许可证为 AGPLv3 并引入 DCO | 2026-08-02 |
 | [lxcxjxhx/HOS-Qian-jia-hong-resume](https://github.com/lxcxjxhx/HOS-Qian-jia-hong-resume) | [#1](https://github.com/lxcxjxhx/HOS-Qian-jia-hong-resume/pull/1) | chore: 切换许可证为 AGPLv3 并引入 DCO | 2026-08-02 |
+| [lxcxjxhx/HOS_SKILL_WORKFLOW](https://github.com/lxcxjxhx/HOS_SKILL_WORKFLOW) | [#58](https://github.com/lxcxjxhx/HOS_SKILL_WORKFLOW/pull/58) | feat(S-12): 方法论背书 + CS 审稿 rubric 补全 | 2026-08-11 |
 | [lxcxjxhx/HOS_SKILL_WORKFLOW](https://github.com/lxcxjxhx/HOS_SKILL_WORKFLOW) | [#57](https://github.com/lxcxjxhx/HOS_SKILL_WORKFLOW/pull/57) | feat: add X-00 HOS-Chara-Sequence — ComfyUI character portrait sequence generator (entertainment series) | 2026-08-07 |
 | [lxcxjxhx/HOS_SKILL_WORKFLOW](https://github.com/lxcxjxhx/HOS_SKILL_WORKFLOW) | [#53](https://github.com/lxcxjxhx/HOS_SKILL_WORKFLOW/pull/53) | feat: 新增 S-13-HOS-Char-Factory 角色素材工厂 skill | 2026-08-06 |
 | [lxcxjxhx/HOS_SKILL_WORKFLOW](https://github.com/lxcxjxhx/HOS_SKILL_WORKFLOW) | [#52](https://github.com/lxcxjxhx/HOS_SKILL_WORKFLOW/pull/52) | fix(S-01): 移除不存在的 mcp-compressor 依赖，改为 Reasonix 原生 [[plugins]] MCP 直连 | 2026-08-04 |
@@ -96,7 +97,6 @@ Merged Pull Requests across open source projects.
 | [lxcxjxhx/HOS_SKILL_WORKFLOW](https://github.com/lxcxjxhx/HOS_SKILL_WORKFLOW) | [#26](https://github.com/lxcxjxhx/HOS_SKILL_WORKFLOW/pull/26) | docs(07-ip-writing): unify YAML front matter format in SKILL.md | 2026-07-26 |
 | [lxcxjxhx/HOS_SKILL_WORKFLOW](https://github.com/lxcxjxhx/HOS_SKILL_WORKFLOW) | [#12](https://github.com/lxcxjxhx/HOS_SKILL_WORKFLOW/pull/12) | feat: add HOS operations skill suite (09-HOS-Ops-Skills) | 2026-07-26 |
 | [lxcxjxhx/HOS_SKILL_WORKFLOW](https://github.com/lxcxjxhx/HOS_SKILL_WORKFLOW) | [#11](https://github.com/lxcxjxhx/HOS_SKILL_WORKFLOW/pull/11) | refactor: redesign HOS-IP-Writing skill system to v2.0 | 2026-07-26 |
-| [lxcxjxhx/HOS_SKILL_WORKFLOW](https://github.com/lxcxjxhx/HOS_SKILL_WORKFLOW) | [#10](https://github.com/lxcxjxhx/HOS_SKILL_WORKFLOW/pull/10) | feat: add 08-HOS-Micro-Biz skill for micro-business tech service operations | 2026-07-26 |
 | [lxcxjxhx/academic-resume](https://github.com/lxcxjxhx/academic-resume) | [#1](https://github.com/lxcxjxhx/academic-resume/pull/1) | chore: 切换许可证为 AGPLv3 并引入 DCO | 2026-08-02 |
 | [lxcxjxhx/lxcxjxhx](https://github.com/lxcxjxhx/lxcxjxhx) | [#6](https://github.com/lxcxjxhx/lxcxjxhx/pull/6) | chore: 移除 profile 仓库的 LICENSE 文件与展示 | 2026-08-02 |
 | [lxcxjxhx/lxcxjxhx](https://github.com/lxcxjxhx/lxcxjxhx) | [#5](https://github.com/lxcxjxhx/lxcxjxhx/pull/5) | chore: 切换许可证为 AGPLv3 并引入 DCO | 2026-08-02 |
@@ -128,7 +128,7 @@ PR/
 
 Updated daily via GitHub Actions at UTC 00:00.
 
-Last updated: 2026-08-11 01:23:36 UTC
+Last updated: 2026-08-12 01:39:59 UTC
 
 ---
 
