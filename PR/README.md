@@ -34,6 +34,9 @@ Merged Pull Requests across open source projects.
 | [lxcxjxhx/HOS-Forge](https://github.com/lxcxjxhx/HOS-Forge) | [#31](https://github.com/lxcxjxhx/HOS-Forge/pull/31) | feat(cli): fix entry point configuration and add CLI tests | 2026-07-27 |
 | [lxcxjxhx/HOS-Forge](https://github.com/lxcxjxhx/HOS-Forge) | [#36](https://github.com/lxcxjxhx/HOS-Forge/pull/36) | feat: implement TrivyTool and enhance security tools integration | 2026-07-27 |
 | [lxcxjxhx/HOS-Forge](https://github.com/lxcxjxhx/HOS-Forge) | [#35](https://github.com/lxcxjxhx/HOS-Forge/pull/35) | feat: enhance Taskflow Engine with parallel execution support | 2026-07-27 |
+| [lxcxjxhx/HOS-LS](https://github.com/lxcxjxhx/HOS-LS) | [#29](https://github.com/lxcxjxhx/HOS-LS/pull/29) | feat: 评测分数卡 + JSON 结构化输出 + 响应缓存 + 请求超时 + 提示词优化（M1-M3） | 2026-08-14 |
+| [lxcxjxhx/HOS-LS](https://github.com/lxcxjxhx/HOS-LS) | [#28](https://github.com/lxcxjxhx/HOS-LS/pull/28) | feat: Agent-6 先分析后判定 + 双轨输出（提升检出） | 2026-08-14 |
+| [lxcxjxhx/HOS-LS](https://github.com/lxcxjxhx/HOS-LS) | [#27](https://github.com/lxcxjxhx/HOS-LS/pull/27) | fix: Agent-2 风险枚举放宽为候选风险（验证层过滤） | 2026-08-14 |
 | [lxcxjxhx/HOS-LS](https://github.com/lxcxjxhx/HOS-LS) | [#26](https://github.com/lxcxjxhx/HOS-LS/pull/26) | fix: Agent-6 因 location 绝对路径规则过度 REJECTED 真实漏洞 | 2026-08-14 |
 | [lxcxjxhx/HOS-LS](https://github.com/lxcxjxhx/HOS-LS) | [#25](https://github.com/lxcxjxhx/HOS-LS/pull/25) | fix: NVD 数据库缺失时降级内置 DB 而非挂起 | 2026-08-14 |
 | [lxcxjxhx/HOS-LS](https://github.com/lxcxjxhx/HOS-LS) | [#24](https://github.com/lxcxjxhx/HOS-LS/pull/24) | fix: NVD 查询列名 + CWE ETL 导入修复 | 2026-08-13 |
@@ -93,9 +96,6 @@ Merged Pull Requests across open source projects.
 | [lxcxjxhx/HOS_SKILL_WORKFLOW](https://github.com/lxcxjxhx/HOS_SKILL_WORKFLOW) | [#22](https://github.com/lxcxjxhx/HOS_SKILL_WORKFLOW/pull/22) | docs(06-fuck-demo): beautify README.md with unified template | 2026-07-27 |
 | [lxcxjxhx/HOS_SKILL_WORKFLOW](https://github.com/lxcxjxhx/HOS_SKILL_WORKFLOW) | [#20](https://github.com/lxcxjxhx/HOS_SKILL_WORKFLOW/pull/20) | docs(06-fuck-demo): rename skill.md to SKILL.md for AI IDE compatibility | 2026-07-27 |
 | [lxcxjxhx/HOS_SKILL_WORKFLOW](https://github.com/lxcxjxhx/HOS_SKILL_WORKFLOW) | [#19](https://github.com/lxcxjxhx/HOS_SKILL_WORKFLOW/pull/19) | docs(04-silly-mock): unify YAML front matter format and beautify README | 2026-07-27 |
-| [lxcxjxhx/HOS_SKILL_WORKFLOW](https://github.com/lxcxjxhx/HOS_SKILL_WORKFLOW) | [#18](https://github.com/lxcxjxhx/HOS_SKILL_WORKFLOW/pull/18) | docs(05-xrg-loop): add SKILL.md and README.md with standardized format | 2026-07-27 |
-| [lxcxjxhx/HOS_SKILL_WORKFLOW](https://github.com/lxcxjxhx/HOS_SKILL_WORKFLOW) | [#17](https://github.com/lxcxjxhx/HOS_SKILL_WORKFLOW/pull/17) | docs(03-vibe-guard): add YAML front matter to SKILL.md | 2026-07-27 |
-| [lxcxjxhx/HOS_SKILL_WORKFLOW](https://github.com/lxcxjxhx/HOS_SKILL_WORKFLOW) | [#16](https://github.com/lxcxjxhx/HOS_SKILL_WORKFLOW/pull/16) | docs(02-life-okr): add README.md with unified format | 2026-07-27 |
 | [lxcxjxhx/HOS_SKILL_WORKFLOW](https://github.com/lxcxjxhx/HOS_SKILL_WORKFLOW) | [#26](https://github.com/lxcxjxhx/HOS_SKILL_WORKFLOW/pull/26) | docs(07-ip-writing): unify YAML front matter format in SKILL.md | 2026-07-26 |
 | [lxcxjxhx/academic-resume](https://github.com/lxcxjxhx/academic-resume) | [#1](https://github.com/lxcxjxhx/academic-resume/pull/1) | chore: 切换许可证为 AGPLv3 并引入 DCO | 2026-08-02 |
 | [lxcxjxhx/lxcxjxhx](https://github.com/lxcxjxhx/lxcxjxhx) | [#6](https://github.com/lxcxjxhx/lxcxjxhx/pull/6) | chore: 移除 profile 仓库的 LICENSE 文件与展示 | 2026-08-02 |
@@ -128,7 +128,7 @@ PR/
 
 Updated daily via GitHub Actions at UTC 00:00.
 
-Last updated: 2026-08-14 01:40:31 UTC
+Last updated: 2026-08-15 01:02:44 UTC
 
 ---
 
