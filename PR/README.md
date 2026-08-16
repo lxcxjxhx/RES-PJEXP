@@ -34,6 +34,10 @@ Merged Pull Requests across open source projects.
 | [lxcxjxhx/HOS-Forge](https://github.com/lxcxjxhx/HOS-Forge) | [#31](https://github.com/lxcxjxhx/HOS-Forge/pull/31) | feat(cli): fix entry point configuration and add CLI tests | 2026-07-27 |
 | [lxcxjxhx/HOS-Forge](https://github.com/lxcxjxhx/HOS-Forge) | [#36](https://github.com/lxcxjxhx/HOS-Forge/pull/36) | feat: implement TrivyTool and enhance security tools integration | 2026-07-27 |
 | [lxcxjxhx/HOS-Forge](https://github.com/lxcxjxhx/HOS-Forge) | [#35](https://github.com/lxcxjxhx/HOS-Forge/pull/35) | feat: enhance Taskflow Engine with parallel execution support | 2026-07-27 |
+| [lxcxjxhx/HOS-LS](https://github.com/lxcxjxhx/HOS-LS) | [#33](https://github.com/lxcxjxhx/HOS-LS/pull/33) | chore: gitignore 忽略 CodeGraph 预索引目录 | 2026-08-15 |
+| [lxcxjxhx/HOS-LS](https://github.com/lxcxjxhx/HOS-LS) | [#32](https://github.com/lxcxjxhx/HOS-LS/pull/32) | feat: M6 文件级并发可配置 + 缓存命中统计上报 | 2026-08-15 |
+| [lxcxjxhx/HOS-LS](https://github.com/lxcxjxhx/HOS-LS) | [#31](https://github.com/lxcxjxhx/HOS-LS/pull/31) | feat: M7 CWE 专项检测指引接线（配置门默认关） | 2026-08-15 |
+| [lxcxjxhx/HOS-LS](https://github.com/lxcxjxhx/HOS-LS) | [#30](https://github.com/lxcxjxhx/HOS-LS/pull/30) | feat: 客户端超时修复 + AST 确定性证据能力（默认关，A/B 验证后收敛） | 2026-08-15 |
 | [lxcxjxhx/HOS-LS](https://github.com/lxcxjxhx/HOS-LS) | [#29](https://github.com/lxcxjxhx/HOS-LS/pull/29) | feat: 评测分数卡 + JSON 结构化输出 + 响应缓存 + 请求超时 + 提示词优化（M1-M3） | 2026-08-14 |
 | [lxcxjxhx/HOS-LS](https://github.com/lxcxjxhx/HOS-LS) | [#28](https://github.com/lxcxjxhx/HOS-LS/pull/28) | feat: Agent-6 先分析后判定 + 双轨输出（提升检出） | 2026-08-14 |
 | [lxcxjxhx/HOS-LS](https://github.com/lxcxjxhx/HOS-LS) | [#27](https://github.com/lxcxjxhx/HOS-LS/pull/27) | fix: Agent-2 风险枚举放宽为候选风险（验证层过滤） | 2026-08-14 |
@@ -83,7 +87,6 @@ Merged Pull Requests across open source projects.
 | [lxcxjxhx/HOS_SKILL_WORKFLOW](https://github.com/lxcxjxhx/HOS_SKILL_WORKFLOW) | [#36](https://github.com/lxcxjxhx/HOS_SKILL_WORKFLOW/pull/36) | refactor: replace HOS-OSS-Contributor with HOS-GH-ContribOS - unified contribution lifecycle framework | 2026-07-29 |
 | [lxcxjxhx/HOS_SKILL_WORKFLOW](https://github.com/lxcxjxhx/HOS_SKILL_WORKFLOW) | [#35](https://github.com/lxcxjxhx/HOS_SKILL_WORKFLOW/pull/35) | feat: add HOS-OSS-Contributor skill - AI-driven open source contribution workflow | 2026-07-29 |
 | [lxcxjxhx/HOS_SKILL_WORKFLOW](https://github.com/lxcxjxhx/HOS_SKILL_WORKFLOW) | [#34](https://github.com/lxcxjxhx/HOS_SKILL_WORKFLOW/pull/34) | feat: add 09-HOS-Content-Engine — 4D content model for AI Security Lab | 2026-07-27 |
-| [lxcxjxhx/HOS_SKILL_WORKFLOW](https://github.com/lxcxjxhx/HOS_SKILL_WORKFLOW) | [#21](https://github.com/lxcxjxhx/HOS_SKILL_WORKFLOW/pull/21) | docs(06-fuck-demo): unify YAML front matter format with standardized fields | 2026-07-27 |
 | [lxcxjxhx/HOS_SKILL_WORKFLOW](https://github.com/lxcxjxhx/HOS_SKILL_WORKFLOW) | [#32](https://github.com/lxcxjxhx/HOS_SKILL_WORKFLOW/pull/32) | docs(300-human-pass): beautify README.md with unified template | 2026-07-27 |
 | [lxcxjxhx/HOS_SKILL_WORKFLOW](https://github.com/lxcxjxhx/HOS_SKILL_WORKFLOW) | [#31](https://github.com/lxcxjxhx/HOS_SKILL_WORKFLOW/pull/31) | docs(100-auto-workflow): beautify README.md with unified template | 2026-07-27 |
 | [lxcxjxhx/HOS_SKILL_WORKFLOW](https://github.com/lxcxjxhx/HOS_SKILL_WORKFLOW) | [#30](https://github.com/lxcxjxhx/HOS_SKILL_WORKFLOW/pull/30) | docs(300-human-pass): add SKILL.md with standardized metadata | 2026-07-27 |
@@ -93,9 +96,6 @@ Merged Pull Requests across open source projects.
 | [lxcxjxhx/HOS_SKILL_WORKFLOW](https://github.com/lxcxjxhx/HOS_SKILL_WORKFLOW) | [#25](https://github.com/lxcxjxhx/HOS_SKILL_WORKFLOW/pull/25) | docs(200-json-prompts): beautify README.md with unified template | 2026-07-27 |
 | [lxcxjxhx/HOS_SKILL_WORKFLOW](https://github.com/lxcxjxhx/HOS_SKILL_WORKFLOW) | [#24](https://github.com/lxcxjxhx/HOS_SKILL_WORKFLOW/pull/24) | docs(200-json-prompts): add SKILL.md with standardized metadata | 2026-07-27 |
 | [lxcxjxhx/HOS_SKILL_WORKFLOW](https://github.com/lxcxjxhx/HOS_SKILL_WORKFLOW) | [#23](https://github.com/lxcxjxhx/HOS_SKILL_WORKFLOW/pull/23) | docs(09-content-engine): unify SKILL.md YAML front matter format | 2026-07-27 |
-| [lxcxjxhx/HOS_SKILL_WORKFLOW](https://github.com/lxcxjxhx/HOS_SKILL_WORKFLOW) | [#22](https://github.com/lxcxjxhx/HOS_SKILL_WORKFLOW/pull/22) | docs(06-fuck-demo): beautify README.md with unified template | 2026-07-27 |
-| [lxcxjxhx/HOS_SKILL_WORKFLOW](https://github.com/lxcxjxhx/HOS_SKILL_WORKFLOW) | [#20](https://github.com/lxcxjxhx/HOS_SKILL_WORKFLOW/pull/20) | docs(06-fuck-demo): rename skill.md to SKILL.md for AI IDE compatibility | 2026-07-27 |
-| [lxcxjxhx/HOS_SKILL_WORKFLOW](https://github.com/lxcxjxhx/HOS_SKILL_WORKFLOW) | [#19](https://github.com/lxcxjxhx/HOS_SKILL_WORKFLOW/pull/19) | docs(04-silly-mock): unify YAML front matter format and beautify README | 2026-07-27 |
 | [lxcxjxhx/HOS_SKILL_WORKFLOW](https://github.com/lxcxjxhx/HOS_SKILL_WORKFLOW) | [#26](https://github.com/lxcxjxhx/HOS_SKILL_WORKFLOW/pull/26) | docs(07-ip-writing): unify YAML front matter format in SKILL.md | 2026-07-26 |
 | [lxcxjxhx/academic-resume](https://github.com/lxcxjxhx/academic-resume) | [#1](https://github.com/lxcxjxhx/academic-resume/pull/1) | chore: 切换许可证为 AGPLv3 并引入 DCO | 2026-08-02 |
 | [lxcxjxhx/lxcxjxhx](https://github.com/lxcxjxhx/lxcxjxhx) | [#6](https://github.com/lxcxjxhx/lxcxjxhx/pull/6) | chore: 移除 profile 仓库的 LICENSE 文件与展示 | 2026-08-02 |
@@ -128,7 +128,7 @@ PR/
 
 Updated daily via GitHub Actions at UTC 00:00.
 
-Last updated: 2026-08-15 01:02:44 UTC
+Last updated: 2026-08-16 01:06:07 UTC
 
 ---
 
