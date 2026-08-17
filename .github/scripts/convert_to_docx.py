@@ -75,7 +75,14 @@ def add_shading(paragraph, color_hex):
 
 
 def main():
-    with open("resume.html", "r", encoding="utf-8") as f:
+    # Usage: python convert_to_docx.py [input.html] [output.docx]
+    import sys
+    input_file = sys.argv[1] if len(sys.argv) > 1 else "resume.html"
+    output_file = sys.argv[2] if len(sys.argv) > 2 else "简历 钱佳宏.docx"
+    print(f"Input:  {input_file}")
+    print(f"Output: {output_file}")
+
+    with open(input_file, "r", encoding="utf-8") as f:
         html = f.read()
 
     soup = BeautifulSoup(html, "html.parser")
@@ -261,7 +268,7 @@ def main():
             run = p.add_run(child.get_text(strip=True))
             set_font(run, size=7.5, color=FOOTER_COLOR)
 
-    doc.save("简历 钱佳宏.docx")
+    doc.save(output_file)
     print("DOCX generated successfully.")
 
 

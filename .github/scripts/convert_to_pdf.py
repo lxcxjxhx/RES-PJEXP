@@ -47,6 +47,12 @@ def get_cjk_fonts():
 
 
 def main():
+    # Usage: python convert_to_pdf.py [input.html] [output.pdf]
+    input_file = sys.argv[1] if len(sys.argv) > 1 else "resume.html"
+    output_file = sys.argv[2] if len(sys.argv) > 2 else "简历 钱佳宏.pdf"
+    print(f"Input:  {input_file}")
+    print(f"Output: {output_file}")
+
     fonts = get_cjk_fonts()
     if not fonts:
         print("ERROR: No CJK font found!", file=sys.stderr)
@@ -58,7 +64,7 @@ def main():
     print(f"Primary CJK font: {primary}")
     print(f"Font chain: {font_chain}")
 
-    with open("resume.html", "r", encoding="utf-8") as f:
+    with open(input_file, "r", encoding="utf-8") as f:
         html = f.read()
 
     # ── Step 1: Replace every font-family declaration inside <style> ──
@@ -91,7 +97,7 @@ def main():
 
     print(f"Converting {temp_html} → PDF …")
     doc = weasyprint.HTML(filename=temp_html)
-    doc.write_pdf("简历 钱佳宏.pdf")
+    doc.write_pdf(output_file)
     print("PDF generated successfully.")
 
 

@@ -1,4 +1,4 @@
-name: Convert Resume HTML to DOCX & PDF
+name: Build Resume (ZH + EN) to DOCX & PDF
 
 on:
   push:
@@ -39,13 +39,33 @@ jobs:
         run: |
           echo "=== Installing Python dependencies ==="
           python -m pip install --upgrade pip
-          pip install weasyprint python-docx beautifulsoup4 lxml
+          pip install weasyprint python-docx beautifulsoup4 lxml requests
           echo "=== Python dependencies installed ==="
 
-      - name: Generate PDF
+      # ── Step 1: translate resume.html -> resume.en.html ──
+      # Free by default (Google Translate public endpoint / MyMemory fallback);
+      # if the DEEPSEEK_API_KEY secret is configured, DeepSeek is used instead
+      # for higher quality (same key as the README translation workflow).
+      - name: Translate resume to English
+        env:
+          DEEPSEEK_API_KEY: ${{ secrets.DEEPSEEK_API_KEY }}
+          DEEPSEEK_BASE_URL: ${{ secrets.DEEPSEEK_BASE_URL }}
+          DEEPSEEK_MODEL: ${{ secrets.DEEPSEEK_MODEL }}
         run: |
-          echo "=== Generating PDF ==="
-          python .github/scripts/convert_to_pdf.py
+          python .github/scripts/translate_resume.py
+          if [ -f "resume.en.html" ]; then
+            echo "✓ English resume generated"
+            ls -lh resume.en.html
+          else
+            echo "✗ English resume generation failed"
+            exit 1
+          fi
+
+      # ── Step 2: Chinese versions ──
+      - name: Generate Chinese PDF
+        run: |
+          echo "=== Generating Chinese PDF ==="
+          python .github/scripts/convert_to_pdf.py resume.html "简历 钱佳宏.pdf"
           if [ -f "简历 钱佳宏.pdf" ]; then
             echo "✓ PDF generated successfully"
             ls -lh "简历 钱佳宏.pdf"
@@ -54,15 +74,40 @@ jobs:
             exit 1
           fi
 
-      - name: Generate DOCX
+      - name: Generate Chinese DOCX
         run: |
-          echo "=== Generating DOCX ==="
-          python .github/scripts/convert_to_docx.py
+          echo "=== Generating Chinese DOCX ==="
+          python .github/scripts/convert_to_docx.py resume.html "简历 钱佳宏.docx"
           if [ -f "简历 钱佳宏.docx" ]; then
             echo "✓ DOCX generated successfully"
             ls -lh "简历 钱佳宏.docx"
           else
             echo "✗ DOCX generation failed"
+            exit 1
+          fi
+
+      # ── Step 3: English versions ──
+      - name: Generate English PDF
+        run: |
+          echo "=== Generating English PDF ==="
+          python .github/scripts/convert_to_pdf.py resume.en.html "Resume Qian Jiahong.pdf"
+          if [ -f "Resume Qian Jiahong.pdf" ]; then
+            echo "✓ English PDF generated successfully"
+            ls -lh "Resume Qian Jiahong.pdf"
+          else
+            echo "✗ English PDF generation failed"
+            exit 1
+          fi
+
+      - name: Generate English DOCX
+        run: |
+          echo "=== Generating English DOCX ==="
+          python .github/scripts/convert_to_docx.py resume.en.html "Resume Qian Jiahong.docx"
+          if [ -f "Resume Qian Jiahong.docx" ]; then
+            echo "✓ English DOCX generated successfully"
+            ls -lh "Resume Qian Jiahong.docx"
+          else
+            echo "✗ English DOCX generation failed"
             exit 1
           fi
 
@@ -73,17 +118,18 @@ jobs:
           echo "=== Committing changes ==="
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add "简历 钱佳宏.docx" "简历 钱佳宏.pdf"
-          
+          git add resume.en.html "简历 钱佳宏.docx" "简历 钱佳宏.pdf" "Resume Qian Jiahong.docx" "Resume Qian Jiahong.pdf"
+
           if git diff --staged --quiet; then
             echo "No changes to commit"
           else
             echo "Committing converted files..."
-            git commit -m "Auto-convert resume to DOCX and PDF
+            git commit -m "Auto-build resume: Chinese + English (HTML/DOCX/PDF)
 
             Generated from resume.html using GitHub Actions
-            - PDF: weasyprint with CJK font support
-            - DOCX: python-docx with precise A4 layout"
+            - resume.en.html: auto-translated via free translation API
+            - Chinese: PDF (weasyprint) + DOCX (python-docx)
+            - English: PDF (weasyprint) + DOCX (python-docx)"
             git push
             echo "✓ Changes pushed successfully"
           fi
