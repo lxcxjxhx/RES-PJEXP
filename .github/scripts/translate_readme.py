@@ -18,7 +18,6 @@ Run from the repository root:
 
 import os
 import re
-import sys
 import time
 from datetime import datetime, timezone
 from urllib.parse import quote
@@ -129,13 +128,14 @@ def call_api(payload):
 
 def main():
     if not API_KEY:
-        sys.exit(
-            'DEEPSEEK_API_KEY is not set.\n'
-            'Add it as a repository secret: GitHub -> Settings -> Secrets and '
-            'variables -> Actions -> New repository secret -> DEEPSEEK_API_KEY.\n'
-            'Then re-run this workflow (Actions -> "Translate README to English" -> '
-            'Run workflow).'
+        print(
+            '[SKIP] DEEPSEEK_API_KEY is not set - translation skipped.\n'
+            '       To enable auto-translation, add it as a repository secret:\n'
+            '       GitHub -> Settings -> Secrets and variables -> Actions ->\n'
+            '       New repository secret -> Name: DEEPSEEK_API_KEY\n'
+            '       Then re-run: Actions -> "Translate README to English" -> Run workflow.'
         )
+        return
 
     with open(README_PATH, encoding='utf-8') as f:
         content = f.read()
@@ -169,7 +169,7 @@ def main():
 
     with open(OUTPUT_PATH, 'w', encoding='utf-8') as f:
         f.write(output)
-    print(f'✅ README.en.md written ({len(output)} characters)')
+    print(f'[OK] README.en.md written ({len(output)} characters)')
 
 
 if __name__ == '__main__':

@@ -15,7 +15,7 @@ on:
 #   Value: 你的 DeepSeek API Key（https://platform.deepseek.com）
 # 可选 secret：DEEPSEEK_BASE_URL（默认 https://api.deepseek.com）、
 #             DEEPSEEK_MODEL（默认 deepseek-chat）
-# 未配置 DEEPSEEK_API_KEY 时，本任务会自动跳过。
+# 未配置 DEEPSEEK_API_KEY 时，脚本会输出提示并跳过（任务仍为成功状态）。
 
 permissions:
   contents: write
@@ -27,7 +27,6 @@ concurrency:
 jobs:
   translate:
     runs-on: ubuntu-latest
-    if: ${{ secrets.DEEPSEEK_API_KEY != '' }}
 
     steps:
       - name: Checkout repository
