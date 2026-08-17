@@ -126,6 +126,14 @@ def generate_readme():
 
 <div align="center">
 
+🌐 **语言 / Language:** [🇨🇳 中文](README.md) &nbsp;|&nbsp; [🇬🇧 English](README.en.md)
+
+</div>
+
+---
+
+<div align="center">
+
 <!-- Banner -->
 <table align="center" width="90%" style="margin: 0 auto; border-collapse: collapse;">
 <tr><td align="center" style="background: linear-gradient(135deg, #0f0c29 0%, #302b63 50%, #24243e 100%); padding: 40px 20px; border-radius: 16px;">
@@ -186,6 +194,23 @@ def generate_readme():
 
 ---
 
+<!-- ════════ About Me ════════ -->
+
+<div align="center">
+
+## 👋 About Me
+
+**Qian Jiahong (钱佳宏) · 上海，中国**
+
+信息安全 × AI 双域实践者，以代码为武器深耕大模型攻防与系统安全。
+CSDN **1,467** 篇原创文章、**{pr_count}** 个已合并 Pull Request、
+**{pypi_stats['total_packages']}** 个 PyPI 开源包、年度 **{github_stats['total_commits']}** 次 GitHub 贡献，
+持续用工程实践探索 AI 时代的安全边界。
+
+</div>
+
+---
+
 <!-- ════════ Quick Links ════════ -->
 
 ## 🔗 Quick Links
@@ -211,7 +236,7 @@ def generate_readme():
 <br/>
 
 <a href="./PR/README.md">
-<img src="https://img.shields.io/badge/📊_查看_PR_记录-{github_stats['total_prs']}_merged-10B981?style=for-the-badge&logo=github&logoColor=white" />
+<img src="https://img.shields.io/badge/📊_查看_PR_记录-{pr_count}_merged-10B981?style=for-the-badge&logo=github&logoColor=white" />
 </a>
 
 <br/><br/>
@@ -606,7 +631,7 @@ Intel AI 竞赛 · AI+威胁检测<br/>
 ---
 
 <div align="center">
-<sub>🤖 本 README 通过 GitHub Actions 自动更新 | 最后更新: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')} UTC</sub>
+<sub>🤖 本 README 通过 GitHub Actions 自动更新，英文版 README.en.md 自动翻译 | 最后更新: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')} UTC</sub>
 </div>
 """
     
