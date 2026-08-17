@@ -34,6 +34,7 @@ Merged Pull Requests across open source projects.
 | [lxcxjxhx/HOS-Forge](https://github.com/lxcxjxhx/HOS-Forge) | [#31](https://github.com/lxcxjxhx/HOS-Forge/pull/31) | feat(cli): fix entry point configuration and add CLI tests | 2026-07-27 |
 | [lxcxjxhx/HOS-Forge](https://github.com/lxcxjxhx/HOS-Forge) | [#36](https://github.com/lxcxjxhx/HOS-Forge/pull/36) | feat: implement TrivyTool and enhance security tools integration | 2026-07-27 |
 | [lxcxjxhx/HOS-Forge](https://github.com/lxcxjxhx/HOS-Forge) | [#35](https://github.com/lxcxjxhx/HOS-Forge/pull/35) | feat: enhance Taskflow Engine with parallel execution support | 2026-07-27 |
+| [lxcxjxhx/HOS-LS](https://github.com/lxcxjxhx/HOS-LS) | [#34](https://github.com/lxcxjxhx/HOS-LS/pull/34) | feat(OPT): 三级 SAST→AI cascade 流水线 + 省钱策略 + 去重归属 | 2026-08-16 |
 | [lxcxjxhx/HOS-LS](https://github.com/lxcxjxhx/HOS-LS) | [#33](https://github.com/lxcxjxhx/HOS-LS/pull/33) | chore: gitignore 忽略 CodeGraph 预索引目录 | 2026-08-15 |
 | [lxcxjxhx/HOS-LS](https://github.com/lxcxjxhx/HOS-LS) | [#32](https://github.com/lxcxjxhx/HOS-LS/pull/32) | feat: M6 文件级并发可配置 + 缓存命中统计上报 | 2026-08-15 |
 | [lxcxjxhx/HOS-LS](https://github.com/lxcxjxhx/HOS-LS) | [#31](https://github.com/lxcxjxhx/HOS-LS/pull/31) | feat: M7 CWE 专项检测指引接线（配置门默认关） | 2026-08-15 |
@@ -95,7 +96,6 @@ Merged Pull Requests across open source projects.
 | [lxcxjxhx/HOS_SKILL_WORKFLOW](https://github.com/lxcxjxhx/HOS_SKILL_WORKFLOW) | [#27](https://github.com/lxcxjxhx/HOS_SKILL_WORKFLOW/pull/27) | docs(07-ip-writing): beautify README.md with unified template | 2026-07-27 |
 | [lxcxjxhx/HOS_SKILL_WORKFLOW](https://github.com/lxcxjxhx/HOS_SKILL_WORKFLOW) | [#25](https://github.com/lxcxjxhx/HOS_SKILL_WORKFLOW/pull/25) | docs(200-json-prompts): beautify README.md with unified template | 2026-07-27 |
 | [lxcxjxhx/HOS_SKILL_WORKFLOW](https://github.com/lxcxjxhx/HOS_SKILL_WORKFLOW) | [#24](https://github.com/lxcxjxhx/HOS_SKILL_WORKFLOW/pull/24) | docs(200-json-prompts): add SKILL.md with standardized metadata | 2026-07-27 |
-| [lxcxjxhx/HOS_SKILL_WORKFLOW](https://github.com/lxcxjxhx/HOS_SKILL_WORKFLOW) | [#23](https://github.com/lxcxjxhx/HOS_SKILL_WORKFLOW/pull/23) | docs(09-content-engine): unify SKILL.md YAML front matter format | 2026-07-27 |
 | [lxcxjxhx/HOS_SKILL_WORKFLOW](https://github.com/lxcxjxhx/HOS_SKILL_WORKFLOW) | [#26](https://github.com/lxcxjxhx/HOS_SKILL_WORKFLOW/pull/26) | docs(07-ip-writing): unify YAML front matter format in SKILL.md | 2026-07-26 |
 | [lxcxjxhx/academic-resume](https://github.com/lxcxjxhx/academic-resume) | [#1](https://github.com/lxcxjxhx/academic-resume/pull/1) | chore: 切换许可证为 AGPLv3 并引入 DCO | 2026-08-02 |
 | [lxcxjxhx/lxcxjxhx](https://github.com/lxcxjxhx/lxcxjxhx) | [#6](https://github.com/lxcxjxhx/lxcxjxhx/pull/6) | chore: 移除 profile 仓库的 LICENSE 文件与展示 | 2026-08-02 |
@@ -128,7 +128,7 @@ PR/
 
 Updated daily via GitHub Actions at UTC 00:00.
 
-Last updated: 2026-08-16 01:06:07 UTC
+Last updated: 2026-08-17 01:03:20 UTC
 
 ---
 
