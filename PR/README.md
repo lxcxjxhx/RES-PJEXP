@@ -5,7 +5,7 @@ Merged Pull Requests across open source projects.
 ## Summary
 
 - **Total Merged PRs**: 100
-- **Projects**: 18
+- **Projects**: 19
 
 ## PR List
 
@@ -20,6 +20,16 @@ Merged Pull Requests across open source projects.
 | [lxcxjxhx/BOS-FS](https://github.com/lxcxjxhx/BOS-FS) | [#1](https://github.com/lxcxjxhx/BOS-FS/pull/1) | chore: 切换许可证为 AGPLv3 并引入 DCO | 2026-08-02 |
 | [lxcxjxhx/BOS-NI](https://github.com/lxcxjxhx/BOS-NI) | [#2](https://github.com/lxcxjxhx/BOS-NI/pull/2) | chore: 清理残留的旧 MIT 许可证文件与 README 引用 | 2026-08-02 |
 | [lxcxjxhx/BOS-NI](https://github.com/lxcxjxhx/BOS-NI) | [#1](https://github.com/lxcxjxhx/BOS-NI/pull/1) | chore: 切换许可证为 AGPLv3 并引入 DCO | 2026-08-02 |
+| [lxcxjxhx/HOS-ARES](https://github.com/lxcxjxhx/HOS-ARES) | [#11](https://github.com/lxcxjxhx/HOS-ARES/pull/11) | feat: rootfs build infrastructure - Docker + Windows/Linux scripts | 2026-08-17 |
+| [lxcxjxhx/HOS-ARES](https://github.com/lxcxjxhx/HOS-ARES) | [#10](https://github.com/lxcxjxhx/HOS-ARES/pull/10) | feat: UI progress cards + Settings connectivity test + SkillRegistry | 2026-08-17 |
+| [lxcxjxhx/HOS-ARES](https://github.com/lxcxjxhx/HOS-ARES) | [#9](https://github.com/lxcxjxhx/HOS-ARES/pull/9) | feat: TerminalActivity UI fix + MainActivity integration | 2026-08-17 |
+| [lxcxjxhx/HOS-ARES](https://github.com/lxcxjxhx/HOS-ARES) | [#8](https://github.com/lxcxjxhx/HOS-ARES/pull/8) | feat: bootstrap.sh pre-installed validation + entry.sh tool shims | 2026-08-17 |
+| [lxcxjxhx/HOS-ARES](https://github.com/lxcxjxhx/HOS-ARES) | [#7](https://github.com/lxcxjxhx/HOS-ARES/pull/7) | feat: ProotRuntime pre-installed mode + incremental update + error humanization | 2026-08-17 |
+| [lxcxjxhx/HOS-ARES](https://github.com/lxcxjxhx/HOS-ARES) | [#6](https://github.com/lxcxjxhx/HOS-ARES/pull/6) | feat: reasonix agent parallel scheduling + soft routing | 2026-08-17 |
+| [lxcxjxhx/HOS-ARES](https://github.com/lxcxjxhx/HOS-ARES) | [#5](https://github.com/lxcxjxhx/HOS-ARES/pull/5) | refactor: remove Strix UI layer + securityresearch agent (~37K lines) | 2026-08-17 |
+| [lxcxjxhx/HOS-ARES](https://github.com/lxcxjxhx/HOS-ARES) | [#4](https://github.com/lxcxjxhx/HOS-ARES/pull/4) | refactor: remove pentestgpt agent (~5.5K lines) | 2026-08-17 |
+| [lxcxjxhx/HOS-ARES](https://github.com/lxcxjxhx/HOS-ARES) | [#3](https://github.com/lxcxjxhx/HOS-ARES/pull/3) | refactor: remove deepaudit agent (~40K lines) | 2026-08-17 |
+| [lxcxjxhx/HOS-ARES](https://github.com/lxcxjxhx/HOS-ARES) | [#2](https://github.com/lxcxjxhx/HOS-ARES/pull/2) | build: optimize APK size + upgrade build toolchain | 2026-08-17 |
 | [lxcxjxhx/HOS-Forge](https://github.com/lxcxjxhx/HOS-Forge) | [#46](https://github.com/lxcxjxhx/HOS-Forge/pull/46) | chore: 清理残留的旧 MIT 许可证文件与 README 引用 | 2026-08-02 |
 | [lxcxjxhx/HOS-Forge](https://github.com/lxcxjxhx/HOS-Forge) | [#45](https://github.com/lxcxjxhx/HOS-Forge/pull/45) | chore: 切换许可证为 AGPLv3 并引入 DCO | 2026-08-02 |
 | [lxcxjxhx/HOS-Forge](https://github.com/lxcxjxhx/HOS-Forge) | [#44](https://github.com/lxcxjxhx/HOS-Forge/pull/44) | feat: add version locking, pipeline error strategies, and registry-pipeline integration | 2026-07-30 |
@@ -66,6 +76,7 @@ Merged Pull Requests across open source projects.
 | [lxcxjxhx/HOS-Model-Optimizer](https://github.com/lxcxjxhx/HOS-Model-Optimizer) | [#3](https://github.com/lxcxjxhx/HOS-Model-Optimizer/pull/3) | chore: 清理残留的旧 MIT 许可证文件与 README 引用 | 2026-08-02 |
 | [lxcxjxhx/HOS-Model-Optimizer](https://github.com/lxcxjxhx/HOS-Model-Optimizer) | [#2](https://github.com/lxcxjxhx/HOS-Model-Optimizer/pull/2) | chore: 切换许可证为 AGPLv3 并引入 DCO | 2026-08-02 |
 | [lxcxjxhx/HOS-Qian-jia-hong-resume](https://github.com/lxcxjxhx/HOS-Qian-jia-hong-resume) | [#1](https://github.com/lxcxjxhx/HOS-Qian-jia-hong-resume/pull/1) | chore: 切换许可证为 AGPLv3 并引入 DCO | 2026-08-02 |
+| [lxcxjxhx/HOS_SKILL_WORKFLOW](https://github.com/lxcxjxhx/HOS_SKILL_WORKFLOW) | [#60](https://github.com/lxcxjxhx/HOS_SKILL_WORKFLOW/pull/60) | feat: integrate CN-SRC-Hunter bug bounty pipeline methodology | 2026-08-17 |
 | [lxcxjxhx/HOS_SKILL_WORKFLOW](https://github.com/lxcxjxhx/HOS_SKILL_WORKFLOW) | [#58](https://github.com/lxcxjxhx/HOS_SKILL_WORKFLOW/pull/58) | feat(S-12): 方法论背书 + CS 审稿 rubric 补全 | 2026-08-11 |
 | [lxcxjxhx/HOS_SKILL_WORKFLOW](https://github.com/lxcxjxhx/HOS_SKILL_WORKFLOW) | [#57](https://github.com/lxcxjxhx/HOS_SKILL_WORKFLOW/pull/57) | feat: add X-00 HOS-Chara-Sequence — ComfyUI character portrait sequence generator (entertainment series) | 2026-08-07 |
 | [lxcxjxhx/HOS_SKILL_WORKFLOW](https://github.com/lxcxjxhx/HOS_SKILL_WORKFLOW) | [#53](https://github.com/lxcxjxhx/HOS_SKILL_WORKFLOW/pull/53) | feat: 新增 S-13-HOS-Char-Factory 角色素材工厂 skill | 2026-08-06 |
@@ -87,16 +98,6 @@ Merged Pull Requests across open source projects.
 | [lxcxjxhx/HOS_SKILL_WORKFLOW](https://github.com/lxcxjxhx/HOS_SKILL_WORKFLOW) | [#37](https://github.com/lxcxjxhx/HOS_SKILL_WORKFLOW/pull/37) | feat: enhance ContribOS with comprehensive experience integration | 2026-07-29 |
 | [lxcxjxhx/HOS_SKILL_WORKFLOW](https://github.com/lxcxjxhx/HOS_SKILL_WORKFLOW) | [#36](https://github.com/lxcxjxhx/HOS_SKILL_WORKFLOW/pull/36) | refactor: replace HOS-OSS-Contributor with HOS-GH-ContribOS - unified contribution lifecycle framework | 2026-07-29 |
 | [lxcxjxhx/HOS_SKILL_WORKFLOW](https://github.com/lxcxjxhx/HOS_SKILL_WORKFLOW) | [#35](https://github.com/lxcxjxhx/HOS_SKILL_WORKFLOW/pull/35) | feat: add HOS-OSS-Contributor skill - AI-driven open source contribution workflow | 2026-07-29 |
-| [lxcxjxhx/HOS_SKILL_WORKFLOW](https://github.com/lxcxjxhx/HOS_SKILL_WORKFLOW) | [#34](https://github.com/lxcxjxhx/HOS_SKILL_WORKFLOW/pull/34) | feat: add 09-HOS-Content-Engine — 4D content model for AI Security Lab | 2026-07-27 |
-| [lxcxjxhx/HOS_SKILL_WORKFLOW](https://github.com/lxcxjxhx/HOS_SKILL_WORKFLOW) | [#32](https://github.com/lxcxjxhx/HOS_SKILL_WORKFLOW/pull/32) | docs(300-human-pass): beautify README.md with unified template | 2026-07-27 |
-| [lxcxjxhx/HOS_SKILL_WORKFLOW](https://github.com/lxcxjxhx/HOS_SKILL_WORKFLOW) | [#31](https://github.com/lxcxjxhx/HOS_SKILL_WORKFLOW/pull/31) | docs(100-auto-workflow): beautify README.md with unified template | 2026-07-27 |
-| [lxcxjxhx/HOS_SKILL_WORKFLOW](https://github.com/lxcxjxhx/HOS_SKILL_WORKFLOW) | [#30](https://github.com/lxcxjxhx/HOS_SKILL_WORKFLOW/pull/30) | docs(300-human-pass): add SKILL.md with standardized metadata | 2026-07-27 |
-| [lxcxjxhx/HOS_SKILL_WORKFLOW](https://github.com/lxcxjxhx/HOS_SKILL_WORKFLOW) | [#29](https://github.com/lxcxjxhx/HOS_SKILL_WORKFLOW/pull/29) | docs(100-auto-workflow): add SKILL.md with standardized metadata | 2026-07-27 |
-| [lxcxjxhx/HOS_SKILL_WORKFLOW](https://github.com/lxcxjxhx/HOS_SKILL_WORKFLOW) | [#28](https://github.com/lxcxjxhx/HOS_SKILL_WORKFLOW/pull/28) | docs(101-ai-guardrail): add comprehensive README.md with unified template | 2026-07-27 |
-| [lxcxjxhx/HOS_SKILL_WORKFLOW](https://github.com/lxcxjxhx/HOS_SKILL_WORKFLOW) | [#27](https://github.com/lxcxjxhx/HOS_SKILL_WORKFLOW/pull/27) | docs(07-ip-writing): beautify README.md with unified template | 2026-07-27 |
-| [lxcxjxhx/HOS_SKILL_WORKFLOW](https://github.com/lxcxjxhx/HOS_SKILL_WORKFLOW) | [#25](https://github.com/lxcxjxhx/HOS_SKILL_WORKFLOW/pull/25) | docs(200-json-prompts): beautify README.md with unified template | 2026-07-27 |
-| [lxcxjxhx/HOS_SKILL_WORKFLOW](https://github.com/lxcxjxhx/HOS_SKILL_WORKFLOW) | [#24](https://github.com/lxcxjxhx/HOS_SKILL_WORKFLOW/pull/24) | docs(200-json-prompts): add SKILL.md with standardized metadata | 2026-07-27 |
-| [lxcxjxhx/HOS_SKILL_WORKFLOW](https://github.com/lxcxjxhx/HOS_SKILL_WORKFLOW) | [#26](https://github.com/lxcxjxhx/HOS_SKILL_WORKFLOW/pull/26) | docs(07-ip-writing): unify YAML front matter format in SKILL.md | 2026-07-26 |
 | [lxcxjxhx/academic-resume](https://github.com/lxcxjxhx/academic-resume) | [#1](https://github.com/lxcxjxhx/academic-resume/pull/1) | chore: 切换许可证为 AGPLv3 并引入 DCO | 2026-08-02 |
 | [lxcxjxhx/lxcxjxhx](https://github.com/lxcxjxhx/lxcxjxhx) | [#6](https://github.com/lxcxjxhx/lxcxjxhx/pull/6) | chore: 移除 profile 仓库的 LICENSE 文件与展示 | 2026-08-02 |
 | [lxcxjxhx/lxcxjxhx](https://github.com/lxcxjxhx/lxcxjxhx) | [#5](https://github.com/lxcxjxhx/lxcxjxhx/pull/5) | chore: 切换许可证为 AGPLv3 并引入 DCO | 2026-08-02 |
@@ -108,7 +109,6 @@ Merged Pull Requests across open source projects.
 | [qianeric-backup/kind-all](https://github.com/qianeric-backup/kind-all) | [#11](https://github.com/qianeric-backup/kind-all/pull/11) | feat: add connection pool management and health checks to HTTPAdapter | 2026-07-27 |
 | [qianeric-backup/kind-all](https://github.com/qianeric-backup/kind-all) | [#17](https://github.com/qianeric-backup/kind-all/pull/17) | fix: improve scheduler accuracy with monotonic clock and drift compensation | 2026-07-27 |
 | [qianeric-backup/kind-all](https://github.com/qianeric-backup/kind-all) | [#19](https://github.com/qianeric-backup/kind-all/pull/19) | feat: add transaction support and concurrency control to SQLite storage | 2026-07-27 |
-| [qianeric-backup/kind-all](https://github.com/qianeric-backup/kind-all) | [#7](https://github.com/qianeric-backup/kind-all/pull/7) | fix: correct HoldController initial state to prevent false positive is_holding | 2026-07-27 |
 | [qianeric-backup/kind-all](https://github.com/qianeric-backup/kind-all) | [#21](https://github.com/qianeric-backup/kind-all/pull/21) | perf: optimize AI Vision Solver with caching and batching | 2026-07-27 |
 | [zaproxy/zaproxy](https://github.com/zaproxy/zaproxy) | [#9411](https://github.com/zaproxy/zaproxy/pull/9411) | Use try-with-resources in HashUtils | 2026-07-30 |
 
@@ -128,7 +128,7 @@ PR/
 
 Updated daily via GitHub Actions at UTC 00:00.
 
-Last updated: 2026-08-17 01:03:20 UTC
+Last updated: 2026-08-18 01:01:13 UTC
 
 ---
 
