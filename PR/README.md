@@ -5,7 +5,7 @@ Merged Pull Requests across open source projects.
 ## Summary
 
 - **Total Merged PRs**: 100
-- **Projects**: 19
+- **Projects**: 18
 
 ## PR List
 
@@ -76,6 +76,8 @@ Merged Pull Requests across open source projects.
 | [lxcxjxhx/HOS-Model-Optimizer](https://github.com/lxcxjxhx/HOS-Model-Optimizer) | [#3](https://github.com/lxcxjxhx/HOS-Model-Optimizer/pull/3) | chore: 清理残留的旧 MIT 许可证文件与 README 引用 | 2026-08-02 |
 | [lxcxjxhx/HOS-Model-Optimizer](https://github.com/lxcxjxhx/HOS-Model-Optimizer) | [#2](https://github.com/lxcxjxhx/HOS-Model-Optimizer/pull/2) | chore: 切换许可证为 AGPLv3 并引入 DCO | 2026-08-02 |
 | [lxcxjxhx/HOS-Qian-jia-hong-resume](https://github.com/lxcxjxhx/HOS-Qian-jia-hong-resume) | [#1](https://github.com/lxcxjxhx/HOS-Qian-jia-hong-resume/pull/1) | chore: 切换许可证为 AGPLv3 并引入 DCO | 2026-08-02 |
+| [lxcxjxhx/HOS_SKILL_WORKFLOW](https://github.com/lxcxjxhx/HOS_SKILL_WORKFLOW) | [#63](https://github.com/lxcxjxhx/HOS_SKILL_WORKFLOW/pull/63) | S-14-HOS-Jailbreak-Loop: Jailbreak 循环优化系统 v1.0.0 | 2026-08-20 |
+| [lxcxjxhx/HOS_SKILL_WORKFLOW](https://github.com/lxcxjxhx/HOS_SKILL_WORKFLOW) | [#62](https://github.com/lxcxjxhx/HOS_SKILL_WORKFLOW/pull/62) | feat(S-13): ARGO × 天琴座创意写作预设系统 | 2026-08-20 |
 | [lxcxjxhx/HOS_SKILL_WORKFLOW](https://github.com/lxcxjxhx/HOS_SKILL_WORKFLOW) | [#61](https://github.com/lxcxjxhx/HOS_SKILL_WORKFLOW/pull/61) | feat(S-01-HOS-Save-Cost): ponytail-restraint + token-router skills + reasonix.toml template | 2026-08-19 |
 | [lxcxjxhx/HOS_SKILL_WORKFLOW](https://github.com/lxcxjxhx/HOS_SKILL_WORKFLOW) | [#60](https://github.com/lxcxjxhx/HOS_SKILL_WORKFLOW/pull/60) | feat: integrate CN-SRC-Hunter bug bounty pipeline methodology | 2026-08-17 |
 | [lxcxjxhx/HOS_SKILL_WORKFLOW](https://github.com/lxcxjxhx/HOS_SKILL_WORKFLOW) | [#58](https://github.com/lxcxjxhx/HOS_SKILL_WORKFLOW/pull/58) | feat(S-12): 方法论背书 + CS 审稿 rubric 补全 | 2026-08-11 |
@@ -99,17 +101,15 @@ Merged Pull Requests across open source projects.
 | [lxcxjxhx/HOS_SKILL_WORKFLOW](https://github.com/lxcxjxhx/HOS_SKILL_WORKFLOW) | [#37](https://github.com/lxcxjxhx/HOS_SKILL_WORKFLOW/pull/37) | feat: enhance ContribOS with comprehensive experience integration | 2026-07-29 |
 | [lxcxjxhx/HOS_SKILL_WORKFLOW](https://github.com/lxcxjxhx/HOS_SKILL_WORKFLOW) | [#36](https://github.com/lxcxjxhx/HOS_SKILL_WORKFLOW/pull/36) | refactor: replace HOS-OSS-Contributor with HOS-GH-ContribOS - unified contribution lifecycle framework | 2026-07-29 |
 | [lxcxjxhx/HOS_SKILL_WORKFLOW](https://github.com/lxcxjxhx/HOS_SKILL_WORKFLOW) | [#35](https://github.com/lxcxjxhx/HOS_SKILL_WORKFLOW/pull/35) | feat: add HOS-OSS-Contributor skill - AI-driven open source contribution workflow | 2026-07-29 |
-| [lxcxjxhx/academic-resume](https://github.com/lxcxjxhx/academic-resume) | [#1](https://github.com/lxcxjxhx/academic-resume/pull/1) | chore: 切换许可证为 AGPLv3 并引入 DCO | 2026-08-02 |
 | [lxcxjxhx/lxcxjxhx](https://github.com/lxcxjxhx/lxcxjxhx) | [#6](https://github.com/lxcxjxhx/lxcxjxhx/pull/6) | chore: 移除 profile 仓库的 LICENSE 文件与展示 | 2026-08-02 |
 | [lxcxjxhx/lxcxjxhx](https://github.com/lxcxjxhx/lxcxjxhx) | [#5](https://github.com/lxcxjxhx/lxcxjxhx/pull/5) | chore: 切换许可证为 AGPLv3 并引入 DCO | 2026-08-02 |
+| [lxcxjxhx/lxcxjxhx.github.io](https://github.com/lxcxjxhx/lxcxjxhx.github.io) | [#6](https://github.com/lxcxjxhx/lxcxjxhx.github.io/pull/6) | feat: 去首页竖茎线 + 02-07 章节整体美化 | 2026-08-20 |
+| [lxcxjxhx/lxcxjxhx.github.io](https://github.com/lxcxjxhx/lxcxjxhx.github.io) | [#5](https://github.com/lxcxjxhx/lxcxjxhx.github.io/pull/5) | feat: 去竖线导航 + GitHub 多维观测面板 + 页脚重构 | 2026-08-20 |
+| [lxcxjxhx/lxcxjxhx.github.io](https://github.com/lxcxjxhx/lxcxjxhx.github.io) | [#4](https://github.com/lxcxjxhx/lxcxjxhx.github.io/pull/4) | feat: 首页重构为海报式 SOC 信号分析台（去模板化） | 2026-08-20 |
+| [lxcxjxhx/lxcxjxhx.github.io](https://github.com/lxcxjxhx/lxcxjxhx.github.io) | [#3](https://github.com/lxcxjxhx/lxcxjxhx.github.io/pull/3) | feat: 首页观测台重构 + 数据中枢多域 SQLite 文件管理 | 2026-08-20 |
+| [lxcxjxhx/lxcxjxhx.github.io](https://github.com/lxcxjxhx/lxcxjxhx.github.io) | [#2](https://github.com/lxcxjxhx/lxcxjxhx.github.io/pull/2) | feat: 外部数据管线 + 导航常规化（数据及时同步） | 2026-08-20 |
 | [lxcxjxhx/lxcxjxhx.github.io](https://github.com/lxcxjxhx/lxcxjxhx.github.io) | [#1](https://github.com/lxcxjxhx/lxcxjxhx.github.io/pull/1) | chore: 切换许可证为 AGPLv3 并引入 DCO | 2026-08-02 |
 | [qianeric-backup/kind-all](https://github.com/qianeric-backup/kind-all) | [#23](https://github.com/qianeric-backup/kind-all/pull/23) | feat: enhance Payment Gate with multi-layer detection and security hardening | 2026-07-27 |
-| [qianeric-backup/kind-all](https://github.com/qianeric-backup/kind-all) | [#15](https://github.com/qianeric-backup/kind-all/pull/15) | feat: enhance EventBus with async error handling, timeouts, and priorities | 2026-07-27 |
-| [qianeric-backup/kind-all](https://github.com/qianeric-backup/kind-all) | [#13](https://github.com/qianeric-backup/kind-all/pull/13) | refactor: extract state transition rules and add lifecycle hooks | 2026-07-27 |
-| [qianeric-backup/kind-all](https://github.com/qianeric-backup/kind-all) | [#11](https://github.com/qianeric-backup/kind-all/pull/11) | feat: add connection pool management and health checks to HTTPAdapter | 2026-07-27 |
-| [qianeric-backup/kind-all](https://github.com/qianeric-backup/kind-all) | [#17](https://github.com/qianeric-backup/kind-all/pull/17) | fix: improve scheduler accuracy with monotonic clock and drift compensation | 2026-07-27 |
-| [qianeric-backup/kind-all](https://github.com/qianeric-backup/kind-all) | [#19](https://github.com/qianeric-backup/kind-all/pull/19) | feat: add transaction support and concurrency control to SQLite storage | 2026-07-27 |
-| [qianeric-backup/kind-all](https://github.com/qianeric-backup/kind-all) | [#21](https://github.com/qianeric-backup/kind-all/pull/21) | perf: optimize AI Vision Solver with caching and batching | 2026-07-27 |
 | [zaproxy/zaproxy](https://github.com/zaproxy/zaproxy) | [#9411](https://github.com/zaproxy/zaproxy/pull/9411) | Use try-with-resources in HashUtils | 2026-07-30 |
 
 ## Detail Files
@@ -128,7 +128,7 @@ PR/
 
 Updated daily via GitHub Actions at UTC 00:00.
 
-Last updated: 2026-08-20 01:02:04 UTC
+Last updated: 2026-08-21 01:05:53 UTC
 
 ---
 
