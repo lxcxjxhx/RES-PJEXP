@@ -13,9 +13,8 @@
 
 <div align="center">
 
-<!-- Banner -->
 <table align="center" width="90%" style="margin: 0 auto; border-collapse: collapse;">
-<tr><td align="center" style="background: #1a1a2e; padding: 40px 20px; border-radius: 12px;">
+<tr><td align="center" style="background: #1a1a2e; padding: 36px 20px; border-radius: 12px;">
 
 <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&duration=3500&pause=500&color=00D4FF&center=true&vCenter=true&width=600&lines=%E5%AE%89%E5%85%A8%E9%A3%8E%E4%BF%A1%E5%AD%90+%7C+%E4%BF%A1%E6%81%AF%E5%AE%89%E5%85%A8%C3%97AI+%E5%AE%9E%E8%B7%B5%E8%80%85;+%E7%94%A8%E4%BB%A3%E7%A0%81%E9%94%BB%E9%80%A0%E6%99%BA%E8%83%BD%E6%97%B6%E4%BB%A3%E7%9A%84%E5%9D%9A%E7%9B%BE%E4%B8%8E%E5%88%A9%E7%9B%BE" alt="Typing SVG" />
 
@@ -33,6 +32,39 @@
 </td></tr>
 </table>
 
+<br/>
+
+<!-- Highlights -->
+<table align="center" width="90%" style="margin: 0 auto;">
+<tr>
+<td width="20%" align="center" style="padding: 12px 4px;">
+<img src="https://img.shields.io/badge/168_PR-2c3e50?style=for-the-badge&logo=github&logoColor=white" /><br/>
+<b>已合并 PR</b><br/>
+<sub>6+ 个知名项目</sub>
+</td>
+<td width="20%" align="center" style="padding: 12px 4px;">
+<img src="https://img.shields.io/badge/1,467_篇-2c3e50?style=for-the-badge&logo=mdbook&logoColor=white" /><br/>
+<b>原创文章</b><br/>
+<sub>CSDN 专家博主</sub>
+</td>
+<td width="20%" align="center" style="padding: 12px 4px;">
+<img src="https://img.shields.io/badge/7_PyPI-2c3e50?style=for-the-badge&logo=pypi&logoColor=white" /><br/>
+<b>开源包</b><br/>
+<sub>安全工具链</sub>
+</td>
+<td width="20%" align="center" style="padding: 12px 4px;">
+<img src="https://img.shields.io/badge/特等奖-2c3e50?style=for-the-badge&logo=trophy&logoColor=white" /><br/>
+<b>中美创客</b><br/>
+<sub>国家级竞赛</sub>
+</td>
+<td width="20%" align="center" style="padding: 12px 4px;">
+<img src="https://img.shields.io/badge/1,966_commits-2c3e50?style=for-the-badge&logo=github&logoColor=white" /><br/>
+<b>年度贡献</b><br/>
+<sub>每天 5.4 次</sub>
+</td>
+</tr>
+</table>
+
 </div>
 
 ---
@@ -42,8 +74,6 @@
 ## About Me
 
 </div>
-
-<br/>
 
 <div align="center">
 <table align="center" width="85%" style="margin: 0 auto;">
@@ -57,7 +87,7 @@
 
 现在，我在 **信息安全 × 大模型工程** 的交叉地带全速前进：用 vLLM 部署生产级推理服务，用 MCP 协议构建可控的 Agent 系统，用 Prompt Engineering 把 LLM 变成安全分析师的副驾驶。
 
-**1,467 篇原创文章** 不是数字——是 1,467 次"搞明白一件事"的承诺。每一个项目、每一篇专栏，都源于一个真实的困惑和一次诚实的探索。
+**1,467 篇原创文章** 不是数字——是 1,467 次"搞明白一件事"的承诺。
 
 上海建桥学院在读 · ✉️ [aqfxz_zh@qq.com](mailto:aqfxz_zh@qq.com)
 
@@ -71,14 +101,21 @@
 
 ## What I Built
 
+<br/>
+
+<a href="https://security-hyacinth.blog.csdn.net/"><img src="https://img.shields.io/badge/CSDN_博客-1,467_篇原创-FC5531?style=for-the-badge&logo=c&logoColor=white" alt="CSDN Blog"/></a>
+<a href="https://github.com/lxcxjxhx"><img src="https://img.shields.io/badge/GitHub-lxcxjxhx-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/></a>
+<a href="https://pypi.org/user/security_hyacinth/"><img src="https://img.shields.io/badge/PyPI-7_Packages-3775A9?style=for-the-badge&logo=pypi&logoColor=white" alt="PyPI"/></a>
+<a href="https://huggingface.co/lxcxjxhx"><img src="https://img.shields.io/badge/HuggingFace-Models-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black" alt="Hugging Face"/></a>
+
 </div>
 
 <br/>
 
 <!-- HOS-LS -->
 <div align="center">
-<table align="center" width="85%" style="margin: 0 auto;">
-<tr><td align="center" style="padding: 20px;">
+<table align="center" width="85%" style="margin: 0 auto; border: 1px solid #e1e4e8; border-radius: 8px; border-collapse: separate;">
+<tr><td align="center" style="padding: 24px;">
 
 ### [HOS-LS](https://github.com/lxcxjxhx/HOS-LS) — AI 驱动的代码安全分析与攻击链推理系统
 
@@ -101,10 +138,12 @@
 </table>
 </div>
 
+<br/>
+
 <!-- HOS_SKILL_WORKFLOW -->
 <div align="center">
-<table align="center" width="85%" style="margin: 0 auto;">
-<tr><td align="center" style="padding: 20px;">
+<table align="center" width="85%" style="margin: 0 auto; border: 1px solid #e1e4e8; border-radius: 8px; border-collapse: separate;">
+<tr><td align="center" style="padding: 24px;">
 
 ### [HOS_SKILL_WORKFLOW](https://github.com/lxcxjxhx/HOS_SKILL_WORKFLOW) — HOS 工作流提示词工厂
 
@@ -121,33 +160,37 @@
 </table>
 </div>
 
+<br/>
+
 <!-- Other Repos -->
 <div align="center">
 <table align="center" width="85%" style="margin: 0 auto;">
 <tr>
-<td width="33%" align="center" valign="top" style="padding: 16px;">
+<td width="33%" align="center" valign="top" style="padding: 16px; border: 1px solid #e1e4e8; border-radius: 8px;">
 
 **[HOS-MATCH-PROJECT](https://github.com/lxcxjxhx/HOS-MATCH-PROJECT)**
 <sub>Intel AI 竞赛 · 知识图谱 + 大模型威胁检测</sub>
-<br/>
+<br/><br/>
 <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" />
 <img src="https://img.shields.io/badge/Qwen2.5-2c3e50?style=flat-square" />
 <img src="https://img.shields.io/badge/React-22D3EE?style=flat-square&logo=react&logoColor=black" />
+<img src="https://img.shields.io/badge/⭐_2-f59e0b?style=flat-square" />
 
 </td>
-<td width="33%" align="center" valign="top" style="padding: 16px;">
+<td width="33%" align="center" valign="top" style="padding: 16px; border: 1px solid #e1e4e8; border-radius: 8px;">
 
 **[BOS-FS](https://github.com/lxcxjxhx/BOS-FS)**
 <sub>安全工具集 · Python 实用脚本</sub>
-<br/>
+<br/><br/>
 <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" />
+<img src="https://img.shields.io/badge/⭐_1-f59e0b?style=flat-square" />
 
 </td>
-<td width="33%" align="center" valign="top" style="padding: 16px;">
+<td width="33%" align="center" valign="top" style="padding: 16px; border: 1px solid #e1e4e8; border-radius: 8px;">
 
 **[BOS-NI](https://github.com/lxcxjxhx/BOS-NI)**
 <sub>安全知识库 · 知识沉淀与索引</sub>
-<br/>
+<br/><br/>
 <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" />
 
 </td>
@@ -167,11 +210,9 @@
 
 </div>
 
-<br/>
-
 <div align="center">
-<table align="center" width="85%" style="margin: 0 auto;">
-<tr><td style="padding: 20px; line-height: 1.8;">
+<table align="center" width="85%" style="margin: 0 auto; border: 1px solid #e1e4e8; border-radius: 8px; border-collapse: separate;">
+<tr><td style="padding: 24px; line-height: 1.8;">
 
 ### 核心专栏
 
@@ -233,44 +274,44 @@
 
 <br/>
 
-<table align="center" width="80%" style="margin: 0 auto;">
+<table align="center" width="80%" style="margin: 0 auto; border: 1px solid #e1e4e8; border-radius: 8px; border-collapse: separate; overflow: hidden;">
 <thead>
-<tr>
-<th align="left">指标</th>
-<th align="center">数字</th>
-<th align="left">注释</th>
+<tr style="background: #f6f8fa;">
+<th align="left" style="padding: 8px 12px;">指标</th>
+<th align="center" style="padding: 8px 12px;">数字</th>
+<th align="left" style="padding: 8px 12px;">注释</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td>原创文章</td>
-<td align="center"><b>1,467</b></td>
-<td>CSDN 全部原创，无转载。每篇对应一个实际项目或真实踩坑经历。</td>
+<td style="padding: 8px 12px;">原创文章</td>
+<td align="center" style="padding: 8px 12px;"><b>1,467</b></td>
+<td style="padding: 8px 12px;">CSDN 全部原创，无转载。每篇对应一个实际项目或真实踩坑经历。</td>
+</tr>
+<tr style="background: #f6f8fa;">
+<td style="padding: 8px 12px;">已合并 PR</td>
+<td align="center" style="padding: 8px 12px;"><b>168</b></td>
+<td style="padding: 8px 12px;">仅统计 merged 状态。涵盖 LlamaFactory、trivy、thc-hydra 等项目。</td>
 </tr>
 <tr>
-<td>已合并 PR</td>
-<td align="center"><b>168</b></td>
-<td>仅统计 merged 状态。涵盖 LlamaFactory、trivy、thc-hydra 等项目。</td>
+<td style="padding: 8px 12px;">PyPI 发布包</td>
+<td align="center" style="padding: 8px 12px;"><b>7</b></td>
+<td style="padding: 8px 12px;">安全工具链相关，可直接 <code>pip install</code> 使用。</td>
+</tr>
+<tr style="background: #f6f8fa;">
+<td style="padding: 8px 12px;">GitHub 年度贡献</td>
+<td align="center" style="padding: 8px 12px;"><b>1,966</b></td>
+<td style="padding: 8px 12px;">相当于每天 5.4 次 commit，连续不断。</td>
 </tr>
 <tr>
-<td>PyPI 发布包</td>
-<td align="center"><b>7</b></td>
-<td>安全工具链相关，可直接 <code>pip install</code> 使用。</td>
+<td style="padding: 8px 12px;">竞赛荣誉</td>
+<td align="center" style="padding: 8px 12px;"><b>特等奖</b></td>
+<td style="padding: 8px 12px;">中美青年创客大赛。同期参加 Intel AI 竞赛等多项国家级赛事。</td>
 </tr>
-<tr>
-<td>GitHub 年度贡献</td>
-<td align="center"><b>1,966</b></td>
-<td>相当于每天 5.4 次 commit，连续不断。</td>
-</tr>
-<tr>
-<td>竞赛荣誉</td>
-<td align="center"><b>特等奖</b></td>
-<td>中美青年创客大赛。同期参加 Intel AI 竞赛等多项国家级赛事。</td>
-</tr>
-<tr>
-<td>平台认证</td>
-<td align="center"><b>3</b></td>
-<td>阿里云 / 华为云 / 腾讯云 专家博主。CET-6 · 网络安全应急响应（中级）</td>
+<tr style="background: #f6f8fa;">
+<td style="padding: 8px 12px;">平台认证</td>
+<td align="center" style="padding: 8px 12px;"><b>3</b></td>
+<td style="padding: 8px 12px;">阿里云 / 华为云 / 腾讯云 专家博主。CET-6 · 网络安全应急响应（中级）</td>
 </tr>
 </tbody>
 </table>
@@ -287,33 +328,33 @@
 
 <br/>
 
-<table align="center" width="80%" style="margin: 0 auto;">
+<table align="center" width="80%" style="margin: 0 auto; border: 1px solid #e1e4e8; border-radius: 8px; border-collapse: separate; overflow: hidden;">
 <thead>
-<tr>
-<th align="left">领域</th>
-<th align="left">实践内容</th>
+<tr style="background: #f6f8fa;">
+<th align="left" style="padding: 8px 12px;">领域</th>
+<th align="left" style="padding: 8px 12px;">实践内容</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td><strong>LLM Applications</strong></td>
-<td>Qwen2.5 / LLaMA 微调与本地部署、Multi-Agent 系统、Prompt Engineering、vLLM 生产级部署、MCP 工程</td>
+<td style="padding: 8px 12px;"><strong>LLM Applications</strong></td>
+<td style="padding: 8px 12px;">Qwen2.5 / LLaMA 微调与本地部署、Multi-Agent 系统、Prompt Engineering、vLLM 生产级部署、MCP 工程</td>
+</tr>
+<tr style="background: #f6f8fa;">
+<td style="padding: 8px 12px;"><strong>Cybersecurity</strong></td>
+<td style="padding: 8px 12px;">CTF 实战（国赛级）、红队自动化工具、AI 驱动代码安全分析 (HOS-LS)、攻击链推理</td>
 </tr>
 <tr>
-<td><strong>Cybersecurity</strong></td>
-<td>CTF 实战（国赛级）、红队自动化工具、AI 驱动代码安全分析 (HOS-LS)、攻击链推理</td>
+<td style="padding: 8px 12px;"><strong>Full-Stack</strong></td>
+<td style="padding: 8px 12px;">React + Taro 前端 + FastAPI 后端，中小型 Web 与小程序项目</td>
+</tr>
+<tr style="background: #f6f8fa;">
+<td style="padding: 8px 12px;"><strong>Healthcare AI</strong></td>
+<td style="padding: 8px 12px;">非临床视角下的对话系统与数据可视化探索</td>
 </tr>
 <tr>
-<td><strong>Full-Stack</strong></td>
-<td>React + Taro 前端 + FastAPI 后端，中小型 Web 与小程序项目</td>
-</tr>
-<tr>
-<td><strong>Healthcare AI</strong></td>
-<td>非临床视角下的对话系统与数据可视化探索</td>
-</tr>
-<tr>
-<td><strong>DevOps</strong></td>
-<td>本地 AI 环境搭建、CUDA/WSL2 问题排查、uv 包管理</td>
+<td style="padding: 8px 12px;"><strong>DevOps</strong></td>
+<td style="padding: 8px 12px;">本地 AI 环境搭建、CUDA/WSL2 问题排查、uv 包管理</td>
 </tr>
 </tbody>
 </table>
@@ -326,11 +367,7 @@
 
 ## Tech Stack
 
-</div>
-
 <br/>
-
-<div align="center">
 
 **Languages & Frameworks**
 
@@ -367,11 +404,9 @@
 
 </div>
 
-<br/>
-
 <div align="center">
-<table align="center" width="80%" style="margin: 0 auto;">
-<tr><td style="padding: 20px; line-height: 1.8; text-align: center;">
+<table align="center" width="80%" style="margin: 0 auto; border: 1px solid #e1e4e8; border-radius: 8px; border-collapse: separate;">
+<tr><td style="padding: 24px; line-height: 1.8; text-align: center;">
 
 如果你在做安全工具、LLM 应用、或者只是对 AI × Security 感兴趣——很乐意聊聊。
 
@@ -379,10 +414,12 @@
 
 上海 · ✉️ [aqfxz_zh@qq.com](mailto:aqfxz_zh@qq.com)
 
-<a href="https://github.com/lxcxjxhx"><img src="https://img.shields.io/badge/GitHub-2c3e50?style=for-the-badge&logo=github&logoColor=white" /></a>
-<a href="https://security-hyacinth.blog.csdn.net/"><img src="https://img.shields.io/badge/CSDN-2c3e50?style=for-the-badge&logo=c&logoColor=white" /></a>
-<a href="https://pypi.org/user/security_hyacinth/"><img src="https://img.shields.io/badge/PyPI-2c3e50?style=for-the-badge&logo=pypi&logoColor=white" /></a>
-<a href="https://huggingface.co/lxcxjxhx"><img src="https://img.shields.io/badge/HuggingFace-2c3e50?style=for-the-badge&logo=huggingface&logoColor=white" /></a>
+<br/>
+
+<a href="https://github.com/lxcxjxhx"><img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" /></a>
+<a href="https://security-hyacinth.blog.csdn.net/"><img src="https://img.shields.io/badge/CSDN-FC5531?style=for-the-badge&logo=c&logoColor=white" /></a>
+<a href="https://pypi.org/user/security_hyacinth/"><img src="https://img.shields.io/badge/PyPI-3775A9?style=for-the-badge&logo=pypi&logoColor=white" /></a>
+<a href="https://huggingface.co/lxcxjxhx"><img src="https://img.shields.io/badge/HuggingFace-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black" /></a>
 
 </td></tr>
 </table>
