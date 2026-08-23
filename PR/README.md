@@ -5,7 +5,7 @@ Merged Pull Requests across open source projects.
 ## Summary
 
 - **Total Merged PRs**: 100
-- **Projects**: 18
+- **Projects**: 17
 
 ## PR List
 
@@ -76,6 +76,7 @@ Merged Pull Requests across open source projects.
 | [lxcxjxhx/HOS-Model-Optimizer](https://github.com/lxcxjxhx/HOS-Model-Optimizer) | [#3](https://github.com/lxcxjxhx/HOS-Model-Optimizer/pull/3) | chore: 清理残留的旧 MIT 许可证文件与 README 引用 | 2026-08-02 |
 | [lxcxjxhx/HOS-Model-Optimizer](https://github.com/lxcxjxhx/HOS-Model-Optimizer) | [#2](https://github.com/lxcxjxhx/HOS-Model-Optimizer/pull/2) | chore: 切换许可证为 AGPLv3 并引入 DCO | 2026-08-02 |
 | [lxcxjxhx/HOS-Qian-jia-hong-resume](https://github.com/lxcxjxhx/HOS-Qian-jia-hong-resume) | [#1](https://github.com/lxcxjxhx/HOS-Qian-jia-hong-resume/pull/1) | chore: 切换许可证为 AGPLv3 并引入 DCO | 2026-08-02 |
+| [lxcxjxhx/HOS_SKILL_WORKFLOW](https://github.com/lxcxjxhx/HOS_SKILL_WORKFLOW) | [#64](https://github.com/lxcxjxhx/HOS_SKILL_WORKFLOW/pull/64) | feat(S-16): add HOS-CAD-Builder - MCP Agent Skill for AI-driven CAD | 2026-08-22 |
 | [lxcxjxhx/HOS_SKILL_WORKFLOW](https://github.com/lxcxjxhx/HOS_SKILL_WORKFLOW) | [#63](https://github.com/lxcxjxhx/HOS_SKILL_WORKFLOW/pull/63) | S-14-HOS-Jailbreak-Loop: Jailbreak 循环优化系统 v1.0.0 | 2026-08-20 |
 | [lxcxjxhx/HOS_SKILL_WORKFLOW](https://github.com/lxcxjxhx/HOS_SKILL_WORKFLOW) | [#62](https://github.com/lxcxjxhx/HOS_SKILL_WORKFLOW/pull/62) | feat(S-13): ARGO × 天琴座创意写作预设系统 | 2026-08-20 |
 | [lxcxjxhx/HOS_SKILL_WORKFLOW](https://github.com/lxcxjxhx/HOS_SKILL_WORKFLOW) | [#61](https://github.com/lxcxjxhx/HOS_SKILL_WORKFLOW/pull/61) | feat(S-01-HOS-Save-Cost): ponytail-restraint + token-router skills + reasonix.toml template | 2026-08-19 |
@@ -109,7 +110,6 @@ Merged Pull Requests across open source projects.
 | [lxcxjxhx/lxcxjxhx.github.io](https://github.com/lxcxjxhx/lxcxjxhx.github.io) | [#3](https://github.com/lxcxjxhx/lxcxjxhx.github.io/pull/3) | feat: 首页观测台重构 + 数据中枢多域 SQLite 文件管理 | 2026-08-20 |
 | [lxcxjxhx/lxcxjxhx.github.io](https://github.com/lxcxjxhx/lxcxjxhx.github.io) | [#2](https://github.com/lxcxjxhx/lxcxjxhx.github.io/pull/2) | feat: 外部数据管线 + 导航常规化（数据及时同步） | 2026-08-20 |
 | [lxcxjxhx/lxcxjxhx.github.io](https://github.com/lxcxjxhx/lxcxjxhx.github.io) | [#1](https://github.com/lxcxjxhx/lxcxjxhx.github.io/pull/1) | chore: 切换许可证为 AGPLv3 并引入 DCO | 2026-08-02 |
-| [qianeric-backup/kind-all](https://github.com/qianeric-backup/kind-all) | [#23](https://github.com/qianeric-backup/kind-all/pull/23) | feat: enhance Payment Gate with multi-layer detection and security hardening | 2026-07-27 |
 | [zaproxy/zaproxy](https://github.com/zaproxy/zaproxy) | [#9411](https://github.com/zaproxy/zaproxy/pull/9411) | Use try-with-resources in HashUtils | 2026-07-30 |
 
 ## Detail Files
@@ -128,7 +128,7 @@ PR/
 
 Updated daily via GitHub Actions at UTC 00:00.
 
-Last updated: 2026-08-22 01:02:04 UTC
+Last updated: 2026-08-23 01:07:21 UTC
 
 ---
 
