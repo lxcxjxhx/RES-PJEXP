@@ -36,14 +36,6 @@ Merged Pull Requests across open source projects.
 | [lxcxjxhx/HOS-Forge](https://github.com/lxcxjxhx/HOS-Forge) | [#43](https://github.com/lxcxjxhx/HOS-Forge/pull/43) | feat: implement real marketplace backend, skill init toolchain, sandbox execution, and performance optimization | 2026-07-29 |
 | [lxcxjxhx/HOS-Forge](https://github.com/lxcxjxhx/HOS-Forge) | [#42](https://github.com/lxcxjxhx/HOS-Forge/pull/42) | test: add security isolation tests for skill execution | 2026-07-29 |
 | [lxcxjxhx/HOS-Forge](https://github.com/lxcxjxhx/HOS-Forge) | [#41](https://github.com/lxcxjxhx/HOS-Forge/pull/41) | test: add integration tests for IDE adapters and CLI | 2026-07-29 |
-| [lxcxjxhx/HOS-Forge](https://github.com/lxcxjxhx/HOS-Forge) | [#40](https://github.com/lxcxjxhx/HOS-Forge/pull/40) | docs: enhance documentation with API reference and guides | 2026-07-28 |
-| [lxcxjxhx/HOS-Forge](https://github.com/lxcxjxhx/HOS-Forge) | [#39](https://github.com/lxcxjxhx/HOS-Forge/pull/39) | test: add integration tests for skill system and MCP server | 2026-07-28 |
-| [lxcxjxhx/HOS-Forge](https://github.com/lxcxjxhx/HOS-Forge) | [#38](https://github.com/lxcxjxhx/HOS-Forge/pull/38) | refactor: restructure to IDE-agnostic skill+plugin architecture | 2026-07-28 |
-| [lxcxjxhx/HOS-Forge](https://github.com/lxcxjxhx/HOS-Forge) | [#34](https://github.com/lxcxjxhx/HOS-Forge/pull/34) | feat(mcp-server): add error handling and startup verification | 2026-07-27 |
-| [lxcxjxhx/HOS-Forge](https://github.com/lxcxjxhx/HOS-Forge) | [#33](https://github.com/lxcxjxhx/HOS-Forge/pull/33) | feat(taskflow): implement executable taskflow engine with parallel execution | 2026-07-27 |
-| [lxcxjxhx/HOS-Forge](https://github.com/lxcxjxhx/HOS-Forge) | [#31](https://github.com/lxcxjxhx/HOS-Forge/pull/31) | feat(cli): fix entry point configuration and add CLI tests | 2026-07-27 |
-| [lxcxjxhx/HOS-Forge](https://github.com/lxcxjxhx/HOS-Forge) | [#36](https://github.com/lxcxjxhx/HOS-Forge/pull/36) | feat: implement TrivyTool and enhance security tools integration | 2026-07-27 |
-| [lxcxjxhx/HOS-Forge](https://github.com/lxcxjxhx/HOS-Forge) | [#35](https://github.com/lxcxjxhx/HOS-Forge/pull/35) | feat: enhance Taskflow Engine with parallel execution support | 2026-07-27 |
 | [lxcxjxhx/HOS-LS](https://github.com/lxcxjxhx/HOS-LS) | [#34](https://github.com/lxcxjxhx/HOS-LS/pull/34) | feat(OPT): 三级 SAST→AI cascade 流水线 + 省钱策略 + 去重归属 | 2026-08-16 |
 | [lxcxjxhx/HOS-LS](https://github.com/lxcxjxhx/HOS-LS) | [#33](https://github.com/lxcxjxhx/HOS-LS/pull/33) | chore: gitignore 忽略 CodeGraph 预索引目录 | 2026-08-15 |
 | [lxcxjxhx/HOS-LS](https://github.com/lxcxjxhx/HOS-LS) | [#32](https://github.com/lxcxjxhx/HOS-LS/pull/32) | feat: M6 文件级并发可配置 + 缓存命中统计上报 | 2026-08-15 |
@@ -75,6 +67,14 @@ Merged Pull Requests across open source projects.
 | [lxcxjxhx/HOS-MATCH-PROJECT](https://github.com/lxcxjxhx/HOS-MATCH-PROJECT) | [#1](https://github.com/lxcxjxhx/HOS-MATCH-PROJECT/pull/1) | chore: 切换许可证为 AGPLv3 并引入 DCO | 2026-08-02 |
 | [lxcxjxhx/HOS-Model-Optimizer](https://github.com/lxcxjxhx/HOS-Model-Optimizer) | [#3](https://github.com/lxcxjxhx/HOS-Model-Optimizer/pull/3) | chore: 清理残留的旧 MIT 许可证文件与 README 引用 | 2026-08-02 |
 | [lxcxjxhx/HOS-Model-Optimizer](https://github.com/lxcxjxhx/HOS-Model-Optimizer) | [#2](https://github.com/lxcxjxhx/HOS-Model-Optimizer/pull/2) | chore: 切换许可证为 AGPLv3 并引入 DCO | 2026-08-02 |
+| [lxcxjxhx/HOS-Qian-jia-hong-resume](https://github.com/lxcxjxhx/HOS-Qian-jia-hong-resume) | [#9](https://github.com/lxcxjxhx/HOS-Qian-jia-hong-resume/pull/9) | style: 增加视觉层次，找回被过度清理的内容 | 2026-08-23 |
+| [lxcxjxhx/HOS-Qian-jia-hong-resume](https://github.com/lxcxjxhx/HOS-Qian-jia-hong-resume) | [#8](https://github.com/lxcxjxhx/HOS-Qian-jia-hong-resume/pull/8) | style: README视觉清理——去emoji、统一配色、居中排版 | 2026-08-23 |
+| [lxcxjxhx/HOS-Qian-jia-hong-resume](https://github.com/lxcxjxhx/HOS-Qian-jia-hong-resume) | [#6](https://github.com/lxcxjxhx/HOS-Qian-jia-hong-resume/pull/6) | refactor: README重写为叙事风格，去除塑料感 | 2026-08-23 |
+| [lxcxjxhx/HOS-Qian-jia-hong-resume](https://github.com/lxcxjxhx/HOS-Qian-jia-hong-resume) | [#7](https://github.com/lxcxjxhx/HOS-Qian-jia-hong-resume/pull/7) | refactor: 自我介绍叙事化 + 技能分层 + CET-6去分数 | 2026-08-23 |
+| [lxcxjxhx/HOS-Qian-jia-hong-resume](https://github.com/lxcxjxhx/HOS-Qian-jia-hong-resume) | [#5](https://github.com/lxcxjxhx/HOS-Qian-jia-hong-resume/pull/5) | style: 放大开源贡献字体，撑满A4底部余量 | 2026-08-23 |
+| [lxcxjxhx/HOS-Qian-jia-hong-resume](https://github.com/lxcxjxhx/HOS-Qian-jia-hong-resume) | [#4](https://github.com/lxcxjxhx/HOS-Qian-jia-hong-resume/pull/4) | 优化简历内容：强化技术深度，去伪存真，适配A4打印 | 2026-08-23 |
+| [lxcxjxhx/HOS-Qian-jia-hong-resume](https://github.com/lxcxjxhx/HOS-Qian-jia-hong-resume) | [#3](https://github.com/lxcxjxhx/HOS-Qian-jia-hong-resume/pull/3) | 优化图片文件命名，提高可读性 | 2026-08-23 |
+| [lxcxjxhx/HOS-Qian-jia-hong-resume](https://github.com/lxcxjxhx/HOS-Qian-jia-hong-resume) | [#2](https://github.com/lxcxjxhx/HOS-Qian-jia-hong-resume/pull/2) | 删除重复的COZE校园行三等奖图片 | 2026-08-23 |
 | [lxcxjxhx/HOS-Qian-jia-hong-resume](https://github.com/lxcxjxhx/HOS-Qian-jia-hong-resume) | [#1](https://github.com/lxcxjxhx/HOS-Qian-jia-hong-resume/pull/1) | chore: 切换许可证为 AGPLv3 并引入 DCO | 2026-08-02 |
 | [lxcxjxhx/HOS_SKILL_WORKFLOW](https://github.com/lxcxjxhx/HOS_SKILL_WORKFLOW) | [#64](https://github.com/lxcxjxhx/HOS_SKILL_WORKFLOW/pull/64) | feat(S-16): add HOS-CAD-Builder - MCP Agent Skill for AI-driven CAD | 2026-08-22 |
 | [lxcxjxhx/HOS_SKILL_WORKFLOW](https://github.com/lxcxjxhx/HOS_SKILL_WORKFLOW) | [#63](https://github.com/lxcxjxhx/HOS_SKILL_WORKFLOW/pull/63) | S-14-HOS-Jailbreak-Loop: Jailbreak 循环优化系统 v1.0.0 | 2026-08-20 |
@@ -128,7 +128,7 @@ PR/
 
 Updated daily via GitHub Actions at UTC 00:00.
 
-Last updated: 2026-08-23 01:07:21 UTC
+Last updated: 2026-08-24 01:05:12 UTC
 
 ---
 
