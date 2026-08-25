@@ -5,13 +5,12 @@ Merged Pull Requests across open source projects.
 ## Summary
 
 - **Total Merged PRs**: 100
-- **Projects**: 17
+- **Projects**: 15
 
 ## PR List
 
 | Repository | PR | Title | Merged |
 |------------|-----|-------|--------|
-| [Bearer/bearer](https://github.com/Bearer/bearer) | [#2007](https://github.com/Bearer/bearer/pull/2007) | fix: use %w for error wrapping in scan command | 2026-07-29 |
 | [DefectDojo/django-DefectDojo](https://github.com/DefectDojo/django-DefectDojo) | [#15430](https://github.com/DefectDojo/django-DefectDojo/pull/15430) | fix: replace bare except with specific exception types | 2026-07-30 |
 | [DefectDojo/django-DefectDojo](https://github.com/DefectDojo/django-DefectDojo) | [#15391](https://github.com/DefectDojo/django-DefectDojo/pull/15391) | fix: add missing return after exception in GitHub issue handlers | 2026-07-29 |
 | [GH05TCREW/pentestagent](https://github.com/GH05TCREW/pentestagent) | [#86](https://github.com/GH05TCREW/pentestagent/pull/86) | fix: use context manager for tarfile operations in DockerRuntime | 2026-07-30 |
@@ -35,7 +34,9 @@ Merged Pull Requests across open source projects.
 | [lxcxjxhx/HOS-Forge](https://github.com/lxcxjxhx/HOS-Forge) | [#44](https://github.com/lxcxjxhx/HOS-Forge/pull/44) | feat: add version locking, pipeline error strategies, and registry-pipeline integration | 2026-07-30 |
 | [lxcxjxhx/HOS-Forge](https://github.com/lxcxjxhx/HOS-Forge) | [#43](https://github.com/lxcxjxhx/HOS-Forge/pull/43) | feat: implement real marketplace backend, skill init toolchain, sandbox execution, and performance optimization | 2026-07-29 |
 | [lxcxjxhx/HOS-Forge](https://github.com/lxcxjxhx/HOS-Forge) | [#42](https://github.com/lxcxjxhx/HOS-Forge/pull/42) | test: add security isolation tests for skill execution | 2026-07-29 |
-| [lxcxjxhx/HOS-Forge](https://github.com/lxcxjxhx/HOS-Forge) | [#41](https://github.com/lxcxjxhx/HOS-Forge/pull/41) | test: add integration tests for IDE adapters and CLI | 2026-07-29 |
+| [lxcxjxhx/HOS-LS](https://github.com/lxcxjxhx/HOS-LS) | [#37](https://github.com/lxcxjxhx/HOS-LS/pull/37) | fix: 修复HOS-LS API配置问题 - 支持自定义端点 | 2026-08-24 |
+| [lxcxjxhx/HOS-LS](https://github.com/lxcxjxhx/HOS-LS) | [#36](https://github.com/lxcxjxhx/HOS-LS/pull/36) | fix: API配置修复和实验优化 | 2026-08-24 |
+| [lxcxjxhx/HOS-LS](https://github.com/lxcxjxhx/HOS-LS) | [#35](https://github.com/lxcxjxhx/HOS-LS/pull/35) | feat: 面向AI生成代码变更的差分漏洞验证系统 | 2026-08-24 |
 | [lxcxjxhx/HOS-LS](https://github.com/lxcxjxhx/HOS-LS) | [#34](https://github.com/lxcxjxhx/HOS-LS/pull/34) | feat(OPT): 三级 SAST→AI cascade 流水线 + 省钱策略 + 去重归属 | 2026-08-16 |
 | [lxcxjxhx/HOS-LS](https://github.com/lxcxjxhx/HOS-LS) | [#33](https://github.com/lxcxjxhx/HOS-LS/pull/33) | chore: gitignore 忽略 CodeGraph 预索引目录 | 2026-08-15 |
 | [lxcxjxhx/HOS-LS](https://github.com/lxcxjxhx/HOS-LS) | [#32](https://github.com/lxcxjxhx/HOS-LS/pull/32) | feat: M6 文件级并发可配置 + 缓存命中统计上报 | 2026-08-15 |
@@ -110,7 +111,6 @@ Merged Pull Requests across open source projects.
 | [lxcxjxhx/lxcxjxhx.github.io](https://github.com/lxcxjxhx/lxcxjxhx.github.io) | [#3](https://github.com/lxcxjxhx/lxcxjxhx.github.io/pull/3) | feat: 首页观测台重构 + 数据中枢多域 SQLite 文件管理 | 2026-08-20 |
 | [lxcxjxhx/lxcxjxhx.github.io](https://github.com/lxcxjxhx/lxcxjxhx.github.io) | [#2](https://github.com/lxcxjxhx/lxcxjxhx.github.io/pull/2) | feat: 外部数据管线 + 导航常规化（数据及时同步） | 2026-08-20 |
 | [lxcxjxhx/lxcxjxhx.github.io](https://github.com/lxcxjxhx/lxcxjxhx.github.io) | [#1](https://github.com/lxcxjxhx/lxcxjxhx.github.io/pull/1) | chore: 切换许可证为 AGPLv3 并引入 DCO | 2026-08-02 |
-| [zaproxy/zaproxy](https://github.com/zaproxy/zaproxy) | [#9411](https://github.com/zaproxy/zaproxy/pull/9411) | Use try-with-resources in HashUtils | 2026-07-30 |
 
 ## Detail Files
 
@@ -128,7 +128,7 @@ PR/
 
 Updated daily via GitHub Actions at UTC 00:00.
 
-Last updated: 2026-08-24 01:05:12 UTC
+Last updated: 2026-08-25 01:04:14 UTC
 
 ---
 
