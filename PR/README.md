@@ -5,20 +5,25 @@ Merged Pull Requests across open source projects.
 ## Summary
 
 - **Total Merged PRs**: 100
-- **Projects**: 15
+- **Projects**: 14
 
 ## PR List
 
 | Repository | PR | Title | Merged |
 |------------|-----|-------|--------|
 | [DefectDojo/django-DefectDojo](https://github.com/DefectDojo/django-DefectDojo) | [#15430](https://github.com/DefectDojo/django-DefectDojo/pull/15430) | fix: replace bare except with specific exception types | 2026-07-30 |
-| [DefectDojo/django-DefectDojo](https://github.com/DefectDojo/django-DefectDojo) | [#15391](https://github.com/DefectDojo/django-DefectDojo/pull/15391) | fix: add missing return after exception in GitHub issue handlers | 2026-07-29 |
 | [GH05TCREW/pentestagent](https://github.com/GH05TCREW/pentestagent) | [#86](https://github.com/GH05TCREW/pentestagent/pull/86) | fix: use context manager for tarfile operations in DockerRuntime | 2026-07-30 |
-| [aquasecurity/trivy](https://github.com/aquasecurity/trivy) | [#11013](https://github.com/aquasecurity/trivy/pull/11013) | refactor(alpine): remove type assertion when reading the APKINDEX archive | 2026-07-30 |
 | [bytedance/g3](https://github.com/bytedance/g3) | [#1103](https://github.com/bytedance/g3/pull/1103) | fix(g3-types): replace unsafe unwrap() with proper error handling in openssl cert pair | 2026-07-31 |
 | [lxcxjxhx/BOS-FS](https://github.com/lxcxjxhx/BOS-FS) | [#1](https://github.com/lxcxjxhx/BOS-FS/pull/1) | chore: 切换许可证为 AGPLv3 并引入 DCO | 2026-08-02 |
 | [lxcxjxhx/BOS-NI](https://github.com/lxcxjxhx/BOS-NI) | [#2](https://github.com/lxcxjxhx/BOS-NI/pull/2) | chore: 清理残留的旧 MIT 许可证文件与 README 引用 | 2026-08-02 |
 | [lxcxjxhx/BOS-NI](https://github.com/lxcxjxhx/BOS-NI) | [#1](https://github.com/lxcxjxhx/BOS-NI/pull/1) | chore: 切换许可证为 AGPLv3 并引入 DCO | 2026-08-02 |
+| [lxcxjxhx/HOS-ARES](https://github.com/lxcxjxhx/HOS-ARES) | [#18](https://github.com/lxcxjxhx/HOS-ARES/pull/18) | fix(ci): prebuilt bpf-linker (musl) - bypass llvm-config/cargo source build | 2026-08-25 |
+| [lxcxjxhx/HOS-ARES](https://github.com/lxcxjxhx/HOS-ARES) | [#17](https://github.com/lxcxjxhx/HOS-ARES/pull/17) | fix(ci): add bpf-linker for mitmproxy-linux-ebpf build (round-5 remaining blocker) | 2026-08-25 |
+| [lxcxjxhx/HOS-ARES](https://github.com/lxcxjxhx/HOS-ARES) | [#16](https://github.com/lxcxjxhx/HOS-ARES/pull/16) | fix(ci): rustup stable -> cargo>=1.85 for edition2024 (mitmproxy-rs) | 2026-08-25 |
+| [lxcxjxhx/HOS-ARES](https://github.com/lxcxjxhx/HOS-ARES) | [#15](https://github.com/lxcxjxhx/HOS-ARES/pull/15) | fix(ci): rootfs bake - add Rust/C buildchain + --prefer-binary for musl source wheels (frida/aioquic/mitmproxy-rs), pin mobile-security-mcp 0.1.4 | 2026-08-25 |
+| [lxcxjxhx/HOS-ARES](https://github.com/lxcxjxhx/HOS-ARES) | [#14](https://github.com/lxcxjxhx/HOS-ARES/pull/14) | fix(ci): rootfs bake 鈥?drop apktool/jadx (not in Alpine repo), lock reasonix 1.19.1 | 2026-08-25 |
+| [lxcxjxhx/HOS-ARES](https://github.com/lxcxjxhx/HOS-ARES) | [#13](https://github.com/lxcxjxhx/HOS-ARES/pull/13) | feat(ui): Ares-V3 Neon UI theme + cyberpunk app icon set | 2026-08-25 |
+| [lxcxjxhx/HOS-ARES](https://github.com/lxcxjxhx/HOS-ARES) | [#12](https://github.com/lxcxjxhx/HOS-ARES/pull/12) | HOS-ARES v3.0 full delivery: reasonix agent framework + MCP security toolchain + gateway + Compose UI + APK packaging CI | 2026-08-25 |
 | [lxcxjxhx/HOS-ARES](https://github.com/lxcxjxhx/HOS-ARES) | [#11](https://github.com/lxcxjxhx/HOS-ARES/pull/11) | feat: rootfs build infrastructure - Docker + Windows/Linux scripts | 2026-08-17 |
 | [lxcxjxhx/HOS-ARES](https://github.com/lxcxjxhx/HOS-ARES) | [#10](https://github.com/lxcxjxhx/HOS-ARES/pull/10) | feat: UI progress cards + Settings connectivity test + SkillRegistry | 2026-08-17 |
 | [lxcxjxhx/HOS-ARES](https://github.com/lxcxjxhx/HOS-ARES) | [#9](https://github.com/lxcxjxhx/HOS-ARES/pull/9) | feat: TerminalActivity UI fix + MainActivity integration | 2026-08-17 |
@@ -32,8 +37,6 @@ Merged Pull Requests across open source projects.
 | [lxcxjxhx/HOS-Forge](https://github.com/lxcxjxhx/HOS-Forge) | [#46](https://github.com/lxcxjxhx/HOS-Forge/pull/46) | chore: 清理残留的旧 MIT 许可证文件与 README 引用 | 2026-08-02 |
 | [lxcxjxhx/HOS-Forge](https://github.com/lxcxjxhx/HOS-Forge) | [#45](https://github.com/lxcxjxhx/HOS-Forge/pull/45) | chore: 切换许可证为 AGPLv3 并引入 DCO | 2026-08-02 |
 | [lxcxjxhx/HOS-Forge](https://github.com/lxcxjxhx/HOS-Forge) | [#44](https://github.com/lxcxjxhx/HOS-Forge/pull/44) | feat: add version locking, pipeline error strategies, and registry-pipeline integration | 2026-07-30 |
-| [lxcxjxhx/HOS-Forge](https://github.com/lxcxjxhx/HOS-Forge) | [#43](https://github.com/lxcxjxhx/HOS-Forge/pull/43) | feat: implement real marketplace backend, skill init toolchain, sandbox execution, and performance optimization | 2026-07-29 |
-| [lxcxjxhx/HOS-Forge](https://github.com/lxcxjxhx/HOS-Forge) | [#42](https://github.com/lxcxjxhx/HOS-Forge/pull/42) | test: add security isolation tests for skill execution | 2026-07-29 |
 | [lxcxjxhx/HOS-LS](https://github.com/lxcxjxhx/HOS-LS) | [#37](https://github.com/lxcxjxhx/HOS-LS/pull/37) | fix: 修复HOS-LS API配置问题 - 支持自定义端点 | 2026-08-24 |
 | [lxcxjxhx/HOS-LS](https://github.com/lxcxjxhx/HOS-LS) | [#36](https://github.com/lxcxjxhx/HOS-LS/pull/36) | fix: API配置修复和实验优化 | 2026-08-24 |
 | [lxcxjxhx/HOS-LS](https://github.com/lxcxjxhx/HOS-LS) | [#35](https://github.com/lxcxjxhx/HOS-LS/pull/35) | feat: 面向AI生成代码变更的差分漏洞验证系统 | 2026-08-24 |
@@ -100,9 +103,6 @@ Merged Pull Requests across open source projects.
 | [lxcxjxhx/HOS_SKILL_WORKFLOW](https://github.com/lxcxjxhx/HOS_SKILL_WORKFLOW) | [#40](https://github.com/lxcxjxhx/HOS_SKILL_WORKFLOW/pull/40) | refactor: split HOS-GH-ContribOS into a multi-file skill (mirror submit-oss-pr layout) | 2026-08-01 |
 | [lxcxjxhx/HOS_SKILL_WORKFLOW](https://github.com/lxcxjxhx/HOS_SKILL_WORKFLOW) | [#39](https://github.com/lxcxjxhx/HOS_SKILL_WORKFLOW/pull/39) | feat: add reviewer-perspective gate, scenario memory, AI disclosure; refactor HOS-GH-ContribOS to multi-file skill | 2026-08-01 |
 | [lxcxjxhx/HOS_SKILL_WORKFLOW](https://github.com/lxcxjxhx/HOS_SKILL_WORKFLOW) | [#38](https://github.com/lxcxjxhx/HOS_SKILL_WORKFLOW/pull/38) | feat: 新增 HOS-Paper-RedTeam 论文红队系统（HOS论文鞭尸局） | 2026-07-31 |
-| [lxcxjxhx/HOS_SKILL_WORKFLOW](https://github.com/lxcxjxhx/HOS_SKILL_WORKFLOW) | [#37](https://github.com/lxcxjxhx/HOS_SKILL_WORKFLOW/pull/37) | feat: enhance ContribOS with comprehensive experience integration | 2026-07-29 |
-| [lxcxjxhx/HOS_SKILL_WORKFLOW](https://github.com/lxcxjxhx/HOS_SKILL_WORKFLOW) | [#36](https://github.com/lxcxjxhx/HOS_SKILL_WORKFLOW/pull/36) | refactor: replace HOS-OSS-Contributor with HOS-GH-ContribOS - unified contribution lifecycle framework | 2026-07-29 |
-| [lxcxjxhx/HOS_SKILL_WORKFLOW](https://github.com/lxcxjxhx/HOS_SKILL_WORKFLOW) | [#35](https://github.com/lxcxjxhx/HOS_SKILL_WORKFLOW/pull/35) | feat: add HOS-OSS-Contributor skill - AI-driven open source contribution workflow | 2026-07-29 |
 | [lxcxjxhx/lxcxjxhx](https://github.com/lxcxjxhx/lxcxjxhx) | [#6](https://github.com/lxcxjxhx/lxcxjxhx/pull/6) | chore: 移除 profile 仓库的 LICENSE 文件与展示 | 2026-08-02 |
 | [lxcxjxhx/lxcxjxhx](https://github.com/lxcxjxhx/lxcxjxhx) | [#5](https://github.com/lxcxjxhx/lxcxjxhx/pull/5) | chore: 切换许可证为 AGPLv3 并引入 DCO | 2026-08-02 |
 | [lxcxjxhx/lxcxjxhx.github.io](https://github.com/lxcxjxhx/lxcxjxhx.github.io) | [#6](https://github.com/lxcxjxhx/lxcxjxhx.github.io/pull/6) | feat: 去首页竖茎线 + 02-07 章节整体美化 | 2026-08-20 |
@@ -128,7 +128,7 @@ PR/
 
 Updated daily via GitHub Actions at UTC 00:00.
 
-Last updated: 2026-08-25 01:04:14 UTC
+Last updated: 2026-08-26 01:05:46 UTC
 
 ---
 
