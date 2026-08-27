@@ -5,18 +5,24 @@ Merged Pull Requests across open source projects.
 ## Summary
 
 - **Total Merged PRs**: 100
-- **Projects**: 14
+- **Projects**: 12
 
 ## PR List
 
 | Repository | PR | Title | Merged |
 |------------|-----|-------|--------|
-| [DefectDojo/django-DefectDojo](https://github.com/DefectDojo/django-DefectDojo) | [#15430](https://github.com/DefectDojo/django-DefectDojo/pull/15430) | fix: replace bare except with specific exception types | 2026-07-30 |
-| [GH05TCREW/pentestagent](https://github.com/GH05TCREW/pentestagent) | [#86](https://github.com/GH05TCREW/pentestagent/pull/86) | fix: use context manager for tarfile operations in DockerRuntime | 2026-07-30 |
-| [bytedance/g3](https://github.com/bytedance/g3) | [#1103](https://github.com/bytedance/g3/pull/1103) | fix(g3-types): replace unsafe unwrap() with proper error handling in openssl cert pair | 2026-07-31 |
 | [lxcxjxhx/BOS-FS](https://github.com/lxcxjxhx/BOS-FS) | [#1](https://github.com/lxcxjxhx/BOS-FS/pull/1) | chore: 切换许可证为 AGPLv3 并引入 DCO | 2026-08-02 |
 | [lxcxjxhx/BOS-NI](https://github.com/lxcxjxhx/BOS-NI) | [#2](https://github.com/lxcxjxhx/BOS-NI/pull/2) | chore: 清理残留的旧 MIT 许可证文件与 README 引用 | 2026-08-02 |
 | [lxcxjxhx/BOS-NI](https://github.com/lxcxjxhx/BOS-NI) | [#1](https://github.com/lxcxjxhx/BOS-NI/pull/1) | chore: 切换许可证为 AGPLv3 并引入 DCO | 2026-08-02 |
+| [lxcxjxhx/HOS-ARES](https://github.com/lxcxjxhx/HOS-ARES) | [#27](https://github.com/lxcxjxhx/HOS-ARES/pull/27) | fix(ci): round-16 根治 compressReleaseAssets Java heap space（noCompress + rootfs 裁剪） | 2026-08-26 |
+| [lxcxjxhx/HOS-ARES](https://github.com/lxcxjxhx/HOS-ARES) | [#26](https://github.com/lxcxjxhx/HOS-ARES/pull/26) | fix(ci): round-15 修复 skeleton 编译错误（compileReleaseKotlin 11 条） | 2026-08-26 |
+| [lxcxjxhx/HOS-ARES](https://github.com/lxcxjxhx/HOS-ARES) | [#25](https://github.com/lxcxjxhx/HOS-ARES/pull/25) | fix(ci): round-14 修复 assembleRelease 编译/堆溢出 + 接通 Phase 5 首启装载 | 2026-08-26 |
+| [lxcxjxhx/HOS-ARES](https://github.com/lxcxjxhx/HOS-ARES) | [#24](https://github.com/lxcxjxhx/HOS-ARES/pull/24) | fix(ci): round-13 - restore rust-src line in build-rootfs.sh (PR23 merge regressed it) | 2026-08-26 |
+| [lxcxjxhx/HOS-ARES](https://github.com/lxcxjxhx/HOS-ARES) | [#23](https://github.com/lxcxjxhx/HOS-ARES/pull/23) | fix(ci): round-11 - detach ares-gateway from android build (plugin-classpath conflict) | 2026-08-26 |
+| [lxcxjxhx/HOS-ARES](https://github.com/lxcxjxhx/HOS-ARES) | [#22](https://github.com/lxcxjxhx/HOS-ARES/pull/22) | fix(ci): round-9 - find rootfs.tar.xz before cp (upload-artifact v4 strips build/ prefix) | 2026-08-26 |
+| [lxcxjxhx/HOS-ARES](https://github.com/lxcxjxhx/HOS-ARES) | [#21](https://github.com/lxcxjxhx/HOS-ARES/pull/21) | fix(ci): round-8 - add rust-src to nightly musl toolchain (aya -Z build-std needs it) | 2026-08-26 |
+| [lxcxjxhx/HOS-ARES](https://github.com/lxcxjxhx/HOS-ARES) | [#20](https://github.com/lxcxjxhx/HOS-ARES/pull/20) | fix(ci): round-6 bake blockers - g++ for frida wheel + nightly musl toolchain for mitmproxy-linux-ebpf | 2026-08-26 |
+| [lxcxjxhx/HOS-ARES](https://github.com/lxcxjxhx/HOS-ARES) | [#19](https://github.com/lxcxjxhx/HOS-ARES/pull/19) | fix(ci): assembleRelease via gradle CLI (repo has no wrapper) | 2026-08-26 |
 | [lxcxjxhx/HOS-ARES](https://github.com/lxcxjxhx/HOS-ARES) | [#18](https://github.com/lxcxjxhx/HOS-ARES/pull/18) | fix(ci): prebuilt bpf-linker (musl) - bypass llvm-config/cargo source build | 2026-08-25 |
 | [lxcxjxhx/HOS-ARES](https://github.com/lxcxjxhx/HOS-ARES) | [#17](https://github.com/lxcxjxhx/HOS-ARES/pull/17) | fix(ci): add bpf-linker for mitmproxy-linux-ebpf build (round-5 remaining blocker) | 2026-08-25 |
 | [lxcxjxhx/HOS-ARES](https://github.com/lxcxjxhx/HOS-ARES) | [#16](https://github.com/lxcxjxhx/HOS-ARES/pull/16) | fix(ci): rustup stable -> cargo>=1.85 for edition2024 (mitmproxy-rs) | 2026-08-25 |
@@ -36,7 +42,9 @@ Merged Pull Requests across open source projects.
 | [lxcxjxhx/HOS-ARES](https://github.com/lxcxjxhx/HOS-ARES) | [#2](https://github.com/lxcxjxhx/HOS-ARES/pull/2) | build: optimize APK size + upgrade build toolchain | 2026-08-17 |
 | [lxcxjxhx/HOS-Forge](https://github.com/lxcxjxhx/HOS-Forge) | [#46](https://github.com/lxcxjxhx/HOS-Forge/pull/46) | chore: 清理残留的旧 MIT 许可证文件与 README 引用 | 2026-08-02 |
 | [lxcxjxhx/HOS-Forge](https://github.com/lxcxjxhx/HOS-Forge) | [#45](https://github.com/lxcxjxhx/HOS-Forge/pull/45) | chore: 切换许可证为 AGPLv3 并引入 DCO | 2026-08-02 |
-| [lxcxjxhx/HOS-Forge](https://github.com/lxcxjxhx/HOS-Forge) | [#44](https://github.com/lxcxjxhx/HOS-Forge/pull/44) | feat: add version locking, pipeline error strategies, and registry-pipeline integration | 2026-07-30 |
+| [lxcxjxhx/HOS-LS](https://github.com/lxcxjxhx/HOS-LS) | [#40](https://github.com/lxcxjxhx/HOS-LS/pull/40) | 优化: 添加数据流确认文档 | 2026-08-27 |
+| [lxcxjxhx/HOS-LS](https://github.com/lxcxjxhx/HOS-LS) | [#39](https://github.com/lxcxjxhx/HOS-LS/pull/39) | feat: DeepInfra Flex 服务层支持（service_tier=flex，8折） | 2026-08-27 |
+| [lxcxjxhx/HOS-LS](https://github.com/lxcxjxhx/HOS-LS) | [#38](https://github.com/lxcxjxhx/HOS-LS/pull/38) | feat: AI 补丁差分验证（SAL×DEP）止损实验数据 + 候选精化 + 代理修复 | 2026-08-26 |
 | [lxcxjxhx/HOS-LS](https://github.com/lxcxjxhx/HOS-LS) | [#37](https://github.com/lxcxjxhx/HOS-LS/pull/37) | fix: 修复HOS-LS API配置问题 - 支持自定义端点 | 2026-08-24 |
 | [lxcxjxhx/HOS-LS](https://github.com/lxcxjxhx/HOS-LS) | [#36](https://github.com/lxcxjxhx/HOS-LS/pull/36) | fix: API配置修复和实验优化 | 2026-08-24 |
 | [lxcxjxhx/HOS-LS](https://github.com/lxcxjxhx/HOS-LS) | [#35](https://github.com/lxcxjxhx/HOS-LS/pull/35) | feat: 面向AI生成代码变更的差分漏洞验证系统 | 2026-08-24 |
@@ -59,15 +67,6 @@ Merged Pull Requests across open source projects.
 | [lxcxjxhx/HOS-LS](https://github.com/lxcxjxhx/HOS-LS) | [#17](https://github.com/lxcxjxhx/HOS-LS/pull/17) | feat(errors): add APIError exception class for AI providers | 2026-07-31 |
 | [lxcxjxhx/HOS-LS](https://github.com/lxcxjxhx/HOS-LS) | [#16](https://github.com/lxcxjxhx/HOS-LS/pull/16) | feat(json_utils): add unified JSON parsing utility module | 2026-07-31 |
 | [lxcxjxhx/HOS-LS](https://github.com/lxcxjxhx/HOS-LS) | [#15](https://github.com/lxcxjxhx/HOS-LS/pull/15) | feat(logger): add RotatingFileHandler file output support | 2026-07-31 |
-| [lxcxjxhx/HOS-LS](https://github.com/lxcxjxhx/HOS-LS) | [#14](https://github.com/lxcxjxhx/HOS-LS/pull/14) | refactor(result_reviewer): migrate from legacy OpenAI API | 2026-07-31 |
-| [lxcxjxhx/HOS-LS](https://github.com/lxcxjxhx/HOS-LS) | [#13](https://github.com/lxcxjxhx/HOS-LS/pull/13) | fix(deepseek): restore actual API test in validate_api_access | 2026-07-31 |
-| [lxcxjxhx/HOS-LS](https://github.com/lxcxjxhx/HOS-LS) | [#12](https://github.com/lxcxjxhx/HOS-LS/pull/12) | fix(prompt_evolver): add 5-layer JSON parsing protection | 2026-07-31 |
-| [lxcxjxhx/HOS-LS](https://github.com/lxcxjxhx/HOS-LS) | [#11](https://github.com/lxcxjxhx/HOS-LS/pull/11) | fix(pure_ai_analyzer): unify logging and improve error handling | 2026-07-31 |
-| [lxcxjxhx/HOS-LS](https://github.com/lxcxjxhx/HOS-LS) | [#10](https://github.com/lxcxjxhx/HOS-LS/pull/10) | fix(multi_agent_pipeline): unify logging and fix hard routing issues | 2026-07-31 |
-| [lxcxjxhx/HOS-LS](https://github.com/lxcxjxhx/HOS-LS) | [#9](https://github.com/lxcxjxhx/HOS-LS/pull/9) | refactor(schema_validator): migrate print() to unified logger | 2026-07-31 |
-| [lxcxjxhx/HOS-LS](https://github.com/lxcxjxhx/HOS-LS) | [#8](https://github.com/lxcxjxhx/HOS-LS/pull/8) | refactor(file_prioritizer): migrate print() to unified logger | 2026-07-31 |
-| [lxcxjxhx/HOS-LS](https://github.com/lxcxjxhx/HOS-LS) | [#7](https://github.com/lxcxjxhx/HOS-LS/pull/7) | refactor(context_builder): migrate print() to unified logger | 2026-07-31 |
-| [lxcxjxhx/HOS-LS](https://github.com/lxcxjxhx/HOS-LS) | [#6](https://github.com/lxcxjxhx/HOS-LS/pull/6) | feat: Comprehensive optimization aligned with 8 state-of-the-art SAST papers | 2026-07-31 |
 | [lxcxjxhx/HOS-MATCH-PROJECT](https://github.com/lxcxjxhx/HOS-MATCH-PROJECT) | [#1](https://github.com/lxcxjxhx/HOS-MATCH-PROJECT/pull/1) | chore: 切换许可证为 AGPLv3 并引入 DCO | 2026-08-02 |
 | [lxcxjxhx/HOS-Model-Optimizer](https://github.com/lxcxjxhx/HOS-Model-Optimizer) | [#3](https://github.com/lxcxjxhx/HOS-Model-Optimizer/pull/3) | chore: 清理残留的旧 MIT 许可证文件与 README 引用 | 2026-08-02 |
 | [lxcxjxhx/HOS-Model-Optimizer](https://github.com/lxcxjxhx/HOS-Model-Optimizer) | [#2](https://github.com/lxcxjxhx/HOS-Model-Optimizer/pull/2) | chore: 切换许可证为 AGPLv3 并引入 DCO | 2026-08-02 |
@@ -111,6 +110,7 @@ Merged Pull Requests across open source projects.
 | [lxcxjxhx/lxcxjxhx.github.io](https://github.com/lxcxjxhx/lxcxjxhx.github.io) | [#3](https://github.com/lxcxjxhx/lxcxjxhx.github.io/pull/3) | feat: 首页观测台重构 + 数据中枢多域 SQLite 文件管理 | 2026-08-20 |
 | [lxcxjxhx/lxcxjxhx.github.io](https://github.com/lxcxjxhx/lxcxjxhx.github.io) | [#2](https://github.com/lxcxjxhx/lxcxjxhx.github.io/pull/2) | feat: 外部数据管线 + 导航常规化（数据及时同步） | 2026-08-20 |
 | [lxcxjxhx/lxcxjxhx.github.io](https://github.com/lxcxjxhx/lxcxjxhx.github.io) | [#1](https://github.com/lxcxjxhx/lxcxjxhx.github.io/pull/1) | chore: 切换许可证为 AGPLv3 并引入 DCO | 2026-08-02 |
+| [unslothai/unsloth](https://github.com/unslothai/unsloth) | [#9566](https://github.com/unslothai/unsloth/pull/9566) | docs: remove duplicate Search bullet and fix error messages | 2026-08-26 |
 
 ## Detail Files
 
@@ -128,7 +128,7 @@ PR/
 
 Updated daily via GitHub Actions at UTC 00:00.
 
-Last updated: 2026-08-26 01:05:46 UTC
+Last updated: 2026-08-27 07:07:15 UTC
 
 ---
 
