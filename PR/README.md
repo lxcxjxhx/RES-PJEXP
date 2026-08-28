@@ -42,6 +42,7 @@ Merged Pull Requests across open source projects.
 | [lxcxjxhx/HOS-ARES](https://github.com/lxcxjxhx/HOS-ARES) | [#2](https://github.com/lxcxjxhx/HOS-ARES/pull/2) | build: optimize APK size + upgrade build toolchain | 2026-08-17 |
 | [lxcxjxhx/HOS-Forge](https://github.com/lxcxjxhx/HOS-Forge) | [#46](https://github.com/lxcxjxhx/HOS-Forge/pull/46) | chore: 清理残留的旧 MIT 许可证文件与 README 引用 | 2026-08-02 |
 | [lxcxjxhx/HOS-Forge](https://github.com/lxcxjxhx/HOS-Forge) | [#45](https://github.com/lxcxjxhx/HOS-Forge/pull/45) | chore: 切换许可证为 AGPLv3 并引入 DCO | 2026-08-02 |
+| [lxcxjxhx/HOS-LS](https://github.com/lxcxjxhx/HOS-LS) | [#41](https://github.com/lxcxjxhx/HOS-LS/pull/41) | HOS-LS 论文完整代码 + 数据管理脚本 | 2026-08-28 |
 | [lxcxjxhx/HOS-LS](https://github.com/lxcxjxhx/HOS-LS) | [#40](https://github.com/lxcxjxhx/HOS-LS/pull/40) | 优化: 添加数据流确认文档 | 2026-08-27 |
 | [lxcxjxhx/HOS-LS](https://github.com/lxcxjxhx/HOS-LS) | [#39](https://github.com/lxcxjxhx/HOS-LS/pull/39) | feat: DeepInfra Flex 服务层支持（service_tier=flex，8折） | 2026-08-27 |
 | [lxcxjxhx/HOS-LS](https://github.com/lxcxjxhx/HOS-LS) | [#38](https://github.com/lxcxjxhx/HOS-LS/pull/38) | feat: AI 补丁差分验证（SAL×DEP）止损实验数据 + 候选精化 + 代理修复 | 2026-08-26 |
@@ -65,8 +66,6 @@ Merged Pull Requests across open source projects.
 | [lxcxjxhx/HOS-LS](https://github.com/lxcxjxhx/HOS-LS) | [#19](https://github.com/lxcxjxhx/HOS-LS/pull/19) | fix(cli): correct --dif parameter name to --diff | 2026-07-31 |
 | [lxcxjxhx/HOS-LS](https://github.com/lxcxjxhx/HOS-LS) | [#18](https://github.com/lxcxjxhx/HOS-LS/pull/18) | chore(config): update DeepSeek API configuration | 2026-07-31 |
 | [lxcxjxhx/HOS-LS](https://github.com/lxcxjxhx/HOS-LS) | [#17](https://github.com/lxcxjxhx/HOS-LS/pull/17) | feat(errors): add APIError exception class for AI providers | 2026-07-31 |
-| [lxcxjxhx/HOS-LS](https://github.com/lxcxjxhx/HOS-LS) | [#16](https://github.com/lxcxjxhx/HOS-LS/pull/16) | feat(json_utils): add unified JSON parsing utility module | 2026-07-31 |
-| [lxcxjxhx/HOS-LS](https://github.com/lxcxjxhx/HOS-LS) | [#15](https://github.com/lxcxjxhx/HOS-LS/pull/15) | feat(logger): add RotatingFileHandler file output support | 2026-07-31 |
 | [lxcxjxhx/HOS-MATCH-PROJECT](https://github.com/lxcxjxhx/HOS-MATCH-PROJECT) | [#1](https://github.com/lxcxjxhx/HOS-MATCH-PROJECT/pull/1) | chore: 切换许可证为 AGPLv3 并引入 DCO | 2026-08-02 |
 | [lxcxjxhx/HOS-Model-Optimizer](https://github.com/lxcxjxhx/HOS-Model-Optimizer) | [#3](https://github.com/lxcxjxhx/HOS-Model-Optimizer/pull/3) | chore: 清理残留的旧 MIT 许可证文件与 README 引用 | 2026-08-02 |
 | [lxcxjxhx/HOS-Model-Optimizer](https://github.com/lxcxjxhx/HOS-Model-Optimizer) | [#2](https://github.com/lxcxjxhx/HOS-Model-Optimizer/pull/2) | chore: 切换许可证为 AGPLv3 并引入 DCO | 2026-08-02 |
@@ -79,6 +78,7 @@ Merged Pull Requests across open source projects.
 | [lxcxjxhx/HOS-Qian-jia-hong-resume](https://github.com/lxcxjxhx/HOS-Qian-jia-hong-resume) | [#3](https://github.com/lxcxjxhx/HOS-Qian-jia-hong-resume/pull/3) | 优化图片文件命名，提高可读性 | 2026-08-23 |
 | [lxcxjxhx/HOS-Qian-jia-hong-resume](https://github.com/lxcxjxhx/HOS-Qian-jia-hong-resume) | [#2](https://github.com/lxcxjxhx/HOS-Qian-jia-hong-resume/pull/2) | 删除重复的COZE校园行三等奖图片 | 2026-08-23 |
 | [lxcxjxhx/HOS-Qian-jia-hong-resume](https://github.com/lxcxjxhx/HOS-Qian-jia-hong-resume) | [#1](https://github.com/lxcxjxhx/HOS-Qian-jia-hong-resume/pull/1) | chore: 切换许可证为 AGPLv3 并引入 DCO | 2026-08-02 |
+| [lxcxjxhx/HOS_SKILL_WORKFLOW](https://github.com/lxcxjxhx/HOS_SKILL_WORKFLOW) | [#65](https://github.com/lxcxjxhx/HOS_SKILL_WORKFLOW/pull/65) | PR-D: CPG上下文注入 + BM25排序 + DEP证据增强 + 数据集管理 | 2026-08-28 |
 | [lxcxjxhx/HOS_SKILL_WORKFLOW](https://github.com/lxcxjxhx/HOS_SKILL_WORKFLOW) | [#64](https://github.com/lxcxjxhx/HOS_SKILL_WORKFLOW/pull/64) | feat(S-16): add HOS-CAD-Builder - MCP Agent Skill for AI-driven CAD | 2026-08-22 |
 | [lxcxjxhx/HOS_SKILL_WORKFLOW](https://github.com/lxcxjxhx/HOS_SKILL_WORKFLOW) | [#63](https://github.com/lxcxjxhx/HOS_SKILL_WORKFLOW/pull/63) | S-14-HOS-Jailbreak-Loop: Jailbreak 循环优化系统 v1.0.0 | 2026-08-20 |
 | [lxcxjxhx/HOS_SKILL_WORKFLOW](https://github.com/lxcxjxhx/HOS_SKILL_WORKFLOW) | [#62](https://github.com/lxcxjxhx/HOS_SKILL_WORKFLOW/pull/62) | feat(S-13): ARGO × 天琴座创意写作预设系统 | 2026-08-20 |
@@ -128,7 +128,7 @@ PR/
 
 Updated daily via GitHub Actions at UTC 00:00.
 
-Last updated: 2026-08-27 07:07:15 UTC
+Last updated: 2026-08-28 08:54:21 UTC
 
 ---
 
