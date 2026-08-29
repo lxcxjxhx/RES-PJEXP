@@ -42,6 +42,9 @@ Merged Pull Requests across open source projects.
 | [lxcxjxhx/HOS-ARES](https://github.com/lxcxjxhx/HOS-ARES) | [#2](https://github.com/lxcxjxhx/HOS-ARES/pull/2) | build: optimize APK size + upgrade build toolchain | 2026-08-17 |
 | [lxcxjxhx/HOS-Forge](https://github.com/lxcxjxhx/HOS-Forge) | [#46](https://github.com/lxcxjxhx/HOS-Forge/pull/46) | chore: 清理残留的旧 MIT 许可证文件与 README 引用 | 2026-08-02 |
 | [lxcxjxhx/HOS-Forge](https://github.com/lxcxjxhx/HOS-Forge) | [#45](https://github.com/lxcxjxhx/HOS-Forge/pull/45) | chore: 切换许可证为 AGPLv3 并引入 DCO | 2026-08-02 |
+| [lxcxjxhx/HOS-LS](https://github.com/lxcxjxhx/HOS-LS) | [#44](https://github.com/lxcxjxhx/HOS-LS/pull/44) | fix: fail fast when Pure-AI is unavailable | 2026-08-29 |
+| [lxcxjxhx/HOS-LS](https://github.com/lxcxjxhx/HOS-LS) | [#43](https://github.com/lxcxjxhx/HOS-LS/pull/43) | fix: remove legacy AI postprocessing and repair lint | 2026-08-29 |
+| [lxcxjxhx/HOS-LS](https://github.com/lxcxjxhx/HOS-LS) | [#42](https://github.com/lxcxjxhx/HOS-LS/pull/42) | fix: stabilize Pure-AI scan workflow | 2026-08-28 |
 | [lxcxjxhx/HOS-LS](https://github.com/lxcxjxhx/HOS-LS) | [#41](https://github.com/lxcxjxhx/HOS-LS/pull/41) | HOS-LS 论文完整代码 + 数据管理脚本 | 2026-08-28 |
 | [lxcxjxhx/HOS-LS](https://github.com/lxcxjxhx/HOS-LS) | [#40](https://github.com/lxcxjxhx/HOS-LS/pull/40) | 优化: 添加数据流确认文档 | 2026-08-27 |
 | [lxcxjxhx/HOS-LS](https://github.com/lxcxjxhx/HOS-LS) | [#39](https://github.com/lxcxjxhx/HOS-LS/pull/39) | feat: DeepInfra Flex 服务层支持（service_tier=flex，8折） | 2026-08-27 |
@@ -63,9 +66,6 @@ Merged Pull Requests across open source projects.
 | [lxcxjxhx/HOS-LS](https://github.com/lxcxjxhx/HOS-LS) | [#22](https://github.com/lxcxjxhx/HOS-LS/pull/22) | feat: 移除报告中的 APTS 合规披露区块 | 2026-08-13 |
 | [lxcxjxhx/HOS-LS](https://github.com/lxcxjxhx/HOS-LS) | [#21](https://github.com/lxcxjxhx/HOS-LS/pull/21) | fix: 修复 AI pipeline JSON 输出可靠性问题 | 2026-08-13 |
 | [lxcxjxhx/HOS-LS](https://github.com/lxcxjxhx/HOS-LS) | [#20](https://github.com/lxcxjxhx/HOS-LS/pull/20) | chore: 切换许可证为 AGPLv3 并引入 DCO | 2026-08-02 |
-| [lxcxjxhx/HOS-LS](https://github.com/lxcxjxhx/HOS-LS) | [#19](https://github.com/lxcxjxhx/HOS-LS/pull/19) | fix(cli): correct --dif parameter name to --diff | 2026-07-31 |
-| [lxcxjxhx/HOS-LS](https://github.com/lxcxjxhx/HOS-LS) | [#18](https://github.com/lxcxjxhx/HOS-LS/pull/18) | chore(config): update DeepSeek API configuration | 2026-07-31 |
-| [lxcxjxhx/HOS-LS](https://github.com/lxcxjxhx/HOS-LS) | [#17](https://github.com/lxcxjxhx/HOS-LS/pull/17) | feat(errors): add APIError exception class for AI providers | 2026-07-31 |
 | [lxcxjxhx/HOS-MATCH-PROJECT](https://github.com/lxcxjxhx/HOS-MATCH-PROJECT) | [#1](https://github.com/lxcxjxhx/HOS-MATCH-PROJECT/pull/1) | chore: 切换许可证为 AGPLv3 并引入 DCO | 2026-08-02 |
 | [lxcxjxhx/HOS-Model-Optimizer](https://github.com/lxcxjxhx/HOS-Model-Optimizer) | [#3](https://github.com/lxcxjxhx/HOS-Model-Optimizer/pull/3) | chore: 清理残留的旧 MIT 许可证文件与 README 引用 | 2026-08-02 |
 | [lxcxjxhx/HOS-Model-Optimizer](https://github.com/lxcxjxhx/HOS-Model-Optimizer) | [#2](https://github.com/lxcxjxhx/HOS-Model-Optimizer/pull/2) | chore: 切换许可证为 AGPLv3 并引入 DCO | 2026-08-02 |
@@ -128,7 +128,7 @@ PR/
 
 Updated daily via GitHub Actions at UTC 00:00.
 
-Last updated: 2026-08-28 08:54:21 UTC
+Last updated: 2026-08-29 05:30:02 UTC
 
 ---
 
