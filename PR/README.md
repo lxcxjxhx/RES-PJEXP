@@ -42,6 +42,7 @@ Merged Pull Requests across open source projects.
 | [lxcxjxhx/HOS-ARES](https://github.com/lxcxjxhx/HOS-ARES) | [#2](https://github.com/lxcxjxhx/HOS-ARES/pull/2) | build: optimize APK size + upgrade build toolchain | 2026-08-17 |
 | [lxcxjxhx/HOS-Forge](https://github.com/lxcxjxhx/HOS-Forge) | [#46](https://github.com/lxcxjxhx/HOS-Forge/pull/46) | chore: 清理残留的旧 MIT 许可证文件与 README 引用 | 2026-08-02 |
 | [lxcxjxhx/HOS-Forge](https://github.com/lxcxjxhx/HOS-Forge) | [#45](https://github.com/lxcxjxhx/HOS-Forge/pull/45) | chore: 切换许可证为 AGPLv3 并引入 DCO | 2026-08-02 |
+| [lxcxjxhx/HOS-LS](https://github.com/lxcxjxhx/HOS-LS) | [#48](https://github.com/lxcxjxhx/HOS-LS/pull/48) | feat: ECATSL Tasks 3.2-3.5 | 2026-08-30 |
 | [lxcxjxhx/HOS-LS](https://github.com/lxcxjxhx/HOS-LS) | [#47](https://github.com/lxcxjxhx/HOS-LS/pull/47) | Add evidence-constrained taint learning | 2026-08-30 |
 | [lxcxjxhx/HOS-LS](https://github.com/lxcxjxhx/HOS-LS) | [#45](https://github.com/lxcxjxhx/HOS-LS/pull/45) | Add offline NVD and CWE catalog import | 2026-08-29 |
 | [lxcxjxhx/HOS-LS](https://github.com/lxcxjxhx/HOS-LS) | [#44](https://github.com/lxcxjxhx/HOS-LS/pull/44) | fix: fail fast when Pure-AI is unavailable | 2026-08-29 |
@@ -101,7 +102,6 @@ Merged Pull Requests across open source projects.
 | [lxcxjxhx/HOS_SKILL_WORKFLOW](https://github.com/lxcxjxhx/HOS_SKILL_WORKFLOW) | [#43](https://github.com/lxcxjxhx/HOS_SKILL_WORKFLOW/pull/43) | refactor: 顶层目录增加 S/W 类别前缀区分设计理念 | 2026-08-02 |
 | [lxcxjxhx/HOS_SKILL_WORKFLOW](https://github.com/lxcxjxhx/HOS_SKILL_WORKFLOW) | [#42](https://github.com/lxcxjxhx/HOS_SKILL_WORKFLOW/pull/42) | refactor: 统一顶层目录命名与编号顺序管理 | 2026-08-02 |
 | [lxcxjxhx/HOS_SKILL_WORKFLOW](https://github.com/lxcxjxhx/HOS_SKILL_WORKFLOW) | [#41](https://github.com/lxcxjxhx/HOS_SKILL_WORKFLOW/pull/41) | feat(contrib): 审核者视角自检门升级 G0–G8 + 合并速度评估维度 | 2026-08-01 |
-| [lxcxjxhx/HOS_SKILL_WORKFLOW](https://github.com/lxcxjxhx/HOS_SKILL_WORKFLOW) | [#40](https://github.com/lxcxjxhx/HOS_SKILL_WORKFLOW/pull/40) | refactor: split HOS-GH-ContribOS into a multi-file skill (mirror submit-oss-pr layout) | 2026-08-01 |
 | [lxcxjxhx/lxcxjxhx](https://github.com/lxcxjxhx/lxcxjxhx) | [#6](https://github.com/lxcxjxhx/lxcxjxhx/pull/6) | chore: 移除 profile 仓库的 LICENSE 文件与展示 | 2026-08-02 |
 | [lxcxjxhx/lxcxjxhx](https://github.com/lxcxjxhx/lxcxjxhx) | [#5](https://github.com/lxcxjxhx/lxcxjxhx/pull/5) | chore: 切换许可证为 AGPLv3 并引入 DCO | 2026-08-02 |
 | [lxcxjxhx/lxcxjxhx.github.io](https://github.com/lxcxjxhx/lxcxjxhx.github.io) | [#6](https://github.com/lxcxjxhx/lxcxjxhx.github.io/pull/6) | feat: 去首页竖茎线 + 02-07 章节整体美化 | 2026-08-20 |
@@ -128,7 +128,7 @@ PR/
 
 Updated daily via GitHub Actions at UTC 00:00.
 
-Last updated: 2026-08-30 03:27:19 UTC
+Last updated: 2026-08-31 03:24:35 UTC
 
 ---
 
