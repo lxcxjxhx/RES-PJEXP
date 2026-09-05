@@ -5,13 +5,12 @@ Merged Pull Requests across open source projects.
 ## Summary
 
 - **Total Merged PRs**: 100
-- **Projects**: 12
+- **Projects**: 11
 
 ## PR List
 
 | Repository | PR | Title | Merged |
 |------------|-----|-------|--------|
-| [lxcxjxhx/BOS-FS](https://github.com/lxcxjxhx/BOS-FS) | [#1](https://github.com/lxcxjxhx/BOS-FS/pull/1) | chore: 切换许可证为 AGPLv3 并引入 DCO | 2026-08-02 |
 | [lxcxjxhx/BOS-NI](https://github.com/lxcxjxhx/BOS-NI) | [#2](https://github.com/lxcxjxhx/BOS-NI/pull/2) | chore: 清理残留的旧 MIT 许可证文件与 README 引用 | 2026-08-02 |
 | [lxcxjxhx/HOS-ARES](https://github.com/lxcxjxhx/HOS-ARES) | [#27](https://github.com/lxcxjxhx/HOS-ARES/pull/27) | fix(ci): round-16 根治 compressReleaseAssets Java heap space（noCompress + rootfs 裁剪） | 2026-08-26 |
 | [lxcxjxhx/HOS-ARES](https://github.com/lxcxjxhx/HOS-ARES) | [#26](https://github.com/lxcxjxhx/HOS-ARES/pull/26) | fix(ci): round-15 修复 skeleton 编译错误（compileReleaseKotlin 11 条） | 2026-08-26 |
@@ -40,6 +39,7 @@ Merged Pull Requests across open source projects.
 | [lxcxjxhx/HOS-ARES](https://github.com/lxcxjxhx/HOS-ARES) | [#3](https://github.com/lxcxjxhx/HOS-ARES/pull/3) | refactor: remove deepaudit agent (~40K lines) | 2026-08-17 |
 | [lxcxjxhx/HOS-ARES](https://github.com/lxcxjxhx/HOS-ARES) | [#2](https://github.com/lxcxjxhx/HOS-ARES/pull/2) | build: optimize APK size + upgrade build toolchain | 2026-08-17 |
 | [lxcxjxhx/HOS-Forge](https://github.com/lxcxjxhx/HOS-Forge) | [#46](https://github.com/lxcxjxhx/HOS-Forge/pull/46) | chore: 清理残留的旧 MIT 许可证文件与 README 引用 | 2026-08-02 |
+| [lxcxjxhx/HOS-LS](https://github.com/lxcxjxhx/HOS-LS) | [#62](https://github.com/lxcxjxhx/HOS-LS/pull/62) | ECATSL Section 6 - catalog ingestion extension and scalable deterministic discovery | 2026-09-04 |
 | [lxcxjxhx/HOS-LS](https://github.com/lxcxjxhx/HOS-LS) | [#61](https://github.com/lxcxjxhx/HOS-LS/pull/61) | chore: remove tracked hypothesis cache artifacts | 2026-09-03 |
 | [lxcxjxhx/HOS-LS](https://github.com/lxcxjxhx/HOS-LS) | [#60](https://github.com/lxcxjxhx/HOS-LS/pull/60) | ECATSL Tasks 5.7-5.8 - scope short-circuit and reuse/stage property tests | 2026-09-03 |
 | [lxcxjxhx/HOS-LS](https://github.com/lxcxjxhx/HOS-LS) | [#59](https://github.com/lxcxjxhx/HOS-LS/pull/59) | ECATSL Task 5.4 - orchestration and failure-isolation integration tests | 2026-09-03 |
@@ -128,7 +128,7 @@ PR/
 
 Updated daily via GitHub Actions at UTC 00:00.
 
-Last updated: 2026-09-04 02:47:05 UTC
+Last updated: 2026-09-05 02:48:15 UTC
 
 ---
 
