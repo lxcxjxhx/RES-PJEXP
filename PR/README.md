@@ -5,7 +5,7 @@ Merged Pull Requests across open source projects.
 ## Summary
 
 - **Total Merged PRs**: 100
-- **Projects**: 11
+- **Projects**: 10
 
 ## PR List
 
@@ -39,6 +39,7 @@ Merged Pull Requests across open source projects.
 | [lxcxjxhx/HOS-ARES](https://github.com/lxcxjxhx/HOS-ARES) | [#3](https://github.com/lxcxjxhx/HOS-ARES/pull/3) | refactor: remove deepaudit agent (~40K lines) | 2026-08-17 |
 | [lxcxjxhx/HOS-ARES](https://github.com/lxcxjxhx/HOS-ARES) | [#2](https://github.com/lxcxjxhx/HOS-ARES/pull/2) | build: optimize APK size + upgrade build toolchain | 2026-08-17 |
 | [lxcxjxhx/HOS-Forge](https://github.com/lxcxjxhx/HOS-Forge) | [#46](https://github.com/lxcxjxhx/HOS-Forge/pull/46) | chore: 清理残留的旧 MIT 许可证文件与 README 引用 | 2026-08-02 |
+| [lxcxjxhx/HOS-LS](https://github.com/lxcxjxhx/HOS-LS) | [#63](https://github.com/lxcxjxhx/HOS-LS/pull/63) | feat: ECATSL Section 7-9 - verified evaluation/reporting, package wiring, and full validation | 2026-09-05 |
 | [lxcxjxhx/HOS-LS](https://github.com/lxcxjxhx/HOS-LS) | [#62](https://github.com/lxcxjxhx/HOS-LS/pull/62) | ECATSL Section 6 - catalog ingestion extension and scalable deterministic discovery | 2026-09-04 |
 | [lxcxjxhx/HOS-LS](https://github.com/lxcxjxhx/HOS-LS) | [#61](https://github.com/lxcxjxhx/HOS-LS/pull/61) | chore: remove tracked hypothesis cache artifacts | 2026-09-03 |
 | [lxcxjxhx/HOS-LS](https://github.com/lxcxjxhx/HOS-LS) | [#60](https://github.com/lxcxjxhx/HOS-LS/pull/60) | ECATSL Tasks 5.7-5.8 - scope short-circuit and reuse/stage property tests | 2026-09-03 |
@@ -79,7 +80,6 @@ Merged Pull Requests across open source projects.
 | [lxcxjxhx/HOS-LS](https://github.com/lxcxjxhx/HOS-LS) | [#24](https://github.com/lxcxjxhx/HOS-LS/pull/24) | fix: NVD 查询列名 + CWE ETL 导入修复 | 2026-08-13 |
 | [lxcxjxhx/HOS-LS](https://github.com/lxcxjxhx/HOS-LS) | [#22](https://github.com/lxcxjxhx/HOS-LS/pull/22) | feat: 移除报告中的 APTS 合规披露区块 | 2026-08-13 |
 | [lxcxjxhx/HOS-LS](https://github.com/lxcxjxhx/HOS-LS) | [#21](https://github.com/lxcxjxhx/HOS-LS/pull/21) | fix: 修复 AI pipeline JSON 输出可靠性问题 | 2026-08-13 |
-| [lxcxjxhx/HOS-MATCH-PROJECT](https://github.com/lxcxjxhx/HOS-MATCH-PROJECT) | [#1](https://github.com/lxcxjxhx/HOS-MATCH-PROJECT/pull/1) | chore: 切换许可证为 AGPLv3 并引入 DCO | 2026-08-02 |
 | [lxcxjxhx/HOS-Model-Optimizer](https://github.com/lxcxjxhx/HOS-Model-Optimizer) | [#3](https://github.com/lxcxjxhx/HOS-Model-Optimizer/pull/3) | chore: 清理残留的旧 MIT 许可证文件与 README 引用 | 2026-08-02 |
 | [lxcxjxhx/HOS-Qian-jia-hong-resume](https://github.com/lxcxjxhx/HOS-Qian-jia-hong-resume) | [#9](https://github.com/lxcxjxhx/HOS-Qian-jia-hong-resume/pull/9) | style: 增加视觉层次，找回被过度清理的内容 | 2026-08-23 |
 | [lxcxjxhx/HOS-Qian-jia-hong-resume](https://github.com/lxcxjxhx/HOS-Qian-jia-hong-resume) | [#8](https://github.com/lxcxjxhx/HOS-Qian-jia-hong-resume/pull/8) | style: README视觉清理——去emoji、统一配色、居中排版 | 2026-08-23 |
@@ -128,7 +128,7 @@ PR/
 
 Updated daily via GitHub Actions at UTC 00:00.
 
-Last updated: 2026-09-05 02:48:15 UTC
+Last updated: 2026-09-06 02:46:27 UTC
 
 ---
 
